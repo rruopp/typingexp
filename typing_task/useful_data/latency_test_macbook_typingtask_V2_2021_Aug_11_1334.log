@@ -1,0 +1,234 @@
+0.1918 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+16.2755 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+18.3844 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+18.3853 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc9fae90a58>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc9fae9e828>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.3900 	EXP 	window1: mouseVisible = True
+18.3901 	EXP 	window1: recordFrameIntervals = False
+18.5480 	EXP 	window1: recordFrameIntervals = True
+20.2146 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.7862 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.2646 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+21.7776 	EXP 	Sound sound_1A set volume 1.000
+21.7801 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+21.7866 	EXP 	Created reset = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='reset', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Reset your hands to the home position. ', units='height', win=Window(...), wrapWidth=1)
+21.8030 	EXP 	Created startpoint = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='startpoint', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2816 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+22.7555 	EXP 	Sound sound_1A set volume 1.000
+22.7571 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+22.7595 	EXP 	Created reset = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='reset', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Reset your hands to the home position. ', units='height', win=Window(...), wrapWidth=1)
+22.7679 	EXP 	Created break_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='break_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.2426 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+23.7170 	EXP 	Sound sound_1A set volume 1.000
+23.7185 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+23.7204 	EXP 	Created reset = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='reset', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Reset your hands to the home position. ', units='height', win=Window(...), wrapWidth=1)
+23.7259 	EXP 	Created thank_you = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thank_you', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.7376 	WARNING 	t of last frame was 3523.15ms (=1/0)
+23.7376 	EXP 	instructions: autoDraw = True
+24.4251 	EXP 	Imported typingtask_variables_withcorrAns.xls as conditions, 3 conditions, 2 params
+24.4254 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+24.4255 	EXP 	New trial (rep=0, index=0): OrderedDict([('string', 'right'), ('corrAns', 'right')])
+24.4377 	WARNING 	t of last frame was 56.68ms (=1/17)
+24.4377 	EXP 	instructions: autoDraw = False
+24.4377 	EXP 	text: text = 'right'
+24.4377 	EXP 	text: autoDraw = True
+28.3998 	EXP 	text: autoDraw = False
+28.3998 	EXP 	feedback_2: color = 'limegreen'
+28.3998 	EXP 	feedback_2: text = 'Correct!'
+28.3998 	EXP 	feedback_2: autoDraw = True
+29.3998 	EXP 	feedback_2: autoDraw = False
+29.3998 	EXP 	reset: autoDraw = True
+30.4008 	EXP 	New trial (rep=0, index=1): OrderedDict([('string', 'think'), ('corrAns', 'think')])
+30.4160 	EXP 	reset: autoDraw = False
+30.4160 	EXP 	text: text = 'think'
+30.4160 	EXP 	text: autoDraw = True
+34.4166 	EXP 	text: autoDraw = False
+34.4166 	EXP 	feedback_2: color = 'limegreen'
+34.4166 	EXP 	feedback_2: text = 'Correct!'
+34.4166 	EXP 	feedback_2: autoDraw = True
+35.4163 	EXP 	feedback_2: autoDraw = False
+35.4163 	EXP 	reset: autoDraw = True
+36.4165 	EXP 	New trial (rep=0, index=2): OrderedDict([('string', 'about'), ('corrAns', 'about')])
+36.4309 	EXP 	reset: autoDraw = False
+36.4309 	EXP 	text: text = 'about'
+36.4309 	EXP 	text: autoDraw = True
+40.4312 	EXP 	text: autoDraw = False
+40.4312 	EXP 	feedback_2: color = 'limegreen'
+40.4312 	EXP 	feedback_2: text = 'Correct!'
+40.4312 	EXP 	feedback_2: autoDraw = True
+41.4316 	EXP 	feedback_2: autoDraw = False
+41.4316 	EXP 	reset: autoDraw = True
+42.4311 	EXP 	reset: autoDraw = False
+42.4311 	EXP 	startpoint: autoDraw = True
+43.4207 	EXP 	Imported typingtask_variables_withcorrAns.xls as conditions, 24 conditions, 2 params
+43.4211 	EXP 	Created sequence: random, trialTypes=24, nReps=5, seed=None
+43.4213 	EXP 	New trial (rep=0, index=0): OrderedDict([('string', 'noire'), ('corrAns', 'noire')])
+43.4298 	WARNING 	t of last frame was 48.39ms (=1/20)
+43.4298 	EXP 	startpoint: autoDraw = False
+43.4298 	EXP 	text: text = 'noire'
+43.4298 	EXP 	text: autoDraw = True
+47.3981 	EXP 	text: autoDraw = False
+47.3981 	EXP 	feedback_2: color = 'limegreen'
+47.3981 	EXP 	feedback_2: text = 'Correct!'
+47.3981 	EXP 	feedback_2: autoDraw = True
+48.3981 	EXP 	feedback_2: autoDraw = False
+48.3981 	EXP 	reset: autoDraw = True
+49.3834 	EXP 	New trial (rep=0, index=1): OrderedDict([('string', 'right'), ('corrAns', 'right')])
+49.3975 	EXP 	reset: autoDraw = False
+49.3975 	EXP 	text: text = 'right'
+49.3975 	EXP 	text: autoDraw = True
+53.3998 	EXP 	text: autoDraw = False
+53.3998 	EXP 	feedback_2: color = 'limegreen'
+53.3998 	EXP 	feedback_2: text = 'Correct!'
+53.3998 	EXP 	feedback_2: autoDraw = True
+54.3995 	EXP 	feedback_2: autoDraw = False
+54.3995 	EXP 	reset: autoDraw = True
+55.3842 	EXP 	New trial (rep=0, index=2): OrderedDict([('string', 'motor'), ('corrAns', 'motor')])
+55.4000 	EXP 	reset: autoDraw = False
+55.4000 	EXP 	text: text = 'motor'
+55.4000 	EXP 	text: autoDraw = True
+59.3999 	EXP 	text: autoDraw = False
+59.3999 	EXP 	text: autoDraw = False
+59.3999 	EXP 	feedback_2: color = 'limegreen'
+59.3999 	EXP 	feedback_2: text = 'Correct!'
+59.3999 	EXP 	feedback_2: autoDraw = True
+60.3999 	EXP 	feedback_2: autoDraw = False
+60.3999 	EXP 	reset: autoDraw = True
+61.4000 	EXP 	New trial (rep=0, index=3): OrderedDict([('string', 'incan'), ('corrAns', 'incan')])
+61.4144 	EXP 	reset: autoDraw = False
+61.4144 	EXP 	text: text = 'incan'
+61.4144 	EXP 	text: autoDraw = True
+65.3992 	EXP 	text: autoDraw = False
+65.3992 	EXP 	feedback_2: color = 'orangered'
+65.3992 	EXP 	feedback_2: text = 'Oops! That was wrong'
+65.3992 	EXP 	feedback_2: autoDraw = True
+66.2054 	WARNING 	t of last frame was 22.93ms (=1/43)
+66.3992 	EXP 	feedback_2: autoDraw = False
+66.3992 	EXP 	feedback_2: autoDraw = False
+66.3992 	EXP 	reset: autoDraw = True
+67.3853 	EXP 	New trial (rep=0, index=4): OrderedDict([('string', 'there'), ('corrAns', 'there')])
+67.4000 	EXP 	reset: autoDraw = False
+67.4000 	EXP 	text: text = 'there'
+67.4000 	EXP 	text: autoDraw = True
+71.3977 	EXP 	text: autoDraw = False
+71.3977 	EXP 	text: autoDraw = False
+71.3977 	EXP 	feedback_2: color = 'limegreen'
+71.3977 	EXP 	feedback_2: text = 'Correct!'
+71.3977 	EXP 	feedback_2: autoDraw = True
+72.3981 	EXP 	feedback_2: autoDraw = False
+72.3981 	EXP 	feedback_2: autoDraw = False
+72.3981 	EXP 	reset: autoDraw = True
+73.3834 	EXP 	New trial (rep=0, index=5): OrderedDict([('string', 'merry'), ('corrAns', 'merry')])
+73.3976 	EXP 	reset: autoDraw = False
+73.3976 	EXP 	text: text = 'merry'
+73.3976 	EXP 	text: autoDraw = True
+77.3977 	EXP 	text: autoDraw = False
+77.3977 	EXP 	feedback_2: color = 'limegreen'
+77.3977 	EXP 	feedback_2: text = 'Correct!'
+77.3977 	EXP 	feedback_2: autoDraw = True
+78.3975 	EXP 	feedback_2: autoDraw = False
+78.3975 	EXP 	reset: autoDraw = True
+79.3992 	EXP 	New trial (rep=0, index=6): OrderedDict([('string', 'zarsh'), ('corrAns', 'zarsh')])
+79.4084 	EXP 	reset: autoDraw = False
+79.4084 	EXP 	text: text = 'zarsh'
+79.4084 	EXP 	text: autoDraw = True
+83.3997 	EXP 	text: autoDraw = False
+83.3997 	EXP 	feedback_2: color = 'limegreen'
+83.3997 	EXP 	feedback_2: text = 'Correct!'
+83.3997 	EXP 	feedback_2: autoDraw = True
+84.3999 	EXP 	feedback_2: autoDraw = False
+84.3999 	EXP 	reset: autoDraw = True
+85.3998 	EXP 	New trial (rep=0, index=7): OrderedDict([('string', 'motel'), ('corrAns', 'motel')])
+85.4143 	EXP 	reset: autoDraw = False
+85.4143 	EXP 	text: text = 'motel'
+85.4143 	EXP 	text: autoDraw = True
+89.4144 	EXP 	text: autoDraw = False
+89.4144 	EXP 	feedback_2: color = 'limegreen'
+89.4144 	EXP 	feedback_2: text = 'Correct!'
+89.4144 	EXP 	feedback_2: autoDraw = True
+90.4151 	EXP 	feedback_2: autoDraw = False
+90.4151 	EXP 	reset: autoDraw = True
+91.4000 	EXP 	New trial (rep=0, index=8): OrderedDict([('string', 'kremp'), ('corrAns', 'kremp')])
+91.4147 	EXP 	reset: autoDraw = False
+91.4147 	EXP 	text: text = 'kremp'
+91.4147 	EXP 	text: autoDraw = True
+95.4149 	EXP 	text: autoDraw = False
+95.4149 	EXP 	feedback_2: color = 'limegreen'
+95.4149 	EXP 	feedback_2: text = 'Correct!'
+95.4149 	EXP 	feedback_2: autoDraw = True
+96.0528 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+96.4145 	EXP 	feedback_2: autoDraw = False
+96.4145 	EXP 	feedback_2: autoDraw = False
+96.4145 	EXP 	reset: autoDraw = True
+97.4003 	EXP 	New trial (rep=0, index=9): OrderedDict([('string', 'yeses'), ('corrAns', 'yeses')])
+97.4143 	EXP 	reset: autoDraw = False
+97.4143 	EXP 	text: text = 'yeses'
+97.4143 	EXP 	text: autoDraw = True
+101.4157 	EXP 	text: autoDraw = False
+101.4157 	EXP 	feedback_2: color = 'limegreen'
+101.4157 	EXP 	feedback_2: text = 'Correct!'
+101.4157 	EXP 	feedback_2: autoDraw = True
+102.4164 	EXP 	feedback_2: autoDraw = False
+102.4164 	EXP 	reset: autoDraw = True
+103.4015 	EXP 	New trial (rep=0, index=10): OrderedDict([('string', 'crape'), ('corrAns', 'crape')])
+103.4156 	EXP 	reset: autoDraw = False
+103.4156 	EXP 	text: text = 'crape'
+103.4156 	EXP 	text: autoDraw = True
+107.4161 	EXP 	text: autoDraw = False
+107.4161 	EXP 	text: autoDraw = False
+107.4161 	EXP 	feedback_2: color = 'limegreen'
+107.4161 	EXP 	feedback_2: text = 'Correct!'
+107.4161 	EXP 	feedback_2: autoDraw = True
+108.4165 	EXP 	feedback_2: autoDraw = False
+108.4165 	EXP 	reset: autoDraw = True
+109.4164 	EXP 	New trial (rep=0, index=11): OrderedDict([('string', 'reshy'), ('corrAns', 'reshy')])
+109.4309 	EXP 	reset: autoDraw = False
+109.4309 	EXP 	text: text = 'reshy'
+109.4309 	EXP 	text: autoDraw = True
+113.4329 	EXP 	text: autoDraw = False
+113.4329 	EXP 	feedback_2: color = 'limegreen'
+113.4329 	EXP 	feedback_2: text = 'Correct!'
+113.4329 	EXP 	feedback_2: autoDraw = True
+114.4332 	EXP 	feedback_2: autoDraw = False
+114.4332 	EXP 	reset: autoDraw = True
+115.4189 	EXP 	New trial (rep=0, index=12): OrderedDict([('string', 'blong'), ('corrAns', 'blong')])
+115.4328 	EXP 	reset: autoDraw = False
+115.4328 	EXP 	text: text = 'blong'
+115.4328 	EXP 	text: autoDraw = True
+119.4334 	EXP 	text: autoDraw = False
+119.4334 	EXP 	feedback_2: color = 'limegreen'
+119.4334 	EXP 	feedback_2: text = 'Correct!'
+119.4334 	EXP 	feedback_2: autoDraw = True
+120.4326 	EXP 	feedback_2: autoDraw = False
+120.4326 	EXP 	feedback_2: autoDraw = False
+120.4326 	EXP 	reset: autoDraw = True
+121.4188 	EXP 	New trial (rep=0, index=13): OrderedDict([('string', 'wooer'), ('corrAns', 'wooer')])
+121.4331 	EXP 	reset: autoDraw = False
+121.4331 	EXP 	text: text = 'wooer'
+121.4331 	EXP 	text: autoDraw = True
+125.4498 	EXP 	text: autoDraw = False
+125.4498 	EXP 	feedback_2: color = 'limegreen'
+125.4498 	EXP 	feedback_2: text = 'Correct!'
+125.4498 	EXP 	feedback_2: autoDraw = True
+126.4494 	EXP 	feedback_2: autoDraw = False
+126.4494 	EXP 	reset: autoDraw = True
+127.4339 	EXP 	New trial (rep=0, index=14): OrderedDict([('string', 'crawl'), ('corrAns', 'crawl')])
+127.4492 	EXP 	reset: autoDraw = False
+127.4492 	EXP 	text: text = 'crawl'
+127.4492 	EXP 	text: autoDraw = True
+131.4665 	EXP 	text: autoDraw = False
+131.4665 	EXP 	feedback_2: color = 'limegreen'
+131.4665 	EXP 	feedback_2: text = 'Correct!'
+131.4665 	EXP 	feedback_2: autoDraw = True
+132.4666 	EXP 	feedback_2: autoDraw = False
+132.4666 	EXP 	reset: autoDraw = True
+133.4672 	EXP 	New trial (rep=0, index=15): OrderedDict([('string', 'think'), ('corrAns', 'think')])
+133.4827 	EXP 	reset: autoDraw = False
+133.4827 	EXP 	text: text = 'think'
+133.4827 	EXP 	text: autoDraw = True
+134.1668 	EXP 	window1: mouseVisible = True

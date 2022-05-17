@@ -1,0 +1,4 @@
+﻿string,corrAns,practice_trials.thisRepN,practice_trials.thisTrialN,practice_trials.thisN,practice_trials.thisIndex,trials_1.thisRepN,trials_1.thisTrialN,trials_1.thisN,trials_1.thisIndex,key_resp_0.keys,key_resp_0.corr,key_resp_0.rt,participant,session,date,expName,psychopyVersion,frameRate,
+fresh,fresh,0,0,0,0,,,,,"['f', 'r', 'e', 's', 'h']",1,"[0.8833015419077128, 1.0811459999531507, 1.1570734169799834, 1.2492539170198143, 1.385040249908343]",jkl,001,2022_Feb_09_1550,test_typingtask_norepeats,2020.2.10,None,
+dream,dream,0,1,1,1,,,,,"['d', 'r', 'e', 'a', 'm']",1,"[0.8968906670343131, 1.1680518339853734, 1.2678164589451626, 1.3961227090330794, 1.5598708339966834]",jkl,001,2022_Feb_09_1550,test_typingtask_norepeats,2020.2.10,None,
+slime,slime,0,2,2,2,,,,,"['s', 'l', 'i', 'm', 'e']",1,"[0.6378897920949385, 0.7218442090088502, 0.8562702090712264, 0.9643015010515228, 1.0844330010004342]",jkl,001,2022_Feb_09_1550,test_typingtask_norepeats,2020.2.10,None,

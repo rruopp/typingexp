@@ -1,0 +1,2732 @@
+5.1442 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+5.7923 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f87b14faba8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f87b147ee80>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.7925 	EXP 	window1: mouseVisible = True
+5.7925 	EXP 	window1: recordFrameIntervals = False
+5.9585 	EXP 	window1: recordFrameIntervals = True
+6.1422 	EXP 	window1: recordFrameIntervals = False
+6.7017 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1946 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.7297 	EXP 	Sound sound_1A set volume 1.000
+7.7317 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.7478 	EXP 	Created reset_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='home_keyboard.png', interpolate=True, mask=None, maskParams=None, name='reset_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.75, 0.75]), texRes=512, units='height', win=Window(...))
+7.7628 	EXP 	Created startpoint = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='startpoint', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.2738 	EXP 	Created text_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.7783 	EXP 	Sound sound_1A_1 set volume 1.000
+8.7802 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.7885 	EXP 	Created reset_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='home_keyboard.png', interpolate=True, mask=None, maskParams=None, name='reset_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.75, 0.75]), texRes=512, units='height', win=Window(...))
+8.7983 	EXP 	Created break_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='break_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.3040 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.8080 	EXP 	Sound sound_1A_2 set volume 1.000
+9.8096 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.8177 	EXP 	Created reset_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='home_keyboard.png', interpolate=True, mask=None, maskParams=None, name='reset_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.75, 0.75]), texRes=512, units='height', win=Window(...))
+9.8239 	EXP 	Created break_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='break_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.3310 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.8381 	EXP 	Sound sound_1A_3 set volume 1.000
+10.8399 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.8485 	EXP 	Created reset_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='home_keyboard.png', interpolate=True, mask=None, maskParams=None, name='reset_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.75, 0.75]), texRes=512, units='height', win=Window(...))
+10.8552 	EXP 	Created break_time = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='break_time', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.3630 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+11.8700 	EXP 	Sound sound_1A_4 set volume 1.000
+11.8719 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+11.8805 	EXP 	Created reset_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='home_keyboard.png', interpolate=True, mask=None, maskParams=None, name='reset_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.75, 0.75]), texRes=512, units='height', win=Window(...))
+11.8888 	EXP 	Created thank_you = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thank_you', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.8997 	EXP 	instructions: autoDraw = True
+12.6985 	EXP 	Imported practice_strings.csv as conditions, 3 conditions, 2 params
+12.6987 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+12.6989 	EXP 	New trial (rep=0, index=0): OrderedDict([('string', 'fresh'), ('corrAns', 'fresh')])
+12.7087 	EXP 	Sound sound_1A started
+12.7069 	DATA 	Keypress: f
+12.7111 	EXP 	instructions: autoDraw = False
+12.7111 	EXP 	text: text = 'fresh'
+12.7111 	EXP 	text: autoDraw = True
+12.7959 	EXP 	Sound sound_1A stopped
+13.3351 	DATA 	Keypress: f
+13.5277 	DATA 	Keypress: r
+13.6280 	DATA 	Keypress: e
+13.7108 	DATA 	Keypress: s
+13.8441 	DATA 	Keypress: h
+16.2247 	EXP 	text: autoDraw = False
+16.2247 	EXP 	feedback_2: color = 'limegreen'
+16.2247 	EXP 	feedback_2: text = 'Correct!'
+16.2247 	EXP 	feedback_2: autoDraw = True
+17.2091 	EXP 	feedback_2: autoDraw = False
+17.2091 	EXP 	reset_image: autoDraw = True
+18.1919 	EXP 	New trial (rep=0, index=1): OrderedDict([('string', 'dream'), ('corrAns', 'dream')])
+18.2082 	EXP 	Sound sound_1A started
+18.2084 	EXP 	reset_image: autoDraw = False
+18.2084 	EXP 	reset_image: autoDraw = False
+18.2084 	EXP 	text: text = 'dream'
+18.2084 	EXP 	text: autoDraw = True
+18.2967 	EXP 	Sound sound_1A stopped
+21.7079 	EXP 	text: autoDraw = False
+21.7079 	EXP 	text: autoDraw = False
+21.7079 	EXP 	feedback_2: color = 'orangered'
+21.7079 	EXP 	feedback_2: text = 'Oops! That was wrong'
+21.7079 	EXP 	feedback_2: autoDraw = True
+22.7084 	EXP 	feedback_2: autoDraw = False
+22.7084 	EXP 	feedback_2: autoDraw = False
+22.7084 	EXP 	reset_image: autoDraw = True
+23.6920 	EXP 	New trial (rep=0, index=2): OrderedDict([('string', 'slime'), ('corrAns', 'slime')])
+23.7083 	EXP 	Sound sound_1A started
+23.7083 	EXP 	reset_image: autoDraw = False
+23.7083 	EXP 	reset_image: autoDraw = False
+23.7083 	EXP 	text: text = 'slime'
+23.7083 	EXP 	text: autoDraw = True
+23.7956 	EXP 	Sound sound_1A stopped
+25.8786 	DATA 	Keypress: f
+25.8945 	DATA 	Keypress: d
+25.9778 	DATA 	Keypress: s
+26.0275 	DATA 	Keypress: a
+26.1278 	DATA 	Keypress: f
+27.2087 	EXP 	text: autoDraw = False
+27.2087 	EXP 	text: autoDraw = False
+27.2087 	EXP 	feedback_2: color = 'orangered'
+27.2087 	EXP 	feedback_2: text = 'Oops! That was wrong'
+27.2087 	EXP 	feedback_2: autoDraw = True
+28.2080 	EXP 	feedback_2: autoDraw = False
+28.2080 	EXP 	reset_image: autoDraw = True
+29.2089 	EXP 	reset_image: autoDraw = False
+29.2089 	EXP 	startpoint: autoDraw = True
+30.2132 	EXP 	Imported shuffled_list1.csv as conditions, 120 conditions, 2 params
+30.2136 	EXP 	Created sequence: sequential, trialTypes=120, nReps=1, seed=None
+30.2138 	EXP 	New trial (rep=0, index=0): OrderedDict([('string', 'zibja'), ('corrAns', 'zibja')])
+30.2255 	EXP 	Sound sound_1A_1 started
+30.2198 	DATA 	Keypress: f
+30.2253 	EXP 	startpoint: autoDraw = False
+30.2253 	EXP 	text_1: text = 'zibja'
+30.2253 	EXP 	text_1: autoDraw = True
+30.3256 	EXP 	Sound sound_1A_1 reached end of file
+31.5780 	DATA 	Keypress: z
+31.8111 	DATA 	Keypress: i
+32.3282 	DATA 	Keypress: b
+32.4951 	DATA 	Keypress: j
+32.5780 	DATA 	Keypress: a
+33.7247 	EXP 	text_1: autoDraw = False
+33.7247 	EXP 	text_1: autoDraw = False
+33.7247 	EXP 	feedback_2: color = 'limegreen'
+33.7247 	EXP 	feedback_2: text = 'Correct!'
+33.7247 	EXP 	feedback_2: autoDraw = True
+34.7258 	EXP 	feedback_2: autoDraw = False
+34.7258 	EXP 	feedback_2: autoDraw = False
+34.7258 	EXP 	reset_image: autoDraw = True
+35.7086 	EXP 	New trial (rep=0, index=1): OrderedDict([('string', 'heond'), ('corrAns', 'heond')])
+35.7250 	EXP 	Sound sound_1A_1 started
+35.7251 	EXP 	reset_image: autoDraw = False
+35.7251 	EXP 	text_1: text = 'heond'
+35.7251 	EXP 	text_1: autoDraw = True
+35.8135 	EXP 	Sound sound_1A_1 stopped
+39.2249 	EXP 	text_1: autoDraw = False
+39.2249 	EXP 	feedback_2: color = 'orangered'
+39.2249 	EXP 	feedback_2: text = 'Oops! That was wrong'
+39.2249 	EXP 	feedback_2: autoDraw = True
+40.2249 	EXP 	feedback_2: autoDraw = False
+40.2249 	EXP 	reset_image: autoDraw = True
+41.2094 	EXP 	New trial (rep=0, index=2): OrderedDict([('string', 'vodka'), ('corrAns', 'vodka')])
+41.2258 	EXP 	Sound sound_1A_1 started
+41.2239 	EXP 	reset_image: autoDraw = False
+41.2239 	EXP 	text_1: text = 'vodka'
+41.2239 	EXP 	text_1: autoDraw = True
+41.3135 	EXP 	Sound sound_1A_1 stopped
+41.6952 	DATA 	Keypress: f
+41.7267 	DATA 	Keypress: j
+41.7945 	DATA 	Keypress: d
+41.8109 	DATA 	Keypress: k
+41.8607 	DATA 	Keypress: l
+41.8621 	DATA 	Keypress: s
+41.9117 	DATA 	Keypress: a
+41.9435 	DATA 	Keypress: f
+41.9450 	DATA 	Keypress: j
+44.7250 	EXP 	text_1: autoDraw = False
+44.7250 	EXP 	feedback_2: color = 'orangered'
+44.7250 	EXP 	feedback_2: text = 'Oops! That was wrong'
+44.7250 	EXP 	feedback_2: autoDraw = True
+45.7246 	EXP 	feedback_2: autoDraw = False
+45.7246 	EXP 	reset_image: autoDraw = True
+46.7078 	EXP 	New trial (rep=0, index=3): OrderedDict([('string', 'kremp'), ('corrAns', 'kremp')])
+46.7241 	EXP 	Sound sound_1A_1 started
+46.7249 	EXP 	reset_image: autoDraw = False
+46.7249 	EXP 	reset_image: autoDraw = False
+46.7249 	EXP 	text_1: text = 'kremp'
+46.7249 	EXP 	text_1: autoDraw = True
+46.8138 	EXP 	Sound sound_1A_1 stopped
+50.2251 	EXP 	text_1: autoDraw = False
+50.2251 	EXP 	text_1: autoDraw = False
+50.2251 	EXP 	feedback_2: color = 'orangered'
+50.2251 	EXP 	feedback_2: text = 'Oops! That was wrong'
+50.2251 	EXP 	feedback_2: autoDraw = True
+51.2254 	EXP 	feedback_2: autoDraw = False
+51.2254 	EXP 	feedback_2: autoDraw = False
+51.2254 	EXP 	reset_image: autoDraw = True
+52.2088 	EXP 	New trial (rep=0, index=4): OrderedDict([('string', 'theme'), ('corrAns', 'theme')])
+52.2251 	EXP 	Sound sound_1A_1 started
+52.2247 	EXP 	reset_image: autoDraw = False
+52.2247 	EXP 	reset_image: autoDraw = False
+52.2247 	EXP 	text_1: text = 'theme'
+52.2247 	EXP 	text_1: autoDraw = True
+52.3132 	EXP 	Sound sound_1A_1 stopped
+55.7252 	EXP 	text_1: autoDraw = False
+55.7252 	EXP 	text_1: autoDraw = False
+55.7252 	EXP 	feedback_2: color = 'orangered'
+55.7252 	EXP 	feedback_2: text = 'Oops! That was wrong'
+55.7252 	EXP 	feedback_2: autoDraw = True
+56.7252 	EXP 	feedback_2: autoDraw = False
+56.7252 	EXP 	reset_image: autoDraw = True
+57.7090 	EXP 	New trial (rep=0, index=5): OrderedDict([('string', 'faqir'), ('corrAns', 'faqir')])
+57.7253 	EXP 	Sound sound_1A_1 started
+57.7249 	EXP 	reset_image: autoDraw = False
+57.7249 	EXP 	text_1: text = 'faqir'
+57.7249 	EXP 	text_1: autoDraw = True
+57.8135 	EXP 	Sound sound_1A_1 stopped
+61.2254 	EXP 	text_1: autoDraw = False
+61.2254 	EXP 	feedback_2: color = 'orangered'
+61.2254 	EXP 	feedback_2: text = 'Oops! That was wrong'
+61.2254 	EXP 	feedback_2: autoDraw = True
+62.2250 	EXP 	feedback_2: autoDraw = False
+62.2250 	EXP 	feedback_2: autoDraw = False
+62.2250 	EXP 	reset_image: autoDraw = True
+63.2091 	EXP 	New trial (rep=0, index=6): OrderedDict([('string', 'cheer'), ('corrAns', 'cheer')])
+63.2255 	EXP 	Sound sound_1A_1 started
+63.2252 	EXP 	reset_image: autoDraw = False
+63.2252 	EXP 	text_1: text = 'cheer'
+63.2252 	EXP 	text_1: autoDraw = True
+63.3137 	EXP 	Sound sound_1A_1 stopped
+66.7253 	EXP 	text_1: autoDraw = False
+66.7253 	EXP 	text_1: autoDraw = False
+66.7253 	EXP 	feedback_2: color = 'orangered'
+66.7253 	EXP 	feedback_2: text = 'Oops! That was wrong'
+66.7253 	EXP 	feedback_2: autoDraw = True
+67.7254 	EXP 	feedback_2: autoDraw = False
+67.7254 	EXP 	feedback_2: autoDraw = False
+67.7254 	EXP 	reset_image: autoDraw = True
+68.7089 	EXP 	New trial (rep=0, index=7): OrderedDict([('string', 'haole'), ('corrAns', 'haole')])
+68.7253 	EXP 	Sound sound_1A_1 started
+68.7248 	EXP 	reset_image: autoDraw = False
+68.7248 	EXP 	text_1: text = 'haole'
+68.7248 	EXP 	text_1: autoDraw = True
+68.8134 	EXP 	Sound sound_1A_1 stopped
+72.2251 	EXP 	text_1: autoDraw = False
+72.2251 	EXP 	text_1: autoDraw = False
+72.2251 	EXP 	feedback_2: color = 'orangered'
+72.2251 	EXP 	feedback_2: text = 'Oops! That was wrong'
+72.2251 	EXP 	feedback_2: autoDraw = True
+73.2250 	EXP 	feedback_2: autoDraw = False
+73.2250 	EXP 	feedback_2: autoDraw = False
+73.2250 	EXP 	reset_image: autoDraw = True
+74.2090 	EXP 	New trial (rep=0, index=8): OrderedDict([('string', 'heond'), ('corrAns', 'heond')])
+74.2254 	EXP 	Sound sound_1A_1 started
+74.2252 	EXP 	reset_image: autoDraw = False
+74.2252 	EXP 	text_1: text = 'heond'
+74.2252 	EXP 	text_1: autoDraw = True
+74.3134 	EXP 	Sound sound_1A_1 stopped
+77.7246 	EXP 	text_1: autoDraw = False
+77.7246 	EXP 	feedback_2: color = 'orangered'
+77.7246 	EXP 	feedback_2: text = 'Oops! That was wrong'
+77.7246 	EXP 	feedback_2: autoDraw = True
+78.7253 	EXP 	feedback_2: autoDraw = False
+78.7253 	EXP 	reset_image: autoDraw = True
+79.7086 	EXP 	New trial (rep=0, index=9): OrderedDict([('string', 'belly'), ('corrAns', 'belly')])
+79.7250 	EXP 	Sound sound_1A_1 started
+79.7243 	EXP 	reset_image: autoDraw = False
+79.7243 	EXP 	text_1: text = 'belly'
+79.7243 	EXP 	text_1: autoDraw = True
+79.8131 	EXP 	Sound sound_1A_1 stopped
+83.2253 	EXP 	text_1: autoDraw = False
+83.2253 	EXP 	feedback_2: color = 'orangered'
+83.2253 	EXP 	feedback_2: text = 'Oops! That was wrong'
+83.2253 	EXP 	feedback_2: autoDraw = True
+84.2252 	EXP 	feedback_2: autoDraw = False
+84.2252 	EXP 	reset_image: autoDraw = True
+85.2085 	EXP 	New trial (rep=0, index=10): OrderedDict([('string', 'cooed'), ('corrAns', 'cooed')])
+85.2248 	EXP 	Sound sound_1A_1 started
+85.2244 	EXP 	reset_image: autoDraw = False
+85.2244 	EXP 	reset_image: autoDraw = False
+85.2244 	EXP 	text_1: text = 'cooed'
+85.2244 	EXP 	text_1: autoDraw = True
+85.3137 	EXP 	Sound sound_1A_1 stopped
+88.7243 	EXP 	text_1: autoDraw = False
+88.7243 	EXP 	text_1: autoDraw = False
+88.7243 	EXP 	feedback_2: color = 'orangered'
+88.7243 	EXP 	feedback_2: text = 'Oops! That was wrong'
+88.7243 	EXP 	feedback_2: autoDraw = True
+89.7254 	EXP 	feedback_2: autoDraw = False
+89.7254 	EXP 	feedback_2: autoDraw = False
+89.7254 	EXP 	reset_image: autoDraw = True
+90.7090 	EXP 	New trial (rep=0, index=11): OrderedDict([('string', 'cheer'), ('corrAns', 'cheer')])
+90.7254 	EXP 	Sound sound_1A_1 started
+90.7250 	EXP 	reset_image: autoDraw = False
+90.7250 	EXP 	text_1: text = 'cheer'
+90.7250 	EXP 	text_1: autoDraw = True
+90.8136 	EXP 	Sound sound_1A_1 stopped
+94.2253 	EXP 	text_1: autoDraw = False
+94.2253 	EXP 	feedback_2: color = 'orangered'
+94.2253 	EXP 	feedback_2: text = 'Oops! That was wrong'
+94.2253 	EXP 	feedback_2: autoDraw = True
+95.2251 	EXP 	feedback_2: autoDraw = False
+95.2251 	EXP 	reset_image: autoDraw = True
+96.2089 	EXP 	New trial (rep=0, index=12): OrderedDict([('string', 'puppy'), ('corrAns', 'puppy')])
+96.2253 	EXP 	Sound sound_1A_1 started
+96.2246 	EXP 	reset_image: autoDraw = False
+96.2246 	EXP 	reset_image: autoDraw = False
+96.2246 	EXP 	text_1: text = 'puppy'
+96.2246 	EXP 	text_1: autoDraw = True
+96.3128 	EXP 	Sound sound_1A_1 stopped
+99.7241 	EXP 	text_1: autoDraw = False
+99.7241 	EXP 	text_1: autoDraw = False
+99.7241 	EXP 	feedback_2: color = 'orangered'
+99.7241 	EXP 	feedback_2: text = 'Oops! That was wrong'
+99.7241 	EXP 	feedback_2: autoDraw = True
+100.7255 	EXP 	feedback_2: autoDraw = False
+100.7255 	EXP 	feedback_2: autoDraw = False
+100.7255 	EXP 	reset_image: autoDraw = True
+101.7086 	EXP 	New trial (rep=0, index=13): OrderedDict([('string', 'heond'), ('corrAns', 'heond')])
+101.7250 	EXP 	Sound sound_1A_1 started
+101.7246 	EXP 	reset_image: autoDraw = False
+101.7246 	EXP 	text_1: text = 'heond'
+101.7246 	EXP 	text_1: autoDraw = True
+101.8133 	EXP 	Sound sound_1A_1 stopped
+105.2242 	EXP 	text_1: autoDraw = False
+105.2242 	EXP 	feedback_2: color = 'orangered'
+105.2242 	EXP 	feedback_2: text = 'Oops! That was wrong'
+105.2242 	EXP 	feedback_2: autoDraw = True
+106.2251 	EXP 	feedback_2: autoDraw = False
+106.2251 	EXP 	reset_image: autoDraw = True
+107.2086 	EXP 	New trial (rep=0, index=14): OrderedDict([('string', 'isvar'), ('corrAns', 'isvar')])
+107.2249 	EXP 	Sound sound_1A_1 started
+107.2246 	EXP 	reset_image: autoDraw = False
+107.2246 	EXP 	reset_image: autoDraw = False
+107.2246 	EXP 	text_1: text = 'isvar'
+107.2246 	EXP 	text_1: autoDraw = True
+107.3133 	EXP 	Sound sound_1A_1 stopped
+110.7256 	EXP 	text_1: autoDraw = False
+110.7256 	EXP 	feedback_2: color = 'orangered'
+110.7256 	EXP 	feedback_2: text = 'Oops! That was wrong'
+110.7256 	EXP 	feedback_2: autoDraw = True
+111.7247 	EXP 	feedback_2: autoDraw = False
+111.7247 	EXP 	reset_image: autoDraw = True
+112.7089 	EXP 	New trial (rep=0, index=15): OrderedDict([('string', 'therm'), ('corrAns', 'therm')])
+112.7253 	EXP 	Sound sound_1A_1 started
+112.7248 	EXP 	reset_image: autoDraw = False
+112.7248 	EXP 	text_1: text = 'therm'
+112.7248 	EXP 	text_1: autoDraw = True
+112.8127 	EXP 	Sound sound_1A_1 stopped
+116.2242 	EXP 	text_1: autoDraw = False
+116.2242 	EXP 	text_1: autoDraw = False
+116.2242 	EXP 	feedback_2: color = 'orangered'
+116.2242 	EXP 	feedback_2: text = 'Oops! That was wrong'
+116.2242 	EXP 	feedback_2: autoDraw = True
+117.2253 	EXP 	feedback_2: autoDraw = False
+117.2253 	EXP 	feedback_2: autoDraw = False
+117.2253 	EXP 	reset_image: autoDraw = True
+118.2087 	EXP 	New trial (rep=0, index=16): OrderedDict([('string', 'champ'), ('corrAns', 'champ')])
+118.2251 	EXP 	Sound sound_1A_1 started
+118.2243 	EXP 	reset_image: autoDraw = False
+118.2243 	EXP 	text_1: text = 'champ'
+118.2243 	EXP 	text_1: autoDraw = True
+118.3129 	EXP 	Sound sound_1A_1 stopped
+121.7248 	EXP 	text_1: autoDraw = False
+121.7248 	EXP 	feedback_2: color = 'orangered'
+121.7248 	EXP 	feedback_2: text = 'Oops! That was wrong'
+121.7248 	EXP 	feedback_2: autoDraw = True
+122.7253 	EXP 	feedback_2: autoDraw = False
+122.7253 	EXP 	reset_image: autoDraw = True
+123.7087 	EXP 	New trial (rep=0, index=17): OrderedDict([('string', 'pykka'), ('corrAns', 'pykka')])
+123.7251 	EXP 	Sound sound_1A_1 started
+123.7251 	EXP 	reset_image: autoDraw = False
+123.7251 	EXP 	text_1: text = 'pykka'
+123.7251 	EXP 	text_1: autoDraw = True
+123.8135 	EXP 	Sound sound_1A_1 stopped
+127.2242 	EXP 	text_1: autoDraw = False
+127.2242 	EXP 	feedback_2: color = 'orangered'
+127.2242 	EXP 	feedback_2: text = 'Oops! That was wrong'
+127.2242 	EXP 	feedback_2: autoDraw = True
+128.2250 	EXP 	feedback_2: autoDraw = False
+128.2250 	EXP 	reset_image: autoDraw = True
+129.2078 	EXP 	New trial (rep=0, index=18): OrderedDict([('string', 'lucky'), ('corrAns', 'lucky')])
+129.2241 	EXP 	Sound sound_1A_1 started
+129.2246 	EXP 	reset_image: autoDraw = False
+129.2246 	EXP 	reset_image: autoDraw = False
+129.2246 	EXP 	text_1: text = 'lucky'
+129.2246 	EXP 	text_1: autoDraw = True
+129.3123 	EXP 	Sound sound_1A_1 stopped
+132.7251 	EXP 	text_1: autoDraw = False
+132.7251 	EXP 	text_1: autoDraw = False
+132.7251 	EXP 	feedback_2: color = 'orangered'
+132.7251 	EXP 	feedback_2: text = 'Oops! That was wrong'
+132.7251 	EXP 	feedback_2: autoDraw = True
+133.7247 	EXP 	feedback_2: autoDraw = False
+133.7247 	EXP 	feedback_2: autoDraw = False
+133.7247 	EXP 	reset_image: autoDraw = True
+134.7085 	EXP 	New trial (rep=0, index=19): OrderedDict([('string', 'belly'), ('corrAns', 'belly')])
+134.7248 	EXP 	Sound sound_1A_1 started
+134.7247 	EXP 	reset_image: autoDraw = False
+134.7247 	EXP 	reset_image: autoDraw = False
+134.7247 	EXP 	text_1: text = 'belly'
+134.7247 	EXP 	text_1: autoDraw = True
+134.8131 	EXP 	Sound sound_1A_1 stopped
+138.2253 	EXP 	text_1: autoDraw = False
+138.2253 	EXP 	text_1: autoDraw = False
+138.2253 	EXP 	feedback_2: color = 'orangered'
+138.2253 	EXP 	feedback_2: text = 'Oops! That was wrong'
+138.2253 	EXP 	feedback_2: autoDraw = True
+139.2250 	EXP 	feedback_2: autoDraw = False
+139.2250 	EXP 	feedback_2: autoDraw = False
+139.2250 	EXP 	reset_image: autoDraw = True
+140.2091 	EXP 	New trial (rep=0, index=20): OrderedDict([('string', 'buddy'), ('corrAns', 'buddy')])
+140.2254 	EXP 	Sound sound_1A_1 started
+140.2237 	EXP 	reset_image: autoDraw = False
+140.2237 	EXP 	text_1: text = 'buddy'
+140.2237 	EXP 	text_1: autoDraw = True
+140.3128 	EXP 	Sound sound_1A_1 stopped
+143.7251 	EXP 	text_1: autoDraw = False
+143.7251 	EXP 	text_1: autoDraw = False
+143.7251 	EXP 	feedback_2: color = 'orangered'
+143.7251 	EXP 	feedback_2: text = 'Oops! That was wrong'
+143.7251 	EXP 	feedback_2: autoDraw = True
+144.7248 	EXP 	feedback_2: autoDraw = False
+144.7248 	EXP 	feedback_2: autoDraw = False
+144.7248 	EXP 	reset_image: autoDraw = True
+145.7086 	EXP 	New trial (rep=0, index=21): OrderedDict([('string', 'think'), ('corrAns', 'think')])
+145.7250 	EXP 	Sound sound_1A_1 started
+145.7249 	EXP 	reset_image: autoDraw = False
+145.7249 	EXP 	text_1: text = 'think'
+145.7249 	EXP 	text_1: autoDraw = True
+145.8131 	EXP 	Sound sound_1A_1 stopped
+149.2237 	EXP 	text_1: autoDraw = False
+149.2237 	EXP 	feedback_2: color = 'orangered'
+149.2237 	EXP 	feedback_2: text = 'Oops! That was wrong'
+149.2237 	EXP 	feedback_2: autoDraw = True
+150.2252 	EXP 	feedback_2: autoDraw = False
+150.2252 	EXP 	reset_image: autoDraw = True
+151.2256 	EXP 	New trial (rep=0, index=22): OrderedDict([('string', 'zibja'), ('corrAns', 'zibja')])
+151.2419 	EXP 	Sound sound_1A_1 started
+151.2413 	EXP 	reset_image: autoDraw = False
+151.2413 	EXP 	text_1: text = 'zibja'
+151.2413 	EXP 	text_1: autoDraw = True
+151.3309 	EXP 	Sound sound_1A_1 stopped
+154.7414 	EXP 	text_1: autoDraw = False
+154.7414 	EXP 	feedback_2: color = 'orangered'
+154.7414 	EXP 	feedback_2: text = 'Oops! That was wrong'
+154.7414 	EXP 	feedback_2: autoDraw = True
+155.7415 	EXP 	feedback_2: autoDraw = False
+155.7415 	EXP 	reset_image: autoDraw = True
+156.7251 	EXP 	New trial (rep=0, index=23): OrderedDict([('string', 'about'), ('corrAns', 'about')])
+156.7414 	EXP 	Sound sound_1A_1 started
+156.7412 	EXP 	reset_image: autoDraw = False
+156.7412 	EXP 	reset_image: autoDraw = False
+156.7412 	EXP 	text_1: text = 'about'
+156.7412 	EXP 	text_1: autoDraw = True
+156.8296 	EXP 	Sound sound_1A_1 stopped
+160.2410 	EXP 	text_1: autoDraw = False
+160.2410 	EXP 	text_1: autoDraw = False
+160.2410 	EXP 	feedback_2: color = 'orangered'
+160.2410 	EXP 	feedback_2: text = 'Oops! That was wrong'
+160.2410 	EXP 	feedback_2: autoDraw = True
+161.2418 	EXP 	feedback_2: autoDraw = False
+161.2418 	EXP 	reset_image: autoDraw = True
+162.2255 	EXP 	New trial (rep=0, index=24): OrderedDict([('string', 'champ'), ('corrAns', 'champ')])
+162.2418 	EXP 	Sound sound_1A_1 started
+162.2410 	EXP 	reset_image: autoDraw = False
+162.2410 	EXP 	reset_image: autoDraw = False
+162.2410 	EXP 	text_1: text = 'champ'
+162.2410 	EXP 	text_1: autoDraw = True
+162.3294 	EXP 	Sound sound_1A_1 stopped
+165.7419 	EXP 	text_1: autoDraw = False
+165.7419 	EXP 	feedback_2: color = 'orangered'
+165.7419 	EXP 	feedback_2: text = 'Oops! That was wrong'
+165.7419 	EXP 	feedback_2: autoDraw = True
+166.7413 	EXP 	feedback_2: autoDraw = False
+166.7413 	EXP 	feedback_2: autoDraw = False
+166.7413 	EXP 	reset_image: autoDraw = True
+167.7256 	EXP 	New trial (rep=0, index=25): OrderedDict([('string', 'about'), ('corrAns', 'about')])
+167.7420 	EXP 	Sound sound_1A_1 started
+167.7421 	EXP 	reset_image: autoDraw = False
+167.7421 	EXP 	text_1: text = 'about'
+167.7421 	EXP 	text_1: autoDraw = True
+167.8296 	EXP 	Sound sound_1A_1 stopped
+168.2604 	DATA 	Keypress: a
+168.3940 	DATA 	Keypress: b
+168.4778 	DATA 	Keypress: o
+168.5604 	DATA 	Keypress: u
+168.6442 	DATA 	Keypress: t
+171.2417 	EXP 	text_1: autoDraw = False
+171.2417 	EXP 	feedback_2: color = 'limegreen'
+171.2417 	EXP 	feedback_2: text = 'Correct!'
+171.2417 	EXP 	feedback_2: autoDraw = True
+172.2419 	EXP 	feedback_2: autoDraw = False
+172.2419 	EXP 	reset_image: autoDraw = True
+173.2421 	EXP 	New trial (rep=0, index=26): OrderedDict([('string', 'druze'), ('corrAns', 'druze')])
+173.2585 	EXP 	Sound sound_1A_1 started
+173.2578 	EXP 	reset_image: autoDraw = False
+173.2578 	EXP 	text_1: text = 'druze'
+173.2578 	EXP 	text_1: autoDraw = True
+173.3464 	EXP 	Sound sound_1A_1 stopped
+176.7582 	EXP 	text_1: autoDraw = False
+176.7582 	EXP 	feedback_2: color = 'orangered'
+176.7582 	EXP 	feedback_2: text = 'Oops! That was wrong'
+176.7582 	EXP 	feedback_2: autoDraw = True
+177.7419 	EXP 	feedback_2: autoDraw = False
+177.7419 	EXP 	reset_image: autoDraw = True
+178.7417 	EXP 	New trial (rep=0, index=27): OrderedDict([('string', 'champ'), ('corrAns', 'champ')])
+178.7581 	EXP 	Sound sound_1A_1 started
+178.7574 	EXP 	reset_image: autoDraw = False
+178.7574 	EXP 	text_1: text = 'champ'
+178.7574 	EXP 	text_1: autoDraw = True
+178.8455 	EXP 	Sound sound_1A_1 stopped
+182.2413 	EXP 	text_1: autoDraw = False
+182.2413 	EXP 	feedback_2: color = 'orangered'
+182.2413 	EXP 	feedback_2: text = 'Oops! That was wrong'
+182.2413 	EXP 	feedback_2: autoDraw = True
+183.2420 	EXP 	feedback_2: autoDraw = False
+183.2420 	EXP 	reset_image: autoDraw = True
+184.2255 	EXP 	New trial (rep=0, index=28): OrderedDict([('string', 'there'), ('corrAns', 'there')])
+184.2418 	EXP 	Sound sound_1A_1 started
+184.2419 	EXP 	reset_image: autoDraw = False
+184.2419 	EXP 	reset_image: autoDraw = False
+184.2419 	EXP 	text_1: text = 'there'
+184.2419 	EXP 	text_1: autoDraw = True
+184.3301 	EXP 	Sound sound_1A_1 stopped
+184.8308 	DATA 	Keypress: t
+184.9109 	DATA 	Keypress: h
+184.9936 	DATA 	Keypress: e
+185.0774 	DATA 	Keypress: r
+185.1935 	DATA 	Keypress: e
+187.7415 	EXP 	text_1: autoDraw = False
+187.7415 	EXP 	text_1: autoDraw = False
+187.7415 	EXP 	feedback_2: color = 'limegreen'
+187.7415 	EXP 	feedback_2: text = 'Correct!'
+187.7415 	EXP 	feedback_2: autoDraw = True
+188.7414 	EXP 	feedback_2: autoDraw = False
+188.7414 	EXP 	feedback_2: autoDraw = False
+188.7414 	EXP 	reset_image: autoDraw = True
+189.7250 	EXP 	New trial (rep=0, index=29): OrderedDict([('string', 'druze'), ('corrAns', 'druze')])
+189.7413 	EXP 	Sound sound_1A_1 started
+189.7412 	EXP 	reset_image: autoDraw = False
+189.7412 	EXP 	reset_image: autoDraw = False
+189.7412 	EXP 	text_1: text = 'druze'
+189.7412 	EXP 	text_1: autoDraw = True
+189.8295 	EXP 	Sound sound_1A_1 stopped
+190.6936 	DATA 	Keypress: d
+190.8770 	DATA 	Keypress: r
+191.0108 	DATA 	Keypress: u
+191.2942 	DATA 	Keypress: z
+191.6281 	DATA 	Keypress: w
+193.2412 	EXP 	text_1: autoDraw = False
+193.2412 	EXP 	text_1: autoDraw = False
+193.2412 	EXP 	feedback_2: color = 'orangered'
+193.2412 	EXP 	feedback_2: text = 'Oops! That was wrong'
+193.2412 	EXP 	feedback_2: autoDraw = True
+194.2418 	EXP 	feedback_2: autoDraw = False
+194.2418 	EXP 	feedback_2: autoDraw = False
+194.2418 	EXP 	reset_image: autoDraw = True
+195.2252 	EXP 	New trial (rep=0, index=30): OrderedDict([('string', 'buddy'), ('corrAns', 'buddy')])
+195.2416 	EXP 	Sound sound_1A_1 started
+195.2411 	EXP 	reset_image: autoDraw = False
+195.2411 	EXP 	text_1: text = 'buddy'
+195.2411 	EXP 	text_1: autoDraw = True
+195.3293 	EXP 	Sound sound_1A_1 stopped
+196.1777 	DATA 	Keypress: b
+196.2609 	DATA 	Keypress: u
+196.3941 	DATA 	Keypress: d
+196.5616 	DATA 	Keypress: d
+196.6272 	DATA 	Keypress: y
+198.7414 	EXP 	text_1: autoDraw = False
+198.7414 	EXP 	feedback_2: color = 'limegreen'
+198.7414 	EXP 	feedback_2: text = 'Correct!'
+198.7414 	EXP 	feedback_2: autoDraw = True
+199.7415 	EXP 	feedback_2: autoDraw = False
+199.7415 	EXP 	feedback_2: autoDraw = False
+199.7415 	EXP 	reset_image: autoDraw = True
+200.7250 	EXP 	New trial (rep=0, index=31): OrderedDict([('string', 'faqir'), ('corrAns', 'faqir')])
+200.7413 	EXP 	Sound sound_1A_1 started
+200.7413 	EXP 	reset_image: autoDraw = False
+200.7413 	EXP 	reset_image: autoDraw = False
+200.7413 	EXP 	text_1: text = 'faqir'
+200.7413 	EXP 	text_1: autoDraw = True
+200.8300 	EXP 	Sound sound_1A_1 stopped
+201.4774 	DATA 	Keypress: f
+201.5610 	DATA 	Keypress: a
+202.0111 	DATA 	Keypress: w
+202.0769 	DATA 	Keypress: i
+202.3446 	DATA 	Keypress: r
+204.2414 	EXP 	text_1: autoDraw = False
+204.2414 	EXP 	text_1: autoDraw = False
+204.2414 	EXP 	feedback_2: color = 'orangered'
+204.2414 	EXP 	feedback_2: text = 'Oops! That was wrong'
+204.2414 	EXP 	feedback_2: autoDraw = True
+205.2417 	EXP 	feedback_2: autoDraw = False
+205.2417 	EXP 	reset_image: autoDraw = True
+206.2249 	EXP 	New trial (rep=0, index=32): OrderedDict([('string', 'isvar'), ('corrAns', 'isvar')])
+206.2412 	EXP 	Sound sound_1A_1 started
+206.2410 	EXP 	reset_image: autoDraw = False
+206.2410 	EXP 	reset_image: autoDraw = False
+206.2410 	EXP 	text_1: text = 'isvar'
+206.2410 	EXP 	text_1: autoDraw = True
+206.3292 	EXP 	Sound sound_1A_1 stopped
+206.9273 	DATA 	Keypress: i
+206.9603 	DATA 	Keypress: s
+207.1775 	DATA 	Keypress: v
+207.3106 	DATA 	Keypress: a
+207.4947 	DATA 	Keypress: r
+209.7410 	EXP 	text_1: autoDraw = False
+209.7410 	EXP 	feedback_2: color = 'limegreen'
+209.7410 	EXP 	feedback_2: text = 'Correct!'
+209.7410 	EXP 	feedback_2: autoDraw = True
+210.7412 	EXP 	feedback_2: autoDraw = False
+210.7412 	EXP 	feedback_2: autoDraw = False
+210.7412 	EXP 	reset_image: autoDraw = True
+211.7250 	EXP 	New trial (rep=0, index=33): OrderedDict([('string', 'think'), ('corrAns', 'think')])
+211.7413 	EXP 	Sound sound_1A_1 started
+211.7410 	EXP 	reset_image: autoDraw = False
+211.7410 	EXP 	reset_image: autoDraw = False
+211.7410 	EXP 	text_1: text = 'think'
+211.7410 	EXP 	text_1: autoDraw = True
+211.8294 	EXP 	Sound sound_1A_1 stopped
+212.3611 	DATA 	Keypress: t
+212.4268 	DATA 	Keypress: h
+212.5097 	DATA 	Keypress: i
+212.6106 	DATA 	Keypress: n
+212.7777 	DATA 	Keypress: k
+215.2415 	EXP 	text_1: autoDraw = False
+215.2415 	EXP 	text_1: autoDraw = False
+215.2415 	EXP 	feedback_2: color = 'limegreen'
+215.2415 	EXP 	feedback_2: text = 'Correct!'
+215.2415 	EXP 	feedback_2: autoDraw = True
+216.2415 	EXP 	feedback_2: autoDraw = False
+216.2415 	EXP 	feedback_2: autoDraw = False
+216.2415 	EXP 	reset_image: autoDraw = True
+217.2253 	EXP 	New trial (rep=0, index=34): OrderedDict([('string', 'puppy'), ('corrAns', 'puppy')])
+217.2416 	EXP 	Sound sound_1A_1 started
+217.2414 	EXP 	reset_image: autoDraw = False
+217.2414 	EXP 	text_1: text = 'puppy'
+217.2414 	EXP 	text_1: autoDraw = True
+217.3300 	EXP 	Sound sound_1A_1 stopped
+217.9113 	DATA 	Keypress: p
+218.1775 	DATA 	Keypress: u
+218.3448 	DATA 	Keypress: p
+218.4275 	DATA 	Keypress: p
+218.6280 	DATA 	Keypress: p
+218.8113 	DATA 	Keypress: y
+220.7410 	EXP 	text_1: autoDraw = False
+220.7410 	EXP 	text_1: autoDraw = False
+220.7410 	EXP 	feedback_2: color = 'orangered'
+220.7410 	EXP 	feedback_2: text = 'Oops! That was wrong'
+220.7410 	EXP 	feedback_2: autoDraw = True
+221.7415 	EXP 	feedback_2: autoDraw = False
+221.7415 	EXP 	reset_image: autoDraw = True
+222.7252 	EXP 	New trial (rep=0, index=35): OrderedDict([('string', 'pykka'), ('corrAns', 'pykka')])
+222.7415 	EXP 	Sound sound_1A_1 started
+222.7417 	EXP 	reset_image: autoDraw = False
+222.7417 	EXP 	reset_image: autoDraw = False
+222.7417 	EXP 	text_1: text = 'pykka'
+222.7417 	EXP 	text_1: autoDraw = True
+222.8296 	EXP 	Sound sound_1A_1 stopped
+223.5111 	DATA 	Keypress: p
+223.7110 	DATA 	Keypress: y
+223.9778 	DATA 	Keypress: k
+224.0940 	DATA 	Keypress: k
+224.2104 	DATA 	Keypress: a
+226.2412 	EXP 	text_1: autoDraw = False
+226.2412 	EXP 	text_1: autoDraw = False
+226.2412 	EXP 	feedback_2: color = 'limegreen'
+226.2412 	EXP 	feedback_2: text = 'Correct!'
+226.2412 	EXP 	feedback_2: autoDraw = True
+227.2416 	EXP 	feedback_2: autoDraw = False
+227.2416 	EXP 	feedback_2: autoDraw = False
+227.2416 	EXP 	reset_image: autoDraw = True
+228.2249 	EXP 	New trial (rep=0, index=36): OrderedDict([('string', 'heond'), ('corrAns', 'heond')])
+228.2412 	EXP 	Sound sound_1A_1 started
+228.2418 	EXP 	reset_image: autoDraw = False
+228.2418 	EXP 	reset_image: autoDraw = False
+228.2418 	EXP 	text_1: text = 'heond'
+228.2418 	EXP 	text_1: autoDraw = True
+228.3291 	EXP 	Sound sound_1A_1 stopped
+229.2112 	DATA 	Keypress: f
+230.0610 	DATA 	Keypress: h
+230.1441 	DATA 	Keypress: e
+230.1938 	DATA 	Keypress: o
+230.2935 	DATA 	Keypress: n
+230.3935 	DATA 	Keypress: d
+231.7411 	EXP 	text_1: autoDraw = False
+231.7411 	EXP 	text_1: autoDraw = False
+231.7411 	EXP 	feedback_2: color = 'orangered'
+231.7411 	EXP 	feedback_2: text = 'Oops! That was wrong'
+231.7411 	EXP 	feedback_2: autoDraw = True
+232.7413 	EXP 	feedback_2: autoDraw = False
+232.7413 	EXP 	reset_image: autoDraw = True
+233.7253 	EXP 	New trial (rep=0, index=37): OrderedDict([('string', 'about'), ('corrAns', 'about')])
+233.7416 	EXP 	Sound sound_1A_1 started
+233.7414 	EXP 	reset_image: autoDraw = False
+233.7414 	EXP 	reset_image: autoDraw = False
+233.7414 	EXP 	text_1: text = 'about'
+233.7414 	EXP 	text_1: autoDraw = True
+233.8296 	EXP 	Sound sound_1A_1 stopped
+234.4274 	DATA 	Keypress: a
+234.5608 	DATA 	Keypress: b
+234.6104 	DATA 	Keypress: o
+234.7103 	DATA 	Keypress: u
+234.8440 	DATA 	Keypress: t
+237.2575 	EXP 	text_1: autoDraw = False
+237.2575 	EXP 	feedback_2: color = 'limegreen'
+237.2575 	EXP 	feedback_2: text = 'Correct!'
+237.2575 	EXP 	feedback_2: autoDraw = True
+238.2587 	EXP 	feedback_2: autoDraw = False
+238.2587 	EXP 	reset_image: autoDraw = True
+239.2414 	EXP 	New trial (rep=0, index=38): OrderedDict([('string', 'puppy'), ('corrAns', 'puppy')])
+239.2577 	EXP 	Sound sound_1A_1 started
+239.2569 	EXP 	reset_image: autoDraw = False
+239.2569 	EXP 	reset_image: autoDraw = False
+239.2569 	EXP 	text_1: text = 'puppy'
+239.2569 	EXP 	text_1: autoDraw = True
+239.3458 	EXP 	Sound sound_1A_1 stopped
+239.9608 	DATA 	Keypress: p
+240.1940 	DATA 	Keypress: u
+240.3777 	DATA 	Keypress: p
+240.5107 	DATA 	Keypress: p
+240.6104 	DATA 	Keypress: y
+242.7580 	EXP 	text_1: autoDraw = False
+242.7580 	EXP 	text_1: autoDraw = False
+242.7580 	EXP 	feedback_2: color = 'limegreen'
+242.7580 	EXP 	feedback_2: text = 'Correct!'
+242.7580 	EXP 	feedback_2: autoDraw = True
+243.7581 	EXP 	feedback_2: autoDraw = False
+243.7581 	EXP 	feedback_2: autoDraw = False
+243.7581 	EXP 	reset_image: autoDraw = True
+244.7415 	EXP 	New trial (rep=0, index=39): OrderedDict([('string', 'would'), ('corrAns', 'would')])
+244.7579 	EXP 	Sound sound_1A_1 started
+244.7576 	EXP 	reset_image: autoDraw = False
+244.7576 	EXP 	reset_image: autoDraw = False
+244.7576 	EXP 	text_1: text = 'would'
+244.7576 	EXP 	text_1: autoDraw = True
+244.8461 	EXP 	Sound sound_1A_1 stopped
+245.4276 	DATA 	Keypress: w
+245.4936 	DATA 	Keypress: o
+245.5771 	DATA 	Keypress: u
+245.7106 	DATA 	Keypress: l
+245.8272 	DATA 	Keypress: d
+248.2582 	EXP 	text_1: autoDraw = False
+248.2582 	EXP 	text_1: autoDraw = False
+248.2582 	EXP 	feedback_2: color = 'limegreen'
+248.2582 	EXP 	feedback_2: text = 'Correct!'
+248.2582 	EXP 	feedback_2: autoDraw = True
+249.2581 	EXP 	feedback_2: autoDraw = False
+249.2581 	EXP 	feedback_2: autoDraw = False
+249.2581 	EXP 	reset_image: autoDraw = True
+250.2417 	EXP 	New trial (rep=0, index=40): OrderedDict([('string', 'lucky'), ('corrAns', 'lucky')])
+250.2581 	EXP 	Sound sound_1A_1 started
+250.2578 	EXP 	reset_image: autoDraw = False
+250.2578 	EXP 	text_1: text = 'lucky'
+250.2578 	EXP 	text_1: autoDraw = True
+250.3460 	EXP 	Sound sound_1A_1 stopped
+250.8946 	DATA 	Keypress: l
+251.1273 	DATA 	Keypress: u
+251.2265 	DATA 	Keypress: c
+251.3274 	DATA 	Keypress: k
+251.4773 	DATA 	Keypress: y
+253.7574 	EXP 	text_1: autoDraw = False
+253.7574 	EXP 	text_1: autoDraw = False
+253.7574 	EXP 	feedback_2: color = 'limegreen'
+253.7574 	EXP 	feedback_2: text = 'Correct!'
+253.7574 	EXP 	feedback_2: autoDraw = True
+254.7581 	EXP 	feedback_2: autoDraw = False
+254.7581 	EXP 	feedback_2: autoDraw = False
+254.7581 	EXP 	reset_image: autoDraw = True
+255.7416 	EXP 	New trial (rep=0, index=41): OrderedDict([('string', 'druze'), ('corrAns', 'druze')])
+255.7580 	EXP 	Sound sound_1A_1 started
+255.7577 	EXP 	reset_image: autoDraw = False
+255.7577 	EXP 	text_1: text = 'druze'
+255.7577 	EXP 	text_1: autoDraw = True
+255.8460 	EXP 	Sound sound_1A_1 stopped
+256.5943 	DATA 	Keypress: d
+256.8111 	DATA 	Keypress: u
+257.1276 	DATA 	Keypress: z
+257.4105 	DATA 	Keypress: e
+259.2577 	EXP 	text_1: autoDraw = False
+259.2577 	EXP 	feedback_2: color = 'orangered'
+259.2577 	EXP 	feedback_2: text = 'Oops! That was wrong'
+259.2577 	EXP 	feedback_2: autoDraw = True
+260.2583 	EXP 	feedback_2: autoDraw = False
+260.2583 	EXP 	reset_image: autoDraw = True
+261.2420 	EXP 	New trial (rep=0, index=42): OrderedDict([('string', 'would'), ('corrAns', 'would')])
+261.2584 	EXP 	Sound sound_1A_1 started
+261.2576 	EXP 	reset_image: autoDraw = False
+261.2576 	EXP 	text_1: text = 'would'
+261.2576 	EXP 	text_1: autoDraw = True
+261.3460 	EXP 	Sound sound_1A_1 stopped
+262.7774 	DATA 	Keypress: w
+262.7935 	DATA 	Keypress: o
+262.8774 	DATA 	Keypress: u
+263.0103 	DATA 	Keypress: l
+263.6111 	DATA 	Keypress: d
+264.7575 	EXP 	text_1: autoDraw = False
+264.7575 	EXP 	feedback_2: color = 'limegreen'
+264.7575 	EXP 	feedback_2: text = 'Correct!'
+264.7575 	EXP 	feedback_2: autoDraw = True
+265.7581 	EXP 	feedback_2: autoDraw = False
+265.7581 	EXP 	feedback_2: autoDraw = False
+265.7581 	EXP 	reset_image: autoDraw = True
+266.7414 	EXP 	New trial (rep=0, index=43): OrderedDict([('string', 'belly'), ('corrAns', 'belly')])
+266.7578 	EXP 	Sound sound_1A_1 started
+266.7575 	EXP 	reset_image: autoDraw = False
+266.7575 	EXP 	reset_image: autoDraw = False
+266.7575 	EXP 	text_1: text = 'belly'
+266.7575 	EXP 	text_1: autoDraw = True
+266.8461 	EXP 	Sound sound_1A_1 stopped
+267.5107 	DATA 	Keypress: b
+267.5602 	DATA 	Keypress: e
+267.6603 	DATA 	Keypress: l
+267.7938 	DATA 	Keypress: l
+267.8603 	DATA 	Keypress: y
+270.2583 	EXP 	text_1: autoDraw = False
+270.2583 	EXP 	text_1: autoDraw = False
+270.2583 	EXP 	feedback_2: color = 'limegreen'
+270.2583 	EXP 	feedback_2: text = 'Correct!'
+270.2583 	EXP 	feedback_2: autoDraw = True
+271.2587 	EXP 	feedback_2: autoDraw = False
+271.2587 	EXP 	reset_image: autoDraw = True
+272.2421 	EXP 	New trial (rep=0, index=44): OrderedDict([('string', 'think'), ('corrAns', 'think')])
+272.2585 	EXP 	Sound sound_1A_1 started
+272.2572 	EXP 	reset_image: autoDraw = False
+272.2572 	EXP 	text_1: text = 'think'
+272.2572 	EXP 	text_1: autoDraw = True
+272.3463 	EXP 	Sound sound_1A_1 stopped
+273.0279 	DATA 	Keypress: t
+273.0438 	DATA 	Keypress: h
+273.1272 	DATA 	Keypress: i
+273.2436 	DATA 	Keypress: n
+273.3437 	DATA 	Keypress: k
+275.7573 	EXP 	text_1: autoDraw = False
+275.7573 	EXP 	text_1: autoDraw = False
+275.7573 	EXP 	feedback_2: color = 'limegreen'
+275.7573 	EXP 	feedback_2: text = 'Correct!'
+275.7573 	EXP 	feedback_2: autoDraw = True
+276.7577 	EXP 	feedback_2: autoDraw = False
+276.7577 	EXP 	reset_image: autoDraw = True
+277.7419 	EXP 	New trial (rep=0, index=45): OrderedDict([('string', 'edthe'), ('corrAns', 'edthe')])
+277.7583 	EXP 	Sound sound_1A_1 started
+277.7575 	EXP 	reset_image: autoDraw = False
+277.7575 	EXP 	text_1: text = 'edthe'
+277.7575 	EXP 	text_1: autoDraw = True
+277.8462 	EXP 	Sound sound_1A_1 stopped
+278.4272 	DATA 	Keypress: e
+278.5771 	DATA 	Keypress: d
+278.7783 	DATA 	Keypress: t
+278.8430 	DATA 	Keypress: h
+278.9104 	DATA 	Keypress: e
+281.2576 	EXP 	text_1: autoDraw = False
+281.2576 	EXP 	text_1: autoDraw = False
+281.2576 	EXP 	feedback_2: color = 'limegreen'
+281.2576 	EXP 	feedback_2: text = 'Correct!'
+281.2576 	EXP 	feedback_2: autoDraw = True
+282.2579 	EXP 	feedback_2: autoDraw = False
+282.2579 	EXP 	feedback_2: autoDraw = False
+282.2579 	EXP 	reset_image: autoDraw = True
+283.2416 	EXP 	New trial (rep=0, index=46): OrderedDict([('string', 'cheer'), ('corrAns', 'cheer')])
+283.2579 	EXP 	Sound sound_1A_1 started
+283.2579 	EXP 	reset_image: autoDraw = False
+283.2579 	EXP 	reset_image: autoDraw = False
+283.2579 	EXP 	text_1: text = 'cheer'
+283.2579 	EXP 	text_1: autoDraw = True
+283.3462 	EXP 	Sound sound_1A_1 stopped
+283.9275 	DATA 	Keypress: c
+284.0265 	DATA 	Keypress: h
+284.1438 	DATA 	Keypress: e
+284.2773 	DATA 	Keypress: e
+284.3939 	DATA 	Keypress: r
+286.7581 	EXP 	text_1: autoDraw = False
+286.7581 	EXP 	text_1: autoDraw = False
+286.7581 	EXP 	feedback_2: color = 'limegreen'
+286.7581 	EXP 	feedback_2: text = 'Correct!'
+286.7581 	EXP 	feedback_2: autoDraw = True
+287.7581 	EXP 	feedback_2: autoDraw = False
+287.7581 	EXP 	reset_image: autoDraw = True
+288.7419 	EXP 	New trial (rep=0, index=47): OrderedDict([('string', 'champ'), ('corrAns', 'champ')])
+288.7583 	EXP 	Sound sound_1A_1 started
+288.7571 	EXP 	reset_image: autoDraw = False
+288.7571 	EXP 	text_1: text = 'champ'
+288.7571 	EXP 	text_1: autoDraw = True
+288.8465 	EXP 	Sound sound_1A_1 stopped
+289.3932 	DATA 	Keypress: c
+289.4603 	DATA 	Keypress: h
+289.5607 	DATA 	Keypress: a
+289.6437 	DATA 	Keypress: m
+289.7770 	DATA 	Keypress: p
+292.2582 	EXP 	text_1: autoDraw = False
+292.2582 	EXP 	text_1: autoDraw = False
+292.2582 	EXP 	feedback_2: color = 'limegreen'
+292.2582 	EXP 	feedback_2: text = 'Correct!'
+292.2582 	EXP 	feedback_2: autoDraw = True
+293.2579 	EXP 	feedback_2: autoDraw = False
+293.2579 	EXP 	feedback_2: autoDraw = False
+293.2579 	EXP 	reset_image: autoDraw = True
+294.2418 	EXP 	New trial (rep=0, index=48): OrderedDict([('string', 'tithe'), ('corrAns', 'tithe')])
+294.2581 	EXP 	Sound sound_1A_1 started
+294.2581 	EXP 	reset_image: autoDraw = False
+294.2581 	EXP 	reset_image: autoDraw = False
+294.2581 	EXP 	text_1: text = 'tithe'
+294.2581 	EXP 	text_1: autoDraw = True
+294.3460 	EXP 	Sound sound_1A_1 stopped
+294.7775 	DATA 	Keypress: t
+294.9606 	DATA 	Keypress: i
+295.1607 	DATA 	Keypress: t
+295.2259 	DATA 	Keypress: h
+295.3103 	DATA 	Keypress: e
+297.7580 	EXP 	text_1: autoDraw = False
+297.7580 	EXP 	feedback_2: color = 'limegreen'
+297.7580 	EXP 	feedback_2: text = 'Correct!'
+297.7580 	EXP 	feedback_2: autoDraw = True
+298.7583 	EXP 	feedback_2: autoDraw = False
+298.7583 	EXP 	feedback_2: autoDraw = False
+298.7583 	EXP 	reset_image: autoDraw = True
+299.7414 	EXP 	New trial (rep=0, index=49): OrderedDict([('string', 'cooed'), ('corrAns', 'cooed')])
+299.7577 	EXP 	Sound sound_1A_1 started
+299.7574 	EXP 	reset_image: autoDraw = False
+299.7574 	EXP 	reset_image: autoDraw = False
+299.7574 	EXP 	text_1: text = 'cooed'
+299.7574 	EXP 	text_1: autoDraw = True
+299.8458 	EXP 	Sound sound_1A_1 stopped
+300.6105 	DATA 	Keypress: c
+300.7441 	DATA 	Keypress: o
+300.8608 	DATA 	Keypress: o
+300.9602 	DATA 	Keypress: e
+301.1262 	DATA 	Keypress: d
+303.2568 	EXP 	text_1: autoDraw = False
+303.2568 	EXP 	feedback_2: color = 'limegreen'
+303.2568 	EXP 	feedback_2: text = 'Correct!'
+303.2568 	EXP 	feedback_2: autoDraw = True
+304.2583 	EXP 	feedback_2: autoDraw = False
+304.2583 	EXP 	feedback_2: autoDraw = False
+304.2583 	EXP 	reset_image: autoDraw = True
+305.2416 	EXP 	New trial (rep=0, index=50): OrderedDict([('string', 'edthe'), ('corrAns', 'edthe')])
+305.2580 	EXP 	Sound sound_1A_1 started
+305.2575 	EXP 	reset_image: autoDraw = False
+305.2575 	EXP 	text_1: text = 'edthe'
+305.2575 	EXP 	text_1: autoDraw = True
+305.3461 	EXP 	Sound sound_1A_1 stopped
+305.7942 	DATA 	Keypress: e
+305.9599 	DATA 	Keypress: d
+306.1268 	DATA 	Keypress: t
+306.1938 	DATA 	Keypress: h
+306.2597 	DATA 	Keypress: e
+308.7579 	EXP 	text_1: autoDraw = False
+308.7579 	EXP 	text_1: autoDraw = False
+308.7579 	EXP 	feedback_2: color = 'limegreen'
+308.7579 	EXP 	feedback_2: text = 'Correct!'
+308.7579 	EXP 	feedback_2: autoDraw = True
+309.7579 	EXP 	feedback_2: autoDraw = False
+309.7579 	EXP 	reset_image: autoDraw = True
+310.7412 	EXP 	New trial (rep=0, index=51): OrderedDict([('string', 'theme'), ('corrAns', 'theme')])
+310.7575 	EXP 	Sound sound_1A_1 started
+310.7575 	EXP 	reset_image: autoDraw = False
+310.7575 	EXP 	reset_image: autoDraw = False
+310.7575 	EXP 	text_1: text = 'theme'
+310.7575 	EXP 	text_1: autoDraw = True
+310.8458 	EXP 	Sound sound_1A_1 stopped
+311.4444 	DATA 	Keypress: t
+311.4936 	DATA 	Keypress: h
+311.5599 	DATA 	Keypress: e
+311.6768 	DATA 	Keypress: m
+311.7272 	DATA 	Keypress: e
+314.2585 	EXP 	text_1: autoDraw = False
+314.2585 	EXP 	text_1: autoDraw = False
+314.2585 	EXP 	feedback_2: color = 'limegreen'
+314.2585 	EXP 	feedback_2: text = 'Correct!'
+314.2585 	EXP 	feedback_2: autoDraw = True
+315.2578 	EXP 	feedback_2: autoDraw = False
+315.2578 	EXP 	reset_image: autoDraw = True
+316.2414 	EXP 	New trial (rep=0, index=52): OrderedDict([('string', 'tithe'), ('corrAns', 'tithe')])
+316.2577 	EXP 	Sound sound_1A_1 started
+316.2580 	EXP 	reset_image: autoDraw = False
+316.2580 	EXP 	reset_image: autoDraw = False
+316.2580 	EXP 	text_1: text = 'tithe'
+316.2580 	EXP 	text_1: autoDraw = True
+316.3457 	EXP 	Sound sound_1A_1 stopped
+317.8774 	DATA 	Keypress: t
+317.9761 	DATA 	Keypress: i
+318.1098 	DATA 	Keypress: t
+318.2100 	DATA 	Keypress: h
+318.2931 	DATA 	Keypress: e
+319.7578 	EXP 	text_1: autoDraw = False
+319.7578 	EXP 	text_1: autoDraw = False
+319.7578 	EXP 	feedback_2: color = 'limegreen'
+319.7578 	EXP 	feedback_2: text = 'Correct!'
+319.7578 	EXP 	feedback_2: autoDraw = True
+320.7581 	EXP 	feedback_2: autoDraw = False
+320.7581 	EXP 	feedback_2: autoDraw = False
+320.7581 	EXP 	reset_image: autoDraw = True
+321.7416 	EXP 	New trial (rep=0, index=53): OrderedDict([('string', 'kremp'), ('corrAns', 'kremp')])
+321.7580 	EXP 	Sound sound_1A_1 started
+321.7576 	EXP 	reset_image: autoDraw = False
+321.7576 	EXP 	text_1: text = 'kremp'
+321.7576 	EXP 	text_1: autoDraw = True
+321.8460 	EXP 	Sound sound_1A_1 stopped
+322.6610 	DATA 	Keypress: k
+322.7938 	DATA 	Keypress: r
+322.8938 	DATA 	Keypress: e
+322.9433 	DATA 	Keypress: m
+323.0268 	DATA 	Keypress: p
+325.2577 	EXP 	text_1: autoDraw = False
+325.2577 	EXP 	feedback_2: color = 'limegreen'
+325.2577 	EXP 	feedback_2: text = 'Correct!'
+325.2577 	EXP 	feedback_2: autoDraw = True
+326.2577 	EXP 	feedback_2: autoDraw = False
+326.2577 	EXP 	reset_image: autoDraw = True
+327.2412 	EXP 	New trial (rep=0, index=54): OrderedDict([('string', 'lucky'), ('corrAns', 'lucky')])
+327.2575 	EXP 	Sound sound_1A_1 started
+327.2564 	EXP 	reset_image: autoDraw = False
+327.2564 	EXP 	reset_image: autoDraw = False
+327.2564 	EXP 	text_1: text = 'lucky'
+327.2564 	EXP 	text_1: autoDraw = True
+327.3460 	EXP 	Sound sound_1A_1 stopped
+327.9108 	DATA 	Keypress: l
+328.0776 	DATA 	Keypress: u
+328.1266 	DATA 	Keypress: c
+328.2769 	DATA 	Keypress: k
+328.4274 	DATA 	Keypress: y
+330.7579 	EXP 	text_1: autoDraw = False
+330.7579 	EXP 	text_1: autoDraw = False
+330.7579 	EXP 	feedback_2: color = 'limegreen'
+330.7579 	EXP 	feedback_2: text = 'Correct!'
+330.7579 	EXP 	feedback_2: autoDraw = True
+331.7578 	EXP 	feedback_2: autoDraw = False
+331.7578 	EXP 	feedback_2: autoDraw = False
+331.7578 	EXP 	reset_image: autoDraw = True
+332.7414 	EXP 	New trial (rep=0, index=55): OrderedDict([('string', 'theme'), ('corrAns', 'theme')])
+332.7577 	EXP 	Sound sound_1A_1 started
+332.7577 	EXP 	reset_image: autoDraw = False
+332.7577 	EXP 	reset_image: autoDraw = False
+332.7577 	EXP 	text_1: text = 'theme'
+332.7577 	EXP 	text_1: autoDraw = True
+332.8460 	EXP 	Sound sound_1A_1 stopped
+333.4603 	DATA 	Keypress: t
+333.5267 	DATA 	Keypress: h
+333.5762 	DATA 	Keypress: e
+333.7445 	DATA 	Keypress: e
+333.7465 	DATA 	Keypress: m
+333.8938 	DATA 	Keypress: e
+336.2572 	EXP 	text_1: autoDraw = False
+336.2572 	EXP 	text_1: autoDraw = False
+336.2572 	EXP 	feedback_2: color = 'orangered'
+336.2572 	EXP 	feedback_2: text = 'Oops! That was wrong'
+336.2572 	EXP 	feedback_2: autoDraw = True
+337.2581 	EXP 	feedback_2: autoDraw = False
+337.2581 	EXP 	feedback_2: autoDraw = False
+337.2581 	EXP 	reset_image: autoDraw = True
+338.2410 	EXP 	New trial (rep=0, index=56): OrderedDict([('string', 'tithe'), ('corrAns', 'tithe')])
+338.2574 	EXP 	Sound sound_1A_1 started
+338.2572 	EXP 	reset_image: autoDraw = False
+338.2572 	EXP 	text_1: text = 'tithe'
+338.2572 	EXP 	text_1: autoDraw = True
+338.3454 	EXP 	Sound sound_1A_1 stopped
+339.0272 	DATA 	Keypress: t
+339.0932 	DATA 	Keypress: i
+339.1933 	DATA 	Keypress: t
+339.2432 	DATA 	Keypress: h
+339.3261 	DATA 	Keypress: e
+341.7571 	EXP 	text_1: autoDraw = False
+341.7571 	EXP 	text_1: autoDraw = False
+341.7571 	EXP 	feedback_2: color = 'limegreen'
+341.7571 	EXP 	feedback_2: text = 'Correct!'
+341.7571 	EXP 	feedback_2: autoDraw = True
+342.7574 	EXP 	feedback_2: autoDraw = False
+342.7574 	EXP 	reset_image: autoDraw = True
+343.7413 	EXP 	New trial (rep=0, index=57): OrderedDict([('string', 'vodka'), ('corrAns', 'vodka')])
+343.7576 	EXP 	Sound sound_1A_1 started
+343.7573 	EXP 	reset_image: autoDraw = False
+343.7573 	EXP 	reset_image: autoDraw = False
+343.7573 	EXP 	text_1: text = 'vodka'
+343.7573 	EXP 	text_1: autoDraw = True
+343.8459 	EXP 	Sound sound_1A_1 stopped
+344.5106 	DATA 	Keypress: v
+344.6271 	DATA 	Keypress: o
+344.6765 	DATA 	Keypress: d
+344.8441 	DATA 	Keypress: k
+344.8929 	DATA 	Keypress: a
+347.2579 	EXP 	text_1: autoDraw = False
+347.2579 	EXP 	feedback_2: color = 'limegreen'
+347.2579 	EXP 	feedback_2: text = 'Correct!'
+347.2579 	EXP 	feedback_2: autoDraw = True
+348.2575 	EXP 	feedback_2: autoDraw = False
+348.2575 	EXP 	feedback_2: autoDraw = False
+348.2575 	EXP 	reset_image: autoDraw = True
+349.2414 	EXP 	New trial (rep=0, index=58): OrderedDict([('string', 'isvar'), ('corrAns', 'isvar')])
+349.2578 	EXP 	Sound sound_1A_1 started
+349.2573 	EXP 	reset_image: autoDraw = False
+349.2573 	EXP 	text_1: text = 'isvar'
+349.2573 	EXP 	text_1: autoDraw = True
+349.3462 	EXP 	Sound sound_1A_1 stopped
+349.9766 	DATA 	Keypress: i
+350.0101 	DATA 	Keypress: s
+350.2436 	DATA 	Keypress: v
+350.3267 	DATA 	Keypress: a
+350.4767 	DATA 	Keypress: r
+352.7578 	EXP 	text_1: autoDraw = False
+352.7578 	EXP 	feedback_2: color = 'limegreen'
+352.7578 	EXP 	feedback_2: text = 'Correct!'
+352.7578 	EXP 	feedback_2: autoDraw = True
+353.7580 	EXP 	feedback_2: autoDraw = False
+353.7580 	EXP 	reset_image: autoDraw = True
+354.7414 	EXP 	New trial (rep=0, index=59): OrderedDict([('string', 'druze'), ('corrAns', 'druze')])
+354.7577 	EXP 	Sound sound_1A_1 started
+354.7573 	EXP 	reset_image: autoDraw = False
+354.7573 	EXP 	reset_image: autoDraw = False
+354.7573 	EXP 	text_1: text = 'druze'
+354.7573 	EXP 	text_1: autoDraw = True
+354.8450 	EXP 	Sound sound_1A_1 stopped
+355.4605 	DATA 	Keypress: d
+355.6608 	DATA 	Keypress: r
+355.7936 	DATA 	Keypress: u
+355.9106 	DATA 	Keypress: z
+356.1435 	DATA 	Keypress: e
+358.2578 	EXP 	text_1: autoDraw = False
+358.2578 	EXP 	feedback_2: color = 'limegreen'
+358.2578 	EXP 	feedback_2: text = 'Correct!'
+358.2578 	EXP 	feedback_2: autoDraw = True
+359.2576 	EXP 	feedback_2: autoDraw = False
+359.2576 	EXP 	feedback_2: autoDraw = False
+359.2576 	EXP 	reset_image: autoDraw = True
+360.2414 	EXP 	New trial (rep=0, index=60): OrderedDict([('string', 'vodka'), ('corrAns', 'vodka')])
+360.2578 	EXP 	Sound sound_1A_1 started
+360.2572 	EXP 	reset_image: autoDraw = False
+360.2572 	EXP 	text_1: text = 'vodka'
+360.2572 	EXP 	text_1: autoDraw = True
+360.3455 	EXP 	Sound sound_1A_1 stopped
+361.4443 	DATA 	Keypress: v
+361.5259 	DATA 	Keypress: o
+361.6598 	DATA 	Keypress: d
+361.7934 	DATA 	Keypress: k
+361.8434 	DATA 	Keypress: a
+363.7569 	EXP 	text_1: autoDraw = False
+363.7569 	EXP 	feedback_2: color = 'limegreen'
+363.7569 	EXP 	feedback_2: text = 'Correct!'
+363.7569 	EXP 	feedback_2: autoDraw = True
+364.7581 	EXP 	feedback_2: autoDraw = False
+364.7581 	EXP 	reset_image: autoDraw = True
+365.7412 	EXP 	New trial (rep=0, index=61): OrderedDict([('string', 'cheer'), ('corrAns', 'cheer')])
+365.7575 	EXP 	Sound sound_1A_1 started
+365.7572 	EXP 	reset_image: autoDraw = False
+365.7572 	EXP 	reset_image: autoDraw = False
+365.7572 	EXP 	text_1: text = 'cheer'
+365.7572 	EXP 	text_1: autoDraw = True
+365.8458 	EXP 	Sound sound_1A_1 stopped
+366.3606 	DATA 	Keypress: c
+366.4602 	DATA 	Keypress: h
+366.5602 	DATA 	Keypress: e
+366.6932 	DATA 	Keypress: e
+366.7597 	DATA 	Keypress: r
+369.2578 	EXP 	text_1: autoDraw = False
+369.2578 	EXP 	text_1: autoDraw = False
+369.2578 	EXP 	feedback_2: color = 'limegreen'
+369.2578 	EXP 	feedback_2: text = 'Correct!'
+369.2578 	EXP 	feedback_2: autoDraw = True
+370.2581 	EXP 	feedback_2: autoDraw = False
+370.2581 	EXP 	feedback_2: autoDraw = False
+370.2581 	EXP 	reset_image: autoDraw = True
+371.2582 	EXP 	New trial (rep=0, index=62): OrderedDict([('string', 'therm'), ('corrAns', 'therm')])
+371.2745 	EXP 	Sound sound_1A_1 started
+371.2750 	EXP 	reset_image: autoDraw = False
+371.2750 	EXP 	text_1: text = 'therm'
+371.2750 	EXP 	text_1: autoDraw = True
+371.3621 	EXP 	Sound sound_1A_1 stopped
+371.8771 	DATA 	Keypress: t
+371.9434 	DATA 	Keypress: h
+372.0272 	DATA 	Keypress: e
+372.1098 	DATA 	Keypress: r
+372.2100 	DATA 	Keypress: m
+374.7578 	EXP 	text_1: autoDraw = False
+374.7578 	EXP 	feedback_2: color = 'limegreen'
+374.7578 	EXP 	feedback_2: text = 'Correct!'
+374.7578 	EXP 	feedback_2: autoDraw = True
+375.7578 	EXP 	feedback_2: autoDraw = False
+375.7578 	EXP 	reset_image: autoDraw = True
+376.7409 	EXP 	New trial (rep=0, index=63): OrderedDict([('string', 'kremp'), ('corrAns', 'kremp')])
+376.7573 	EXP 	Sound sound_1A_1 started
+376.7575 	EXP 	reset_image: autoDraw = False
+376.7575 	EXP 	reset_image: autoDraw = False
+376.7575 	EXP 	text_1: text = 'kremp'
+376.7575 	EXP 	text_1: autoDraw = True
+376.8460 	EXP 	Sound sound_1A_1 stopped
+377.3441 	DATA 	Keypress: k
+377.4769 	DATA 	Keypress: r
+377.5938 	DATA 	Keypress: e
+377.6263 	DATA 	Keypress: m
+377.7433 	DATA 	Keypress: p
+380.2578 	EXP 	text_1: autoDraw = False
+380.2578 	EXP 	text_1: autoDraw = False
+380.2578 	EXP 	feedback_2: color = 'limegreen'
+380.2578 	EXP 	feedback_2: text = 'Correct!'
+380.2578 	EXP 	feedback_2: autoDraw = True
+381.2575 	EXP 	feedback_2: autoDraw = False
+381.2575 	EXP 	feedback_2: autoDraw = False
+381.2575 	EXP 	reset_image: autoDraw = True
+382.2419 	EXP 	New trial (rep=0, index=64): OrderedDict([('string', 'buddy'), ('corrAns', 'buddy')])
+382.2583 	EXP 	Sound sound_1A_1 started
+382.2568 	EXP 	reset_image: autoDraw = False
+382.2568 	EXP 	text_1: text = 'buddy'
+382.2568 	EXP 	text_1: autoDraw = True
+382.3457 	EXP 	Sound sound_1A_1 stopped
+383.0937 	DATA 	Keypress: b
+383.1768 	DATA 	Keypress: u
+383.2934 	DATA 	Keypress: d
+383.4442 	DATA 	Keypress: d
+383.5099 	DATA 	Keypress: y
+385.7577 	EXP 	text_1: autoDraw = False
+385.7577 	EXP 	text_1: autoDraw = False
+385.7577 	EXP 	feedback_2: color = 'limegreen'
+385.7577 	EXP 	feedback_2: text = 'Correct!'
+385.7577 	EXP 	feedback_2: autoDraw = True
+386.7577 	EXP 	feedback_2: autoDraw = False
+386.7577 	EXP 	feedback_2: autoDraw = False
+386.7577 	EXP 	reset_image: autoDraw = True
+387.7409 	EXP 	New trial (rep=0, index=65): OrderedDict([('string', 'therm'), ('corrAns', 'therm')])
+387.7572 	EXP 	Sound sound_1A_1 started
+387.7572 	EXP 	reset_image: autoDraw = False
+387.7572 	EXP 	reset_image: autoDraw = False
+387.7572 	EXP 	text_1: text = 'therm'
+387.7572 	EXP 	text_1: autoDraw = True
+387.8457 	EXP 	Sound sound_1A_1 stopped
+388.3276 	DATA 	Keypress: t
+388.3596 	DATA 	Keypress: h
+388.4600 	DATA 	Keypress: e
+388.5432 	DATA 	Keypress: r
+388.6095 	DATA 	Keypress: m
+391.2580 	EXP 	text_1: autoDraw = False
+391.2580 	EXP 	feedback_2: color = 'limegreen'
+391.2580 	EXP 	feedback_2: text = 'Correct!'
+391.2580 	EXP 	feedback_2: autoDraw = True
+392.2577 	EXP 	feedback_2: autoDraw = False
+392.2577 	EXP 	reset_image: autoDraw = True
+393.2410 	EXP 	New trial (rep=0, index=66): OrderedDict([('string', 'edthe'), ('corrAns', 'edthe')])
+393.2573 	EXP 	Sound sound_1A_1 started
+393.2571 	EXP 	reset_image: autoDraw = False
+393.2571 	EXP 	reset_image: autoDraw = False
+393.2571 	EXP 	text_1: text = 'edthe'
+393.2571 	EXP 	text_1: autoDraw = True
+393.3456 	EXP 	Sound sound_1A_1 stopped
+393.8773 	DATA 	Keypress: e
+394.0275 	DATA 	Keypress: d
+394.2106 	DATA 	Keypress: t
+394.2765 	DATA 	Keypress: h
+394.3766 	DATA 	Keypress: e
+396.7577 	EXP 	text_1: autoDraw = False
+396.7577 	EXP 	feedback_2: color = 'limegreen'
+396.7577 	EXP 	feedback_2: text = 'Correct!'
+396.7577 	EXP 	feedback_2: autoDraw = True
+397.7578 	EXP 	feedback_2: autoDraw = False
+397.7578 	EXP 	feedback_2: autoDraw = False
+397.7578 	EXP 	reset_image: autoDraw = True
+398.7410 	EXP 	New trial (rep=0, index=67): OrderedDict([('string', 'about'), ('corrAns', 'about')])
+398.7573 	EXP 	Sound sound_1A_1 started
+398.7570 	EXP 	reset_image: autoDraw = False
+398.7570 	EXP 	reset_image: autoDraw = False
+398.7570 	EXP 	text_1: text = 'about'
+398.7570 	EXP 	text_1: autoDraw = True
+398.8458 	EXP 	Sound sound_1A_1 stopped
+399.3772 	DATA 	Keypress: a
+399.4938 	DATA 	Keypress: b
+399.5599 	DATA 	Keypress: o
+399.6258 	DATA 	Keypress: u
+399.7265 	DATA 	Keypress: t
+402.2579 	EXP 	text_1: autoDraw = False
+402.2579 	EXP 	feedback_2: color = 'limegreen'
+402.2579 	EXP 	feedback_2: text = 'Correct!'
+402.2579 	EXP 	feedback_2: autoDraw = True
+403.2581 	EXP 	feedback_2: autoDraw = False
+403.2581 	EXP 	feedback_2: autoDraw = False
+403.2581 	EXP 	reset_image: autoDraw = True
+404.2415 	EXP 	New trial (rep=0, index=68): OrderedDict([('string', 'champ'), ('corrAns', 'champ')])
+404.2579 	EXP 	Sound sound_1A_1 started
+404.2576 	EXP 	reset_image: autoDraw = False
+404.2576 	EXP 	text_1: text = 'champ'
+404.2576 	EXP 	text_1: autoDraw = True
+404.3459 	EXP 	Sound sound_1A_1 stopped
+404.8444 	DATA 	Keypress: c
+404.9433 	DATA 	Keypress: h
+404.9932 	DATA 	Keypress: a
+405.0937 	DATA 	Keypress: m
+405.1933 	DATA 	Keypress: p
+407.7578 	EXP 	text_1: autoDraw = False
+407.7578 	EXP 	text_1: autoDraw = False
+407.7578 	EXP 	feedback_2: color = 'limegreen'
+407.7578 	EXP 	feedback_2: text = 'Correct!'
+407.7578 	EXP 	feedback_2: autoDraw = True
+408.7572 	EXP 	feedback_2: autoDraw = False
+408.7572 	EXP 	feedback_2: autoDraw = False
+408.7572 	EXP 	reset_image: autoDraw = True
+409.7410 	EXP 	New trial (rep=0, index=69): OrderedDict([('string', 'cooed'), ('corrAns', 'cooed')])
+409.7574 	EXP 	Sound sound_1A_1 started
+409.7570 	EXP 	reset_image: autoDraw = False
+409.7570 	EXP 	reset_image: autoDraw = False
+409.7570 	EXP 	text_1: text = 'cooed'
+409.7570 	EXP 	text_1: autoDraw = True
+409.8456 	EXP 	Sound sound_1A_1 stopped
+410.5275 	DATA 	Keypress: c
+410.6937 	DATA 	Keypress: o
+410.8268 	DATA 	Keypress: o
+410.8931 	DATA 	Keypress: e
+411.0604 	DATA 	Keypress: d
+413.2578 	EXP 	text_1: autoDraw = False
+413.2578 	EXP 	text_1: autoDraw = False
+413.2578 	EXP 	feedback_2: color = 'limegreen'
+413.2578 	EXP 	feedback_2: text = 'Correct!'
+413.2578 	EXP 	feedback_2: autoDraw = True
+414.2578 	EXP 	feedback_2: autoDraw = False
+414.2578 	EXP 	feedback_2: autoDraw = False
+414.2578 	EXP 	reset_image: autoDraw = True
+415.2411 	EXP 	New trial (rep=0, index=70): OrderedDict([('string', 'buddy'), ('corrAns', 'buddy')])
+415.2574 	EXP 	Sound sound_1A_1 started
+415.2573 	EXP 	reset_image: autoDraw = False
+415.2573 	EXP 	reset_image: autoDraw = False
+415.2573 	EXP 	text_1: text = 'buddy'
+415.2573 	EXP 	text_1: autoDraw = True
+415.3450 	EXP 	Sound sound_1A_1 stopped
+416.0941 	DATA 	Keypress: b
+416.2268 	DATA 	Keypress: o
+416.3430 	DATA 	Keypress: d
+416.4933 	DATA 	Keypress: d
+416.5767 	DATA 	Keypress: y
+418.7572 	EXP 	text_1: autoDraw = False
+418.7572 	EXP 	text_1: autoDraw = False
+418.7572 	EXP 	feedback_2: color = 'orangered'
+418.7572 	EXP 	feedback_2: text = 'Oops! That was wrong'
+418.7572 	EXP 	feedback_2: autoDraw = True
+419.7580 	EXP 	feedback_2: autoDraw = False
+419.7580 	EXP 	feedback_2: autoDraw = False
+419.7580 	EXP 	reset_image: autoDraw = True
+420.7411 	EXP 	New trial (rep=0, index=71): OrderedDict([('string', 'pykka'), ('corrAns', 'pykka')])
+420.7573 	EXP 	Sound sound_1A_1 started
+420.7570 	EXP 	reset_image: autoDraw = False
+420.7570 	EXP 	reset_image: autoDraw = False
+420.7570 	EXP 	text_1: text = 'pykka'
+420.7570 	EXP 	text_1: autoDraw = True
+420.8452 	EXP 	Sound sound_1A_1 stopped
+421.6105 	DATA 	Keypress: p
+421.7772 	DATA 	Keypress: y
+421.9101 	DATA 	Keypress: t
+422.4934 	DATA 	Keypress: k
+422.6101 	DATA 	Keypress: k
+422.6931 	DATA 	Keypress: a
+424.2579 	EXP 	text_1: autoDraw = False
+424.2579 	EXP 	feedback_2: color = 'orangered'
+424.2579 	EXP 	feedback_2: text = 'Oops! That was wrong'
+424.2579 	EXP 	feedback_2: autoDraw = True
+425.2577 	EXP 	feedback_2: autoDraw = False
+425.2577 	EXP 	feedback_2: autoDraw = False
+425.2577 	EXP 	reset_image: autoDraw = True
+426.2414 	EXP 	New trial (rep=0, index=72): OrderedDict([('string', 'therm'), ('corrAns', 'therm')])
+426.2577 	EXP 	Sound sound_1A_1 started
+426.2570 	EXP 	reset_image: autoDraw = False
+426.2570 	EXP 	reset_image: autoDraw = False
+426.2570 	EXP 	text_1: text = 'therm'
+426.2570 	EXP 	text_1: autoDraw = True
+426.3458 	EXP 	Sound sound_1A_1 stopped
+426.9273 	DATA 	Keypress: t
+426.9765 	DATA 	Keypress: h
+427.0600 	DATA 	Keypress: e
+427.1598 	DATA 	Keypress: r
+427.2604 	DATA 	Keypress: m
+429.7569 	EXP 	text_1: autoDraw = False
+429.7569 	EXP 	feedback_2: color = 'limegreen'
+429.7569 	EXP 	feedback_2: text = 'Correct!'
+429.7569 	EXP 	feedback_2: autoDraw = True
+430.7578 	EXP 	feedback_2: autoDraw = False
+430.7578 	EXP 	feedback_2: autoDraw = False
+430.7578 	EXP 	reset_image: autoDraw = True
+431.7411 	EXP 	New trial (rep=0, index=73): OrderedDict([('string', 'edthe'), ('corrAns', 'edthe')])
+431.7574 	EXP 	Sound sound_1A_1 started
+431.7577 	EXP 	reset_image: autoDraw = False
+431.7577 	EXP 	reset_image: autoDraw = False
+431.7577 	EXP 	text_1: text = 'edthe'
+431.7577 	EXP 	text_1: autoDraw = True
+431.8454 	EXP 	Sound sound_1A_1 stopped
+432.3937 	DATA 	Keypress: e
+432.5441 	DATA 	Keypress: d
+432.7276 	DATA 	Keypress: t
+432.7930 	DATA 	Keypress: h
+432.8762 	DATA 	Keypress: e
+434.6243 	DATA 	Mouse: wheel shift=(0,0), pos=(447,847)
+434.6578 	DATA 	Mouse: wheel shift=(0,0), pos=(447,847)
+435.2579 	EXP 	text_1: autoDraw = False
+435.2579 	EXP 	text_1: autoDraw = False
+435.2579 	EXP 	feedback_2: color = 'limegreen'
+435.2579 	EXP 	feedback_2: text = 'Correct!'
+435.2579 	EXP 	feedback_2: autoDraw = True
+436.2577 	EXP 	feedback_2: autoDraw = False
+436.2577 	EXP 	feedback_2: autoDraw = False
+436.2577 	EXP 	reset_image: autoDraw = True
+437.2414 	EXP 	New trial (rep=0, index=74): OrderedDict([('string', 'isvar'), ('corrAns', 'isvar')])
+437.2577 	EXP 	Sound sound_1A_1 started
+437.2568 	EXP 	reset_image: autoDraw = False
+437.2568 	EXP 	reset_image: autoDraw = False
+437.2568 	EXP 	text_1: text = 'isvar'
+437.2568 	EXP 	text_1: autoDraw = True
+437.3457 	EXP 	Sound sound_1A_1 stopped
+438.0440 	DATA 	Keypress: i
+438.1267 	DATA 	Keypress: d
+438.4108 	DATA 	Keypress: v
+438.5272 	DATA 	Keypress: a
+438.6771 	DATA 	Keypress: r
+440.7575 	EXP 	text_1: autoDraw = False
+440.7575 	EXP 	text_1: autoDraw = False
+440.7575 	EXP 	feedback_2: color = 'orangered'
+440.7575 	EXP 	feedback_2: text = 'Oops! That was wrong'
+440.7575 	EXP 	feedback_2: autoDraw = True
+441.7573 	EXP 	feedback_2: autoDraw = False
+441.7573 	EXP 	feedback_2: autoDraw = False
+441.7573 	EXP 	reset_image: autoDraw = True
+442.7411 	EXP 	New trial (rep=0, index=75): OrderedDict([('string', 'there'), ('corrAns', 'there')])
+442.7574 	EXP 	Sound sound_1A_1 started
+442.7575 	EXP 	reset_image: autoDraw = False
+442.7575 	EXP 	reset_image: autoDraw = False
+442.7575 	EXP 	text_1: text = 'there'
+442.7575 	EXP 	text_1: autoDraw = True
+442.8449 	EXP 	Sound sound_1A_1 stopped
+443.3605 	DATA 	Keypress: t
+443.4268 	DATA 	Keypress: h
+443.4938 	DATA 	Keypress: e
+443.6102 	DATA 	Keypress: r
+443.7096 	DATA 	Keypress: e
+446.2573 	EXP 	text_1: autoDraw = False
+446.2573 	EXP 	feedback_2: color = 'limegreen'
+446.2573 	EXP 	feedback_2: text = 'Correct!'
+446.2573 	EXP 	feedback_2: autoDraw = True
+447.2574 	EXP 	feedback_2: autoDraw = False
+447.2574 	EXP 	feedback_2: autoDraw = False
+447.2574 	EXP 	reset_image: autoDraw = True
+448.2405 	EXP 	New trial (rep=0, index=76): OrderedDict([('string', 'therm'), ('corrAns', 'therm')])
+448.2568 	EXP 	Sound sound_1A_1 started
+448.2570 	EXP 	reset_image: autoDraw = False
+448.2570 	EXP 	reset_image: autoDraw = False
+448.2570 	EXP 	text_1: text = 'therm'
+448.2570 	EXP 	text_1: autoDraw = True
+448.3454 	EXP 	Sound sound_1A_1 stopped
+448.7606 	DATA 	Keypress: t
+448.8436 	DATA 	Keypress: h
+448.9093 	DATA 	Keypress: e
+449.0100 	DATA 	Keypress: r
+449.0761 	DATA 	Keypress: m
+451.2931 	DATA 	Keypress: d
+451.2948 	DATA 	Keypress: f
+451.3763 	DATA 	Keypress: d
+451.7579 	EXP 	text_1: autoDraw = False
+451.7579 	EXP 	text_1: autoDraw = False
+451.7579 	EXP 	feedback_2: color = 'orangered'
+451.7579 	EXP 	feedback_2: text = 'Oops! That was wrong'
+451.7579 	EXP 	feedback_2: autoDraw = True
+452.7575 	EXP 	feedback_2: autoDraw = False
+452.7575 	EXP 	feedback_2: autoDraw = False
+452.7575 	EXP 	reset_image: autoDraw = True
+453.7415 	EXP 	New trial (rep=0, index=77): OrderedDict([('string', 'theme'), ('corrAns', 'theme')])
+453.7578 	EXP 	Sound sound_1A_1 started
+453.7574 	EXP 	reset_image: autoDraw = False
+453.7574 	EXP 	text_1: text = 'theme'
+453.7574 	EXP 	text_1: autoDraw = True
+453.8453 	EXP 	Sound sound_1A_1 stopped
+454.3438 	DATA 	Keypress: t
+454.4264 	DATA 	Keypress: h
+454.4603 	DATA 	Keypress: e
+455.2773 	DATA 	Keypress: m
+455.3769 	DATA 	Keypress: e
+457.2572 	EXP 	text_1: autoDraw = False
+457.2572 	EXP 	feedback_2: color = 'limegreen'
+457.2572 	EXP 	feedback_2: text = 'Correct!'
+457.2572 	EXP 	feedback_2: autoDraw = True
+458.2577 	EXP 	feedback_2: autoDraw = False
+458.2577 	EXP 	feedback_2: autoDraw = False
+458.2577 	EXP 	reset_image: autoDraw = True
+459.2409 	EXP 	New trial (rep=0, index=78): OrderedDict([('string', 'kremp'), ('corrAns', 'kremp')])
+459.2572 	EXP 	Sound sound_1A_1 started
+459.2572 	EXP 	reset_image: autoDraw = False
+459.2572 	EXP 	reset_image: autoDraw = False
+459.2572 	EXP 	text_1: text = 'kremp'
+459.2572 	EXP 	text_1: autoDraw = True
+459.3453 	EXP 	Sound sound_1A_1 stopped
+459.8607 	DATA 	Keypress: k
+459.9769 	DATA 	Keypress: r
+460.0432 	DATA 	Keypress: m
+460.0600 	DATA 	Keypress: e
+460.1599 	DATA 	Keypress: p
+462.7571 	EXP 	text_1: autoDraw = False
+462.7571 	EXP 	feedback_2: color = 'orangered'
+462.7571 	EXP 	feedback_2: text = 'Oops! That was wrong'
+462.7571 	EXP 	feedback_2: autoDraw = True
+463.7578 	EXP 	feedback_2: autoDraw = False
+463.7578 	EXP 	reset_image: autoDraw = True
+464.7409 	EXP 	New trial (rep=0, index=79): OrderedDict([('string', 'would'), ('corrAns', 'would')])
+464.7573 	EXP 	Sound sound_1A_1 started
+464.7566 	EXP 	reset_image: autoDraw = False
+464.7566 	EXP 	text_1: text = 'would'
+464.7566 	EXP 	text_1: autoDraw = True
+464.8456 	EXP 	Sound sound_1A_1 stopped
+465.3262 	DATA 	Keypress: w
+465.4103 	DATA 	Keypress: o
+465.4766 	DATA 	Keypress: u
+465.5931 	DATA 	Keypress: l
+465.7103 	DATA 	Keypress: d
+468.2567 	EXP 	text_1: autoDraw = False
+468.2567 	EXP 	text_1: autoDraw = False
+468.2567 	EXP 	feedback_2: color = 'limegreen'
+468.2567 	EXP 	feedback_2: text = 'Correct!'
+468.2567 	EXP 	feedback_2: autoDraw = True
+469.2575 	EXP 	feedback_2: autoDraw = False
+469.2575 	EXP 	reset_image: autoDraw = True
+470.2414 	EXP 	New trial (rep=0, index=80): OrderedDict([('string', 'zibja'), ('corrAns', 'zibja')])
+470.2577 	EXP 	Sound sound_1A_1 started
+470.2571 	EXP 	reset_image: autoDraw = False
+470.2571 	EXP 	reset_image: autoDraw = False
+470.2571 	EXP 	text_1: text = 'zibja'
+470.2571 	EXP 	text_1: autoDraw = True
+470.3454 	EXP 	Sound sound_1A_1 stopped
+471.4939 	DATA 	Keypress: z
+471.6594 	DATA 	Keypress: i
+471.8431 	DATA 	Keypress: b
+472.0275 	DATA 	Keypress: j
+472.1266 	DATA 	Keypress: a
+473.7578 	EXP 	text_1: autoDraw = False
+473.7578 	EXP 	text_1: autoDraw = False
+473.7578 	EXP 	feedback_2: color = 'limegreen'
+473.7578 	EXP 	feedback_2: text = 'Correct!'
+473.7578 	EXP 	feedback_2: autoDraw = True
+474.7573 	EXP 	feedback_2: autoDraw = False
+474.7573 	EXP 	feedback_2: autoDraw = False
+474.7573 	EXP 	reset_image: autoDraw = True
+475.7409 	EXP 	New trial (rep=0, index=81): OrderedDict([('string', 'belly'), ('corrAns', 'belly')])
+475.7572 	EXP 	Sound sound_1A_1 started
+475.7574 	EXP 	reset_image: autoDraw = False
+475.7574 	EXP 	reset_image: autoDraw = False
+475.7574 	EXP 	text_1: text = 'belly'
+475.7574 	EXP 	text_1: autoDraw = True
+475.8452 	EXP 	Sound sound_1A_1 stopped
+476.5437 	DATA 	Keypress: b
+476.6433 	DATA 	Keypress: e
+476.7433 	DATA 	Keypress: l
+476.8764 	DATA 	Keypress: l
+476.9431 	DATA 	Keypress: y
+479.2578 	EXP 	text_1: autoDraw = False
+479.2578 	EXP 	text_1: autoDraw = False
+479.2578 	EXP 	feedback_2: color = 'limegreen'
+479.2578 	EXP 	feedback_2: text = 'Correct!'
+479.2578 	EXP 	feedback_2: autoDraw = True
+480.2577 	EXP 	feedback_2: autoDraw = False
+480.2577 	EXP 	feedback_2: autoDraw = False
+480.2577 	EXP 	reset_image: autoDraw = True
+481.2415 	EXP 	New trial (rep=0, index=82): OrderedDict([('string', 'there'), ('corrAns', 'there')])
+481.2579 	EXP 	Sound sound_1A_1 started
+481.2565 	EXP 	reset_image: autoDraw = False
+481.2565 	EXP 	text_1: text = 'there'
+481.2565 	EXP 	text_1: autoDraw = True
+481.3455 	EXP 	Sound sound_1A_1 stopped
+481.8599 	DATA 	Keypress: t
+481.9263 	DATA 	Keypress: h
+482.0429 	DATA 	Keypress: e
+482.1261 	DATA 	Keypress: r
+482.2428 	DATA 	Keypress: e
+484.7572 	EXP 	text_1: autoDraw = False
+484.7572 	EXP 	text_1: autoDraw = False
+484.7572 	EXP 	feedback_2: color = 'limegreen'
+484.7572 	EXP 	feedback_2: text = 'Correct!'
+484.7572 	EXP 	feedback_2: autoDraw = True
+485.7572 	EXP 	feedback_2: autoDraw = False
+485.7572 	EXP 	feedback_2: autoDraw = False
+485.7572 	EXP 	reset_image: autoDraw = True
+486.7410 	EXP 	New trial (rep=0, index=83): OrderedDict([('string', 'cooed'), ('corrAns', 'cooed')])
+486.7574 	EXP 	Sound sound_1A_1 started
+486.7569 	EXP 	reset_image: autoDraw = False
+486.7569 	EXP 	text_1: text = 'cooed'
+486.7569 	EXP 	text_1: autoDraw = True
+486.8458 	EXP 	Sound sound_1A_1 stopped
+487.4937 	DATA 	Keypress: c
+487.6760 	DATA 	Keypress: o
+487.8100 	DATA 	Keypress: o
+487.8933 	DATA 	Keypress: e
+488.0436 	DATA 	Keypress: d
+490.2579 	EXP 	text_1: autoDraw = False
+490.2579 	EXP 	feedback_2: color = 'limegreen'
+490.2579 	EXP 	feedback_2: text = 'Correct!'
+490.2579 	EXP 	feedback_2: autoDraw = True
+491.2577 	EXP 	feedback_2: autoDraw = False
+491.2577 	EXP 	feedback_2: autoDraw = False
+491.2577 	EXP 	reset_image: autoDraw = True
+492.2408 	EXP 	New trial (rep=0, index=84): OrderedDict([('string', 'edthe'), ('corrAns', 'edthe')])
+492.2572 	EXP 	Sound sound_1A_1 started
+492.2567 	EXP 	reset_image: autoDraw = False
+492.2567 	EXP 	text_1: text = 'edthe'
+492.2567 	EXP 	text_1: autoDraw = True
+492.3458 	EXP 	Sound sound_1A_1 stopped
+492.9271 	DATA 	Keypress: e
+493.1104 	DATA 	Keypress: d
+493.3771 	DATA 	Keypress: t
+493.4604 	DATA 	Keypress: h
+493.5430 	DATA 	Keypress: e
+495.7578 	EXP 	text_1: autoDraw = False
+495.7578 	EXP 	feedback_2: color = 'limegreen'
+495.7578 	EXP 	feedback_2: text = 'Correct!'
+495.7578 	EXP 	feedback_2: autoDraw = True
+496.7574 	EXP 	feedback_2: autoDraw = False
+496.7574 	EXP 	reset_image: autoDraw = True
+497.7409 	EXP 	New trial (rep=0, index=85): OrderedDict([('string', 'zibja'), ('corrAns', 'zibja')])
+497.7573 	EXP 	Sound sound_1A_1 started
+497.7563 	EXP 	reset_image: autoDraw = False
+497.7563 	EXP 	text_1: text = 'zibja'
+497.7563 	EXP 	text_1: autoDraw = True
+497.8451 	EXP 	Sound sound_1A_1 stopped
+498.6934 	DATA 	Keypress: z
+498.8598 	DATA 	Keypress: i
+499.0770 	DATA 	Keypress: b
+499.5923 	DATA 	Keypress: j
+499.6766 	DATA 	Keypress: a
+501.2573 	EXP 	text_1: autoDraw = False
+501.2573 	EXP 	feedback_2: color = 'limegreen'
+501.2573 	EXP 	feedback_2: text = 'Correct!'
+501.2573 	EXP 	feedback_2: autoDraw = True
+502.2578 	EXP 	feedback_2: autoDraw = False
+502.2578 	EXP 	reset_image: autoDraw = True
+503.2410 	EXP 	New trial (rep=0, index=86): OrderedDict([('string', 'think'), ('corrAns', 'think')])
+503.2574 	EXP 	Sound sound_1A_1 started
+503.2566 	EXP 	reset_image: autoDraw = False
+503.2566 	EXP 	text_1: text = 'think'
+503.2566 	EXP 	text_1: autoDraw = True
+503.3454 	EXP 	Sound sound_1A_1 stopped
+504.0602 	DATA 	Keypress: t
+504.1600 	DATA 	Keypress: h
+504.2429 	DATA 	Keypress: i
+504.3597 	DATA 	Keypress: n
+504.4765 	DATA 	Keypress: k
+506.7573 	EXP 	text_1: autoDraw = False
+506.7573 	EXP 	text_1: autoDraw = False
+506.7573 	EXP 	feedback_2: color = 'limegreen'
+506.7573 	EXP 	feedback_2: text = 'Correct!'
+506.7573 	EXP 	feedback_2: autoDraw = True
+507.7577 	EXP 	feedback_2: autoDraw = False
+507.7577 	EXP 	reset_image: autoDraw = True
+508.7578 	EXP 	New trial (rep=0, index=87): OrderedDict([('string', 'lucky'), ('corrAns', 'lucky')])
+508.7741 	EXP 	Sound sound_1A_1 started
+508.7740 	EXP 	reset_image: autoDraw = False
+508.7740 	EXP 	text_1: text = 'lucky'
+508.7740 	EXP 	text_1: autoDraw = True
+508.8622 	EXP 	Sound sound_1A_1 stopped
+509.5098 	DATA 	Keypress: l
+509.6599 	DATA 	Keypress: u
+509.7936 	DATA 	Keypress: v
+509.9100 	DATA 	Keypress: k
+510.1254 	DATA 	Keypress: y
+512.2741 	EXP 	text_1: autoDraw = False
+512.2741 	EXP 	feedback_2: color = 'orangered'
+512.2741 	EXP 	feedback_2: text = 'Oops! That was wrong'
+512.2741 	EXP 	feedback_2: autoDraw = True
+513.2744 	EXP 	feedback_2: autoDraw = False
+513.2744 	EXP 	reset_image: autoDraw = True
+514.2744 	EXP 	New trial (rep=0, index=88): OrderedDict([('string', 'druze'), ('corrAns', 'druze')])
+514.2907 	EXP 	Sound sound_1A_1 started
+514.2903 	EXP 	reset_image: autoDraw = False
+514.2903 	EXP 	text_1: text = 'druze'
+514.2903 	EXP 	text_1: autoDraw = True
+514.3786 	EXP 	Sound sound_1A_1 stopped
+515.0436 	DATA 	Keypress: d
+515.2771 	DATA 	Keypress: r
+515.3933 	DATA 	Keypress: u
+515.6270 	DATA 	Keypress: z
+515.8936 	DATA 	Keypress: e
+517.7905 	EXP 	text_1: autoDraw = False
+517.7905 	EXP 	feedback_2: color = 'limegreen'
+517.7905 	EXP 	feedback_2: text = 'Correct!'
+517.7905 	EXP 	feedback_2: autoDraw = True
+518.7745 	EXP 	feedback_2: autoDraw = False
+518.7745 	EXP 	reset_image: autoDraw = True
+519.7575 	EXP 	New trial (rep=0, index=89): OrderedDict([('string', 'cooed'), ('corrAns', 'cooed')])
+519.7738 	EXP 	Sound sound_1A_1 started
+519.7741 	EXP 	reset_image: autoDraw = False
+519.7741 	EXP 	reset_image: autoDraw = False
+519.7741 	EXP 	text_1: text = 'cooed'
+519.7741 	EXP 	text_1: autoDraw = True
+519.8622 	EXP 	Sound sound_1A_1 stopped
+520.6769 	DATA 	Keypress: c
+520.8100 	DATA 	Keypress: o
+520.9606 	DATA 	Keypress: o
+521.0431 	DATA 	Keypress: e
+521.2100 	DATA 	Keypress: d
+523.2735 	EXP 	text_1: autoDraw = False
+523.2735 	EXP 	feedback_2: color = 'limegreen'
+523.2735 	EXP 	feedback_2: text = 'Correct!'
+523.2735 	EXP 	feedback_2: autoDraw = True
+524.2744 	EXP 	feedback_2: autoDraw = False
+524.2744 	EXP 	feedback_2: autoDraw = False
+524.2744 	EXP 	reset_image: autoDraw = True
+525.2576 	EXP 	New trial (rep=0, index=90): OrderedDict([('string', 'haole'), ('corrAns', 'haole')])
+525.2739 	EXP 	Sound sound_1A_1 started
+525.2738 	EXP 	reset_image: autoDraw = False
+525.2738 	EXP 	reset_image: autoDraw = False
+525.2738 	EXP 	text_1: text = 'haole'
+525.2738 	EXP 	text_1: autoDraw = True
+525.3622 	EXP 	Sound sound_1A_1 stopped
+526.0935 	DATA 	Keypress: h
+526.1598 	DATA 	Keypress: a
+526.2094 	DATA 	Keypress: h
+526.2260 	DATA 	Keypress: o
+526.4440 	DATA 	Keypress: l
+526.5264 	DATA 	Keypress: e
+528.7733 	EXP 	text_1: autoDraw = False
+528.7733 	EXP 	text_1: autoDraw = False
+528.7733 	EXP 	feedback_2: color = 'orangered'
+528.7733 	EXP 	feedback_2: text = 'Oops! That was wrong'
+528.7733 	EXP 	feedback_2: autoDraw = True
+529.7742 	EXP 	feedback_2: autoDraw = False
+529.7742 	EXP 	feedback_2: autoDraw = False
+529.7742 	EXP 	reset_image: autoDraw = True
+530.7576 	EXP 	New trial (rep=0, index=91): OrderedDict([('string', 'would'), ('corrAns', 'would')])
+530.7739 	EXP 	Sound sound_1A_1 started
+530.7734 	EXP 	reset_image: autoDraw = False
+530.7734 	EXP 	reset_image: autoDraw = False
+530.7734 	EXP 	text_1: text = 'would'
+530.7734 	EXP 	text_1: autoDraw = True
+530.8621 	EXP 	Sound sound_1A_1 stopped
+531.3601 	DATA 	Keypress: w
+531.4092 	DATA 	Keypress: o
+531.4758 	DATA 	Keypress: u
+531.6099 	DATA 	Keypress: l
+531.7265 	DATA 	Keypress: d
+534.2733 	EXP 	text_1: autoDraw = False
+534.2733 	EXP 	text_1: autoDraw = False
+534.2733 	EXP 	feedback_2: color = 'limegreen'
+534.2733 	EXP 	feedback_2: text = 'Correct!'
+534.2733 	EXP 	feedback_2: autoDraw = True
+535.2741 	EXP 	feedback_2: autoDraw = False
+535.2741 	EXP 	reset_image: autoDraw = True
+536.2744 	EXP 	New trial (rep=0, index=92): OrderedDict([('string', 'haole'), ('corrAns', 'haole')])
+536.2908 	EXP 	Sound sound_1A_1 started
+536.2903 	EXP 	reset_image: autoDraw = False
+536.2903 	EXP 	text_1: text = 'haole'
+536.2903 	EXP 	text_1: autoDraw = True
+536.3785 	EXP 	Sound sound_1A_1 stopped
+537.1605 	DATA 	Keypress: h
+537.2434 	DATA 	Keypress: a
+537.3603 	DATA 	Keypress: o
+537.5272 	DATA 	Keypress: l
+537.6431 	DATA 	Keypress: e
+539.7907 	EXP 	text_1: autoDraw = False
+539.7907 	EXP 	feedback_2: color = 'limegreen'
+539.7907 	EXP 	feedback_2: text = 'Correct!'
+539.7907 	EXP 	feedback_2: autoDraw = True
+540.7906 	EXP 	feedback_2: autoDraw = False
+540.7906 	EXP 	reset_image: autoDraw = True
+541.7740 	EXP 	New trial (rep=0, index=93): OrderedDict([('string', 'faqir'), ('corrAns', 'faqir')])
+541.7903 	EXP 	Sound sound_1A_1 started
+541.7907 	EXP 	reset_image: autoDraw = False
+541.7907 	EXP 	reset_image: autoDraw = False
+541.7907 	EXP 	text_1: text = 'faqir'
+541.7907 	EXP 	text_1: autoDraw = True
+541.8790 	EXP 	Sound sound_1A_1 stopped
+542.5268 	DATA 	Keypress: f
+542.6430 	DATA 	Keypress: a
+543.3766 	DATA 	Keypress: q
+543.4764 	DATA 	Keypress: i
+543.6268 	DATA 	Keypress: r
+545.2907 	EXP 	text_1: autoDraw = False
+545.2907 	EXP 	feedback_2: color = 'limegreen'
+545.2907 	EXP 	feedback_2: text = 'Correct!'
+545.2907 	EXP 	feedback_2: autoDraw = True
+546.2907 	EXP 	feedback_2: autoDraw = False
+546.2907 	EXP 	reset_image: autoDraw = True
+547.2741 	EXP 	New trial (rep=0, index=94): OrderedDict([('string', 'puppy'), ('corrAns', 'puppy')])
+547.2904 	EXP 	Sound sound_1A_1 started
+547.2905 	EXP 	reset_image: autoDraw = False
+547.2905 	EXP 	reset_image: autoDraw = False
+547.2905 	EXP 	text_1: text = 'puppy'
+547.2905 	EXP 	text_1: autoDraw = True
+547.3792 	EXP 	Sound sound_1A_1 stopped
+548.5759 	DATA 	Keypress: u
+548.8096 	DATA 	Keypress: p
+548.9096 	DATA 	Keypress: p
+549.0097 	DATA 	Keypress: y
+550.7900 	EXP 	text_1: autoDraw = False
+550.7900 	EXP 	feedback_2: color = 'orangered'
+550.7900 	EXP 	feedback_2: text = 'Oops! That was wrong'
+550.7900 	EXP 	feedback_2: autoDraw = True
+551.7908 	EXP 	feedback_2: autoDraw = False
+551.7908 	EXP 	feedback_2: autoDraw = False
+551.7908 	EXP 	reset_image: autoDraw = True
+552.7746 	EXP 	New trial (rep=0, index=95): OrderedDict([('string', 'would'), ('corrAns', 'would')])
+552.7910 	EXP 	Sound sound_1A_1 started
+552.7903 	EXP 	reset_image: autoDraw = False
+552.7903 	EXP 	text_1: text = 'would'
+552.7903 	EXP 	text_1: autoDraw = True
+552.8789 	EXP 	Sound sound_1A_1 stopped
+553.8436 	DATA 	Keypress: w
+553.8761 	DATA 	Keypress: o
+553.9426 	DATA 	Keypress: u
+554.0935 	DATA 	Keypress: l
+554.1761 	DATA 	Keypress: d
+556.2902 	EXP 	text_1: autoDraw = False
+556.2902 	EXP 	text_1: autoDraw = False
+556.2902 	EXP 	feedback_2: color = 'limegreen'
+556.2902 	EXP 	feedback_2: text = 'Correct!'
+556.2902 	EXP 	feedback_2: autoDraw = True
+557.2907 	EXP 	feedback_2: autoDraw = False
+557.2907 	EXP 	reset_image: autoDraw = True
+558.2745 	EXP 	New trial (rep=0, index=96): OrderedDict([('string', 'buddy'), ('corrAns', 'buddy')])
+558.2908 	EXP 	Sound sound_1A_1 started
+558.2900 	EXP 	reset_image: autoDraw = False
+558.2900 	EXP 	reset_image: autoDraw = False
+558.2900 	EXP 	text_1: text = 'buddy'
+558.2900 	EXP 	text_1: autoDraw = True
+558.3792 	EXP 	Sound sound_1A_1 stopped
+559.1769 	DATA 	Keypress: b
+559.3436 	DATA 	Keypress: u
+559.4595 	DATA 	Keypress: d
+559.6100 	DATA 	Keypress: d
+559.6761 	DATA 	Keypress: y
+561.7907 	EXP 	text_1: autoDraw = False
+561.7907 	EXP 	text_1: autoDraw = False
+561.7907 	EXP 	feedback_2: color = 'limegreen'
+561.7907 	EXP 	feedback_2: text = 'Correct!'
+561.7907 	EXP 	feedback_2: autoDraw = True
+562.7908 	EXP 	feedback_2: autoDraw = False
+562.7908 	EXP 	feedback_2: autoDraw = False
+562.7908 	EXP 	reset_image: autoDraw = True
+563.7741 	EXP 	New trial (rep=0, index=97): OrderedDict([('string', 'cheer'), ('corrAns', 'cheer')])
+563.7904 	EXP 	Sound sound_1A_1 started
+563.7900 	EXP 	reset_image: autoDraw = False
+563.7900 	EXP 	reset_image: autoDraw = False
+563.7900 	EXP 	text_1: text = 'cheer'
+563.7900 	EXP 	text_1: autoDraw = True
+563.8785 	EXP 	Sound sound_1A_1 stopped
+564.5936 	DATA 	Keypress: c
+564.7101 	DATA 	Keypress: h
+564.8095 	DATA 	Keypress: e
+564.9603 	DATA 	Keypress: e
+565.0598 	DATA 	Keypress: r
+567.2910 	EXP 	text_1: autoDraw = False
+567.2910 	EXP 	text_1: autoDraw = False
+567.2910 	EXP 	feedback_2: color = 'limegreen'
+567.2910 	EXP 	feedback_2: text = 'Correct!'
+567.2910 	EXP 	feedback_2: autoDraw = True
+568.2905 	EXP 	feedback_2: autoDraw = False
+568.2905 	EXP 	reset_image: autoDraw = True
+569.2743 	EXP 	New trial (rep=0, index=98): OrderedDict([('string', 'pykka'), ('corrAns', 'pykka')])
+569.2907 	EXP 	Sound sound_1A_1 started
+569.2902 	EXP 	reset_image: autoDraw = False
+569.2902 	EXP 	text_1: text = 'pykka'
+569.2902 	EXP 	text_1: autoDraw = True
+569.3783 	EXP 	Sound sound_1A_1 stopped
+569.9933 	DATA 	Keypress: p
+570.2090 	DATA 	Keypress: y
+570.5091 	DATA 	Keypress: k
+570.6264 	DATA 	Keypress: k
+570.7429 	DATA 	Keypress: a
+572.7908 	EXP 	text_1: autoDraw = False
+572.7908 	EXP 	text_1: autoDraw = False
+572.7908 	EXP 	feedback_2: color = 'limegreen'
+572.7908 	EXP 	feedback_2: text = 'Correct!'
+572.7908 	EXP 	feedback_2: autoDraw = True
+573.7904 	EXP 	feedback_2: autoDraw = False
+573.7904 	EXP 	reset_image: autoDraw = True
+574.7743 	EXP 	New trial (rep=0, index=99): OrderedDict([('string', 'faqir'), ('corrAns', 'faqir')])
+574.7906 	EXP 	Sound sound_1A_1 started
+574.7904 	EXP 	reset_image: autoDraw = False
+574.7904 	EXP 	reset_image: autoDraw = False
+574.7904 	EXP 	text_1: text = 'faqir'
+574.7904 	EXP 	text_1: autoDraw = True
+574.8788 	EXP 	Sound sound_1A_1 stopped
+575.5265 	DATA 	Keypress: f
+575.6598 	DATA 	Keypress: a
+576.5435 	DATA 	Keypress: q
+576.6263 	DATA 	Keypress: i
+576.8773 	DATA 	Keypress: r
+578.2905 	EXP 	text_1: autoDraw = False
+578.2905 	EXP 	text_1: autoDraw = False
+578.2905 	EXP 	feedback_2: color = 'limegreen'
+578.2905 	EXP 	feedback_2: text = 'Correct!'
+578.2905 	EXP 	feedback_2: autoDraw = True
+579.2907 	EXP 	feedback_2: autoDraw = False
+579.2907 	EXP 	feedback_2: autoDraw = False
+579.2907 	EXP 	reset_image: autoDraw = True
+580.2740 	EXP 	New trial (rep=0, index=100): OrderedDict([('string', 'lucky'), ('corrAns', 'lucky')])
+580.2904 	EXP 	Sound sound_1A_1 started
+580.2901 	EXP 	reset_image: autoDraw = False
+580.2901 	EXP 	text_1: text = 'lucky'
+580.2901 	EXP 	text_1: autoDraw = True
+580.3783 	EXP 	Sound sound_1A_1 stopped
+580.8767 	DATA 	Keypress: l
+581.1436 	DATA 	Keypress: u
+581.2933 	DATA 	Keypress: c
+581.4097 	DATA 	Keypress: k
+581.5768 	DATA 	Keypress: y
+583.7905 	EXP 	text_1: autoDraw = False
+583.7905 	EXP 	feedback_2: color = 'limegreen'
+583.7905 	EXP 	feedback_2: text = 'Correct!'
+583.7905 	EXP 	feedback_2: autoDraw = True
+584.7906 	EXP 	feedback_2: autoDraw = False
+584.7906 	EXP 	feedback_2: autoDraw = False
+584.7906 	EXP 	reset_image: autoDraw = True
+585.7741 	EXP 	New trial (rep=0, index=101): OrderedDict([('string', 'vodka'), ('corrAns', 'vodka')])
+585.7905 	EXP 	Sound sound_1A_1 started
+585.7908 	EXP 	reset_image: autoDraw = False
+585.7908 	EXP 	text_1: text = 'vodka'
+585.7908 	EXP 	text_1: autoDraw = True
+585.8787 	EXP 	Sound sound_1A_1 stopped
+586.7934 	DATA 	Keypress: v
+586.8933 	DATA 	Keypress: o
+587.0094 	DATA 	Keypress: d
+587.0929 	DATA 	Keypress: k
+587.2257 	DATA 	Keypress: a
+589.2903 	EXP 	text_1: autoDraw = False
+589.2903 	EXP 	text_1: autoDraw = False
+589.2903 	EXP 	feedback_2: color = 'limegreen'
+589.2903 	EXP 	feedback_2: text = 'Correct!'
+589.2903 	EXP 	feedback_2: autoDraw = True
+590.2904 	EXP 	feedback_2: autoDraw = False
+590.2904 	EXP 	reset_image: autoDraw = True
+591.2741 	EXP 	New trial (rep=0, index=102): OrderedDict([('string', 'there'), ('corrAns', 'there')])
+591.2904 	EXP 	Sound sound_1A_1 started
+591.2900 	EXP 	reset_image: autoDraw = False
+591.2900 	EXP 	reset_image: autoDraw = False
+591.2900 	EXP 	text_1: text = 'there'
+591.2900 	EXP 	text_1: autoDraw = True
+591.3790 	EXP 	Sound sound_1A_1 stopped
+591.8434 	DATA 	Keypress: t
+591.9094 	DATA 	Keypress: h
+591.9930 	DATA 	Keypress: e
+592.0762 	DATA 	Keypress: r
+592.1929 	DATA 	Keypress: e
+594.7907 	EXP 	text_1: autoDraw = False
+594.7907 	EXP 	text_1: autoDraw = False
+594.7907 	EXP 	feedback_2: color = 'limegreen'
+594.7907 	EXP 	feedback_2: text = 'Correct!'
+594.7907 	EXP 	feedback_2: autoDraw = True
+595.7904 	EXP 	feedback_2: autoDraw = False
+595.7904 	EXP 	feedback_2: autoDraw = False
+595.7904 	EXP 	reset_image: autoDraw = True
+596.7745 	EXP 	New trial (rep=0, index=103): OrderedDict([('string', 'think'), ('corrAns', 'think')])
+596.7909 	EXP 	Sound sound_1A_1 started
+596.7902 	EXP 	reset_image: autoDraw = False
+596.7902 	EXP 	text_1: text = 'think'
+596.7902 	EXP 	text_1: autoDraw = True
+596.8784 	EXP 	Sound sound_1A_1 stopped
+597.3765 	DATA 	Keypress: t
+597.4257 	DATA 	Keypress: h
+597.5095 	DATA 	Keypress: i
+597.6264 	DATA 	Keypress: n
+597.7262 	DATA 	Keypress: k
+600.2908 	EXP 	text_1: autoDraw = False
+600.2908 	EXP 	feedback_2: color = 'limegreen'
+600.2908 	EXP 	feedback_2: text = 'Correct!'
+600.2908 	EXP 	feedback_2: autoDraw = True
+601.2905 	EXP 	feedback_2: autoDraw = False
+601.2905 	EXP 	reset_image: autoDraw = True
+602.2743 	EXP 	New trial (rep=0, index=104): OrderedDict([('string', 'faqir'), ('corrAns', 'faqir')])
+602.2907 	EXP 	Sound sound_1A_1 started
+602.2900 	EXP 	reset_image: autoDraw = False
+602.2900 	EXP 	text_1: text = 'faqir'
+602.2900 	EXP 	text_1: autoDraw = True
+602.3786 	EXP 	Sound sound_1A_1 stopped
+603.1100 	DATA 	Keypress: f
+603.2096 	DATA 	Keypress: a
+603.4767 	DATA 	Keypress: q
+603.6101 	DATA 	Keypress: i
+603.8433 	DATA 	Keypress: r
+605.7909 	EXP 	text_1: autoDraw = False
+605.7909 	EXP 	feedback_2: color = 'limegreen'
+605.7909 	EXP 	feedback_2: text = 'Correct!'
+605.7909 	EXP 	feedback_2: autoDraw = True
+606.7904 	EXP 	feedback_2: autoDraw = False
+606.7904 	EXP 	reset_image: autoDraw = True
+607.7740 	EXP 	New trial (rep=0, index=105): OrderedDict([('string', 'isvar'), ('corrAns', 'isvar')])
+607.7904 	EXP 	Sound sound_1A_1 started
+607.7903 	EXP 	reset_image: autoDraw = False
+607.7903 	EXP 	text_1: text = 'isvar'
+607.7903 	EXP 	text_1: autoDraw = True
+607.8786 	EXP 	Sound sound_1A_1 stopped
+608.5269 	DATA 	Keypress: i
+608.5758 	DATA 	Keypress: s
+608.7765 	DATA 	Keypress: v
+608.8931 	DATA 	Keypress: a
+609.0436 	DATA 	Keypress: r
+611.2902 	EXP 	text_1: autoDraw = False
+611.2902 	EXP 	feedback_2: color = 'limegreen'
+611.2902 	EXP 	feedback_2: text = 'Correct!'
+611.2902 	EXP 	feedback_2: autoDraw = True
+612.2909 	EXP 	feedback_2: autoDraw = False
+612.2909 	EXP 	reset_image: autoDraw = True
+613.2744 	EXP 	New trial (rep=0, index=106): OrderedDict([('string', 'theme'), ('corrAns', 'theme')])
+613.2908 	EXP 	Sound sound_1A_1 started
+613.2904 	EXP 	reset_image: autoDraw = False
+613.2904 	EXP 	text_1: text = 'theme'
+613.2904 	EXP 	text_1: autoDraw = True
+613.3779 	EXP 	Sound sound_1A_1 stopped
+613.9422 	DATA 	Keypress: t
+614.0423 	DATA 	Keypress: h
+614.1262 	DATA 	Keypress: e
+614.3264 	DATA 	Keypress: m
+614.4598 	DATA 	Keypress: e
+616.7901 	EXP 	text_1: autoDraw = False
+616.7901 	EXP 	feedback_2: color = 'limegreen'
+616.7901 	EXP 	feedback_2: text = 'Correct!'
+616.7901 	EXP 	feedback_2: autoDraw = True
+617.7903 	EXP 	feedback_2: autoDraw = False
+617.7903 	EXP 	feedback_2: autoDraw = False
+617.7903 	EXP 	reset_image: autoDraw = True
+618.7741 	EXP 	New trial (rep=0, index=107): OrderedDict([('string', 'about'), ('corrAns', 'about')])
+618.7904 	EXP 	Sound sound_1A_1 started
+618.7907 	EXP 	reset_image: autoDraw = False
+618.7907 	EXP 	reset_image: autoDraw = False
+618.7907 	EXP 	text_1: text = 'about'
+618.7907 	EXP 	text_1: autoDraw = True
+618.8791 	EXP 	Sound sound_1A_1 stopped
+619.3934 	DATA 	Keypress: a
+619.5264 	DATA 	Keypress: b
+619.5759 	DATA 	Keypress: o
+619.6592 	DATA 	Keypress: u
+619.7928 	DATA 	Keypress: t
+622.2902 	EXP 	text_1: autoDraw = False
+622.2902 	EXP 	text_1: autoDraw = False
+622.2902 	EXP 	feedback_2: color = 'limegreen'
+622.2902 	EXP 	feedback_2: text = 'Correct!'
+622.2902 	EXP 	feedback_2: autoDraw = True
+623.2903 	EXP 	feedback_2: autoDraw = False
+623.2903 	EXP 	reset_image: autoDraw = True
+624.2739 	EXP 	New trial (rep=0, index=108): OrderedDict([('string', 'tithe'), ('corrAns', 'tithe')])
+624.2901 	EXP 	Sound sound_1A_1 started
+624.2905 	EXP 	reset_image: autoDraw = False
+624.2905 	EXP 	reset_image: autoDraw = False
+624.2905 	EXP 	text_1: text = 'tithe'
+624.2905 	EXP 	text_1: autoDraw = True
+624.3780 	EXP 	Sound sound_1A_1 stopped
+624.8937 	DATA 	Keypress: t
+625.0928 	DATA 	Keypress: i
+625.2434 	DATA 	Keypress: t
+625.3261 	DATA 	Keypress: h
+625.4095 	DATA 	Keypress: e
+627.7902 	EXP 	text_1: autoDraw = False
+627.7902 	EXP 	text_1: autoDraw = False
+627.7902 	EXP 	feedback_2: color = 'limegreen'
+627.7902 	EXP 	feedback_2: text = 'Correct!'
+627.7902 	EXP 	feedback_2: autoDraw = True
+628.7901 	EXP 	feedback_2: autoDraw = False
+628.7901 	EXP 	feedback_2: autoDraw = False
+628.7901 	EXP 	reset_image: autoDraw = True
+629.7744 	EXP 	New trial (rep=0, index=109): OrderedDict([('string', 'puppy'), ('corrAns', 'puppy')])
+629.7908 	EXP 	Sound sound_1A_1 started
+629.7899 	EXP 	reset_image: autoDraw = False
+629.7899 	EXP 	text_1: text = 'puppy'
+629.7899 	EXP 	text_1: autoDraw = True
+629.8782 	EXP 	Sound sound_1A_1 stopped
+630.5939 	DATA 	Keypress: p
+630.7932 	DATA 	Keypress: u
+630.9769 	DATA 	Keypress: p
+631.0928 	DATA 	Keypress: p
+631.1926 	DATA 	Keypress: y
+633.2907 	EXP 	text_1: autoDraw = False
+633.2907 	EXP 	text_1: autoDraw = False
+633.2907 	EXP 	feedback_2: color = 'limegreen'
+633.2907 	EXP 	feedback_2: text = 'Correct!'
+633.2907 	EXP 	feedback_2: autoDraw = True
+634.2905 	EXP 	feedback_2: autoDraw = False
+634.2905 	EXP 	feedback_2: autoDraw = False
+634.2905 	EXP 	reset_image: autoDraw = True
+635.2742 	EXP 	New trial (rep=0, index=110): OrderedDict([('string', 'belly'), ('corrAns', 'belly')])
+635.2906 	EXP 	Sound sound_1A_1 started
+635.2896 	EXP 	reset_image: autoDraw = False
+635.2896 	EXP 	text_1: text = 'belly'
+635.2896 	EXP 	text_1: autoDraw = True
+635.3780 	EXP 	Sound sound_1A_1 stopped
+636.0104 	DATA 	Keypress: b
+636.0929 	DATA 	Keypress: e
+636.2431 	DATA 	Keypress: l
+636.3595 	DATA 	Keypress: l
+636.4264 	DATA 	Keypress: y
+638.7907 	EXP 	text_1: autoDraw = False
+638.7907 	EXP 	text_1: autoDraw = False
+638.7907 	EXP 	feedback_2: color = 'limegreen'
+638.7907 	EXP 	feedback_2: text = 'Correct!'
+638.7907 	EXP 	feedback_2: autoDraw = True
+639.7906 	EXP 	feedback_2: autoDraw = False
+639.7906 	EXP 	feedback_2: autoDraw = False
+639.7906 	EXP 	reset_image: autoDraw = True
+640.7741 	EXP 	New trial (rep=0, index=111): OrderedDict([('string', 'zibja'), ('corrAns', 'zibja')])
+640.7905 	EXP 	Sound sound_1A_1 started
+640.7898 	EXP 	reset_image: autoDraw = False
+640.7898 	EXP 	text_1: text = 'zibja'
+640.7898 	EXP 	text_1: autoDraw = True
+640.8781 	EXP 	Sound sound_1A_1 stopped
+641.8422 	DATA 	Keypress: z
+642.1435 	DATA 	Keypress: i
+642.2425 	DATA 	Keypress: b
+642.4766 	DATA 	Keypress: j
+642.5600 	DATA 	Keypress: a
+644.2900 	EXP 	text_1: autoDraw = False
+644.2900 	EXP 	text_1: autoDraw = False
+644.2900 	EXP 	feedback_2: color = 'limegreen'
+644.2900 	EXP 	feedback_2: text = 'Correct!'
+644.2900 	EXP 	feedback_2: autoDraw = True
+645.2892 	EXP 	feedback_2: autoDraw = False
+645.2892 	EXP 	feedback_2: autoDraw = False
+645.2892 	EXP 	reset_image: autoDraw = True
+646.2735 	EXP 	New trial (rep=0, index=112): OrderedDict([('string', 'haole'), ('corrAns', 'haole')])
+646.2898 	EXP 	Sound sound_1A_1 started
+646.2900 	EXP 	reset_image: autoDraw = False
+646.2900 	EXP 	reset_image: autoDraw = False
+646.2900 	EXP 	text_1: text = 'haole'
+646.2900 	EXP 	text_1: autoDraw = True
+646.3784 	EXP 	Sound sound_1A_1 stopped
+647.1436 	DATA 	Keypress: h
+647.2422 	DATA 	Keypress: a
+647.2927 	DATA 	Keypress: o
+647.4931 	DATA 	Keypress: l
+647.5929 	DATA 	Keypress: e
+649.7907 	EXP 	text_1: autoDraw = False
+649.7907 	EXP 	feedback_2: color = 'limegreen'
+649.7907 	EXP 	feedback_2: text = 'Correct!'
+649.7907 	EXP 	feedback_2: autoDraw = True
+650.7903 	EXP 	feedback_2: autoDraw = False
+650.7903 	EXP 	reset_image: autoDraw = True
+651.7738 	EXP 	New trial (rep=0, index=113): OrderedDict([('string', 'kremp'), ('corrAns', 'kremp')])
+651.7901 	EXP 	Sound sound_1A_1 started
+651.7899 	EXP 	reset_image: autoDraw = False
+651.7899 	EXP 	reset_image: autoDraw = False
+651.7899 	EXP 	text_1: text = 'kremp'
+651.7899 	EXP 	text_1: autoDraw = True
+651.8778 	EXP 	Sound sound_1A_1 stopped
+652.7437 	DATA 	Keypress: k
+652.8424 	DATA 	Keypress: r
+652.9430 	DATA 	Keypress: e
+652.9753 	DATA 	Keypress: m
+653.0761 	DATA 	Keypress: p
+655.2900 	EXP 	text_1: autoDraw = False
+655.2900 	EXP 	text_1: autoDraw = False
+655.2900 	EXP 	feedback_2: color = 'limegreen'
+655.2900 	EXP 	feedback_2: text = 'Correct!'
+655.2900 	EXP 	feedback_2: autoDraw = True
+656.2908 	EXP 	feedback_2: autoDraw = False
+656.2908 	EXP 	reset_image: autoDraw = True
+657.2739 	EXP 	New trial (rep=0, index=114): OrderedDict([('string', 'there'), ('corrAns', 'there')])
+657.2902 	EXP 	Sound sound_1A_1 started
+657.2899 	EXP 	reset_image: autoDraw = False
+657.2899 	EXP 	reset_image: autoDraw = False
+657.2899 	EXP 	text_1: text = 'there'
+657.2899 	EXP 	text_1: autoDraw = True
+657.3779 	EXP 	Sound sound_1A_1 stopped
+657.8933 	DATA 	Keypress: t
+657.9587 	DATA 	Keypress: h
+658.0593 	DATA 	Keypress: e
+658.2094 	DATA 	Keypress: e
+658.2260 	DATA 	Keypress: r
+658.4420 	DATA 	Keypress: e
+660.7899 	EXP 	text_1: autoDraw = False
+660.7899 	EXP 	text_1: autoDraw = False
+660.7899 	EXP 	feedback_2: color = 'orangered'
+660.7899 	EXP 	feedback_2: text = 'Oops! That was wrong'
+660.7899 	EXP 	feedback_2: autoDraw = True
+661.7904 	EXP 	feedback_2: autoDraw = False
+661.7904 	EXP 	feedback_2: autoDraw = False
+661.7904 	EXP 	reset_image: autoDraw = True
+662.7736 	EXP 	New trial (rep=0, index=115): OrderedDict([('string', 'vodka'), ('corrAns', 'vodka')])
+662.7899 	EXP 	Sound sound_1A_1 started
+662.7907 	EXP 	reset_image: autoDraw = False
+662.7907 	EXP 	reset_image: autoDraw = False
+662.7907 	EXP 	text_1: text = 'vodka'
+662.7907 	EXP 	text_1: autoDraw = True
+662.8778 	EXP 	Sound sound_1A_1 stopped
+663.7265 	DATA 	Keypress: v
+663.9928 	DATA 	Keypress: o
+664.1763 	DATA 	Keypress: d
+664.3796 	DATA 	Keypress: k
+664.4762 	DATA 	Keypress: a
+666.2899 	EXP 	text_1: autoDraw = False
+666.2899 	EXP 	text_1: autoDraw = False
+666.2899 	EXP 	feedback_2: color = 'limegreen'
+666.2899 	EXP 	feedback_2: text = 'Correct!'
+666.2899 	EXP 	feedback_2: autoDraw = True
+667.2903 	EXP 	feedback_2: autoDraw = False
+667.2903 	EXP 	feedback_2: autoDraw = False
+667.2903 	EXP 	reset_image: autoDraw = True
+668.2738 	EXP 	New trial (rep=0, index=116): OrderedDict([('string', 'pykka'), ('corrAns', 'pykka')])
+668.2902 	EXP 	Sound sound_1A_1 started
+668.2905 	EXP 	reset_image: autoDraw = False
+668.2905 	EXP 	text_1: text = 'pykka'
+668.2905 	EXP 	text_1: autoDraw = True
+668.3781 	EXP 	Sound sound_1A_1 stopped
+669.0099 	DATA 	Keypress: p
+669.1755 	DATA 	Keypress: y
+669.4262 	DATA 	Keypress: k
+669.5592 	DATA 	Keypress: k
+669.7436 	DATA 	Keypress: a
+671.7903 	EXP 	text_1: autoDraw = False
+671.7903 	EXP 	feedback_2: color = 'limegreen'
+671.7903 	EXP 	feedback_2: text = 'Correct!'
+671.7903 	EXP 	feedback_2: autoDraw = True
+672.7901 	EXP 	feedback_2: autoDraw = False
+672.7901 	EXP 	reset_image: autoDraw = True
+673.7738 	EXP 	New trial (rep=0, index=117): OrderedDict([('string', 'haole'), ('corrAns', 'haole')])
+673.7902 	EXP 	Sound sound_1A_1 started
+673.7897 	EXP 	reset_image: autoDraw = False
+673.7897 	EXP 	text_1: text = 'haole'
+673.7897 	EXP 	text_1: autoDraw = True
+673.8783 	EXP 	Sound sound_1A_1 stopped
+674.5435 	DATA 	Keypress: h
+674.6261 	DATA 	Keypress: a
+674.6754 	DATA 	Keypress: o
+674.8764 	DATA 	Keypress: l
+674.9422 	DATA 	Keypress: e
+677.2902 	EXP 	text_1: autoDraw = False
+677.2902 	EXP 	feedback_2: color = 'limegreen'
+677.2902 	EXP 	feedback_2: text = 'Correct!'
+677.2902 	EXP 	feedback_2: autoDraw = True
+678.2904 	EXP 	feedback_2: autoDraw = False
+678.2904 	EXP 	reset_image: autoDraw = True
+679.2737 	EXP 	New trial (rep=0, index=118): OrderedDict([('string', 'heond'), ('corrAns', 'heond')])
+679.2899 	EXP 	Sound sound_1A_1 started
+679.2898 	EXP 	reset_image: autoDraw = False
+679.2898 	EXP 	reset_image: autoDraw = False
+679.2898 	EXP 	text_1: text = 'heond'
+679.2898 	EXP 	text_1: autoDraw = True
+679.3785 	EXP 	Sound sound_1A_1 stopped
+679.9264 	DATA 	Keypress: h
+680.0091 	DATA 	Keypress: e
+680.0758 	DATA 	Keypress: o
+680.1596 	DATA 	Keypress: n
+680.2595 	DATA 	Keypress: d
+682.7901 	EXP 	text_1: autoDraw = False
+682.7901 	EXP 	text_1: autoDraw = False
+682.7901 	EXP 	feedback_2: color = 'limegreen'
+682.7901 	EXP 	feedback_2: text = 'Correct!'
+682.7901 	EXP 	feedback_2: autoDraw = True
+683.7895 	EXP 	feedback_2: autoDraw = False
+683.7895 	EXP 	feedback_2: autoDraw = False
+683.7895 	EXP 	reset_image: autoDraw = True
+684.7740 	EXP 	New trial (rep=0, index=119): OrderedDict([('string', 'tithe'), ('corrAns', 'tithe')])
+684.7902 	EXP 	Sound sound_1A_1 started
+684.7900 	EXP 	reset_image: autoDraw = False
+684.7900 	EXP 	reset_image: autoDraw = False
+684.7900 	EXP 	text_1: text = 'tithe'
+684.7900 	EXP 	text_1: autoDraw = True
+684.8785 	EXP 	Sound sound_1A_1 stopped
+685.6099 	DATA 	Keypress: t
+685.6926 	DATA 	Keypress: i
+685.8091 	DATA 	Keypress: t
+685.9091 	DATA 	Keypress: h
+685.9925 	DATA 	Keypress: e
+688.2902 	EXP 	text_1: autoDraw = False
+688.2902 	EXP 	text_1: autoDraw = False
+688.2902 	EXP 	feedback_2: color = 'limegreen'
+688.2902 	EXP 	feedback_2: text = 'Correct!'
+688.2902 	EXP 	feedback_2: autoDraw = True
+689.2906 	EXP 	feedback_2: autoDraw = False
+689.2906 	EXP 	reset_image: autoDraw = True
+690.2891 	EXP 	reset_image: autoDraw = False
+690.2891 	EXP 	reset_image: autoDraw = False
+690.2891 	EXP 	break_time: autoDraw = True
+990.2785 	EXP 	Imported shuffled_list2.csv as conditions, 120 conditions, 2 params
+990.2790 	EXP 	Created sequence: sequential, trialTypes=120, nReps=1, seed=None
+990.2792 	EXP 	New trial (rep=0, index=0): OrderedDict([('string', 'tithe'), ('corrAns', 'tithe')])
+990.2891 	EXP 	Sound sound_1A_2 started
+990.2888 	EXP 	break_time: autoDraw = False
+990.2888 	EXP 	break_time: autoDraw = False
+990.2888 	EXP 	text_2: text = 'tithe'
+990.2888 	EXP 	text_2: autoDraw = True
+990.3767 	EXP 	Sound sound_1A_2 stopped
+993.7892 	EXP 	text_2: autoDraw = False
+993.7892 	EXP 	text_2: autoDraw = False
+993.7892 	EXP 	feedback_2: color = 'orangered'
+993.7892 	EXP 	feedback_2: text = 'Oops! That was wrong'
+993.7892 	EXP 	feedback_2: autoDraw = True
+994.7889 	EXP 	feedback_2: autoDraw = False
+994.7889 	EXP 	feedback_2: autoDraw = False
+994.7889 	EXP 	reset_image: autoDraw = True
+995.7734 	EXP 	New trial (rep=0, index=1): OrderedDict([('string', 'theme'), ('corrAns', 'theme')])
+995.7898 	EXP 	Sound sound_1A_2 started
+995.7900 	EXP 	reset_image: autoDraw = False
+995.7900 	EXP 	text_2: text = 'theme'
+995.7900 	EXP 	text_2: autoDraw = True
+995.8898 	EXP 	Sound sound_1A_2 reached end of file
+996.3425 	DATA 	Keypress: t
+996.4257 	DATA 	Keypress: h
+996.5249 	DATA 	Keypress: e
+996.6418 	DATA 	Keypress: m
+996.6913 	DATA 	Keypress: e
+999.2889 	EXP 	text_2: autoDraw = False
+999.2889 	EXP 	feedback_2: color = 'limegreen'
+999.2889 	EXP 	feedback_2: text = 'Correct!'
+999.2889 	EXP 	feedback_2: autoDraw = True
+1000.2893 	EXP 	feedback_2: autoDraw = False
+1000.2893 	EXP 	feedback_2: autoDraw = False
+1000.2893 	EXP 	reset_image: autoDraw = True
+1001.2733 	EXP 	New trial (rep=0, index=2): OrderedDict([('string', 'haole'), ('corrAns', 'haole')])
+1001.2897 	EXP 	Sound sound_1A_2 started
+1001.2889 	EXP 	reset_image: autoDraw = False
+1001.2889 	EXP 	text_2: text = 'haole'
+1001.2889 	EXP 	text_2: autoDraw = True
+1001.3775 	EXP 	Sound sound_1A_2 stopped
+1002.0751 	DATA 	Keypress: h
+1002.2085 	DATA 	Keypress: a
+1002.2919 	DATA 	Keypress: o
+1002.4583 	DATA 	Keypress: l
+1002.5916 	DATA 	Keypress: e
+1004.7895 	EXP 	text_2: autoDraw = False
+1004.7895 	EXP 	feedback_2: color = 'limegreen'
+1004.7895 	EXP 	feedback_2: text = 'Correct!'
+1004.7895 	EXP 	feedback_2: autoDraw = True
+1005.7898 	EXP 	feedback_2: autoDraw = False
+1005.7898 	EXP 	reset_image: autoDraw = True
+1006.7729 	EXP 	New trial (rep=0, index=3): OrderedDict([('string', 'cooed'), ('corrAns', 'cooed')])
+1006.7892 	EXP 	Sound sound_1A_2 started
+1006.7886 	EXP 	reset_image: autoDraw = False
+1006.7886 	EXP 	reset_image: autoDraw = False
+1006.7886 	EXP 	text_2: text = 'cooed'
+1006.7886 	EXP 	text_2: autoDraw = True
+1006.8778 	EXP 	Sound sound_1A_2 stopped
+1007.5587 	DATA 	Keypress: c
+1007.6920 	DATA 	Keypress: o
+1007.8424 	DATA 	Keypress: o
+1007.9586 	DATA 	Keypress: e
+1008.1412 	DATA 	Keypress: d
+1010.2894 	EXP 	text_2: autoDraw = False
+1010.2894 	EXP 	text_2: autoDraw = False
+1010.2894 	EXP 	feedback_2: color = 'limegreen'
+1010.2894 	EXP 	feedback_2: text = 'Correct!'
+1010.2894 	EXP 	feedback_2: autoDraw = True
+1011.2887 	EXP 	feedback_2: autoDraw = False
+1011.2887 	EXP 	reset_image: autoDraw = True
+1012.2728 	EXP 	New trial (rep=0, index=4): OrderedDict([('string', 'vodka'), ('corrAns', 'vodka')])
+1012.2891 	EXP 	Sound sound_1A_2 started
+1012.2894 	EXP 	reset_image: autoDraw = False
+1012.2894 	EXP 	reset_image: autoDraw = False
+1012.2894 	EXP 	text_2: text = 'vodka'
+1012.2894 	EXP 	text_2: autoDraw = True
+1012.3778 	EXP 	Sound sound_1A_2 stopped
+1013.1257 	DATA 	Keypress: v
+1013.2417 	DATA 	Keypress: o
+1013.3254 	DATA 	Keypress: d
+1013.4248 	DATA 	Keypress: k
+1013.5419 	DATA 	Keypress: a
+1015.7895 	EXP 	text_2: autoDraw = False
+1015.7895 	EXP 	text_2: autoDraw = False
+1015.7895 	EXP 	feedback_2: color = 'limegreen'
+1015.7895 	EXP 	feedback_2: text = 'Correct!'
+1015.7895 	EXP 	feedback_2: autoDraw = True
+1016.7885 	EXP 	feedback_2: autoDraw = False
+1016.7885 	EXP 	feedback_2: autoDraw = False
+1016.7885 	EXP 	reset_image: autoDraw = True
+1017.7732 	EXP 	New trial (rep=0, index=5): OrderedDict([('string', 'belly'), ('corrAns', 'belly')])
+1017.7894 	EXP 	Sound sound_1A_2 started
+1017.7888 	EXP 	reset_image: autoDraw = False
+1017.7888 	EXP 	reset_image: autoDraw = False
+1017.7888 	EXP 	text_2: text = 'belly'
+1017.7888 	EXP 	text_2: autoDraw = True
+1017.8772 	EXP 	Sound sound_1A_2 stopped
+1018.4248 	DATA 	Keypress: b
+1018.5085 	DATA 	Keypress: e
+1018.6084 	DATA 	Keypress: l
+1018.7084 	DATA 	Keypress: l
+1018.7916 	DATA 	Keypress: y
+1021.2893 	EXP 	text_2: autoDraw = False
+1021.2893 	EXP 	text_2: autoDraw = False
+1021.2893 	EXP 	feedback_2: color = 'limegreen'
+1021.2893 	EXP 	feedback_2: text = 'Correct!'
+1021.2893 	EXP 	feedback_2: autoDraw = True
+1022.2893 	EXP 	feedback_2: autoDraw = False
+1022.2893 	EXP 	reset_image: autoDraw = True
+1023.2728 	EXP 	New trial (rep=0, index=6): OrderedDict([('string', 'buddy'), ('corrAns', 'buddy')])
+1023.2892 	EXP 	Sound sound_1A_2 started
+1023.2893 	EXP 	reset_image: autoDraw = False
+1023.2893 	EXP 	reset_image: autoDraw = False
+1023.2893 	EXP 	text_2: text = 'buddy'
+1023.2893 	EXP 	text_2: autoDraw = True
+1023.3767 	EXP 	Sound sound_1A_2 stopped
+1024.0246 	DATA 	Keypress: b
+1024.2088 	DATA 	Keypress: u
+1024.3418 	DATA 	Keypress: d
+1024.5245 	DATA 	Keypress: d
+1024.5750 	DATA 	Keypress: y
+1026.7890 	EXP 	text_2: autoDraw = False
+1026.7890 	EXP 	text_2: autoDraw = False
+1026.7890 	EXP 	feedback_2: color = 'limegreen'
+1026.7890 	EXP 	feedback_2: text = 'Correct!'
+1026.7890 	EXP 	feedback_2: autoDraw = True
+1027.7894 	EXP 	feedback_2: autoDraw = False
+1027.7894 	EXP 	feedback_2: autoDraw = False
+1027.7894 	EXP 	reset_image: autoDraw = True
+1028.7726 	EXP 	New trial (rep=0, index=7): OrderedDict([('string', 'pykka'), ('corrAns', 'pykka')])
+1028.7889 	EXP 	Sound sound_1A_2 started
+1028.7888 	EXP 	reset_image: autoDraw = False
+1028.7888 	EXP 	reset_image: autoDraw = False
+1028.7888 	EXP 	text_2: text = 'pykka'
+1028.7888 	EXP 	text_2: autoDraw = True
+1028.8770 	EXP 	Sound sound_1A_2 stopped
+1029.6421 	DATA 	Keypress: p
+1029.8090 	DATA 	Keypress: y
+1030.0421 	DATA 	Keypress: k
+1030.1749 	DATA 	Keypress: k
+1030.2584 	DATA 	Keypress: a
+1032.2894 	EXP 	text_2: autoDraw = False
+1032.2894 	EXP 	text_2: autoDraw = False
+1032.2894 	EXP 	feedback_2: color = 'limegreen'
+1032.2894 	EXP 	feedback_2: text = 'Correct!'
+1032.2894 	EXP 	feedback_2: autoDraw = True
+1033.2892 	EXP 	feedback_2: autoDraw = False
+1033.2892 	EXP 	feedback_2: autoDraw = False
+1033.2892 	EXP 	reset_image: autoDraw = True
+1034.2731 	EXP 	New trial (rep=0, index=8): OrderedDict([('string', 'about'), ('corrAns', 'about')])
+1034.2895 	EXP 	Sound sound_1A_2 started
+1034.2886 	EXP 	reset_image: autoDraw = False
+1034.2886 	EXP 	text_2: text = 'about'
+1034.2886 	EXP 	text_2: autoDraw = True
+1034.3773 	EXP 	Sound sound_1A_2 stopped
+1034.6584 	DATA 	Keypress: f
+1035.0424 	DATA 	Keypress: f
+1035.2589 	DATA 	Keypress: f
+1037.7899 	EXP 	text_2: autoDraw = False
+1037.7899 	EXP 	feedback_2: color = 'limegreen'
+1037.7899 	EXP 	feedback_2: text = 'Correct!'
+1037.7899 	EXP 	feedback_2: autoDraw = True
+1038.7895 	EXP 	feedback_2: autoDraw = False
+1038.7895 	EXP 	feedback_2: autoDraw = False
+1038.7895 	EXP 	reset_image: autoDraw = True
+1039.7725 	EXP 	New trial (rep=0, index=9): OrderedDict([('string', 'therm'), ('corrAns', 'therm')])
+1039.7888 	EXP 	Sound sound_1A_2 started
+1039.7899 	EXP 	reset_image: autoDraw = False
+1039.7899 	EXP 	reset_image: autoDraw = False
+1039.7899 	EXP 	text_2: text = 'therm'
+1039.7899 	EXP 	text_2: autoDraw = True
+1039.8773 	EXP 	Sound sound_1A_2 stopped
+1040.2419 	DATA 	Keypress: f
+1040.2585 	DATA 	Keypress: j
+1040.3247 	DATA 	Keypress: d
+1040.3262 	DATA 	Keypress: k
+1040.4929 	DATA 	Keypress: j
+1040.4946 	DATA 	Keypress: f
+1040.5250 	DATA 	Keypress: k
+1040.6080 	DATA 	Keypress: d
+1043.3062 	EXP 	text_2: autoDraw = False
+1043.3062 	EXP 	feedback_2: color = 'limegreen'
+1043.3062 	EXP 	feedback_2: text = 'Correct!'
+1043.3062 	EXP 	feedback_2: autoDraw = True
+1044.3057 	EXP 	feedback_2: autoDraw = False
+1044.3057 	EXP 	reset_image: autoDraw = True
+1045.2894 	EXP 	New trial (rep=0, index=10): OrderedDict([('string', 'belly'), ('corrAns', 'belly')])
+1045.3057 	EXP 	Sound sound_1A_2 started
+1045.3061 	EXP 	reset_image: autoDraw = False
+1045.3061 	EXP 	reset_image: autoDraw = False
+1045.3061 	EXP 	text_2: text = 'belly'
+1045.3061 	EXP 	text_2: autoDraw = True
+1045.3938 	EXP 	Sound sound_1A_2 stopped
+1048.8054 	EXP 	text_2: autoDraw = False
+1048.8054 	EXP 	feedback_2: color = 'orangered'
+1048.8054 	EXP 	feedback_2: text = 'Oops! That was wrong'
+1048.8054 	EXP 	feedback_2: autoDraw = True
+1049.8062 	EXP 	feedback_2: autoDraw = False
+1049.8062 	EXP 	reset_image: autoDraw = True
+1050.7891 	EXP 	New trial (rep=0, index=11): OrderedDict([('string', 'think'), ('corrAns', 'think')])
+1050.8054 	EXP 	Sound sound_1A_2 started
+1050.8061 	EXP 	reset_image: autoDraw = False
+1050.8061 	EXP 	reset_image: autoDraw = False
+1050.8061 	EXP 	text_2: text = 'think'
+1050.8061 	EXP 	text_2: autoDraw = True
+1050.8944 	EXP 	Sound sound_1A_2 stopped
+1051.4580 	DATA 	Keypress: f
+1051.4752 	DATA 	Keypress: j
+1051.5586 	DATA 	Keypress: d
+1051.5603 	DATA 	Keypress: k
+1051.6074 	DATA 	Keypress: l
+1051.6412 	DATA 	Keypress: s
+1051.6916 	DATA 	Keypress: a
+1051.7088 	DATA 	Keypress: j
+1051.7411 	DATA 	Keypress: f
+1051.8080 	DATA 	Keypress: k
+1051.8251 	DATA 	Keypress: d
+1051.8268 	DATA 	Keypress: l
+1054.3059 	EXP 	text_2: autoDraw = False
+1054.3059 	EXP 	text_2: autoDraw = False
+1054.3059 	EXP 	feedback_2: color = 'orangered'
+1054.3059 	EXP 	feedback_2: text = 'Oops! That was wrong'
+1054.3059 	EXP 	feedback_2: autoDraw = True
+1055.3059 	EXP 	feedback_2: autoDraw = False
+1055.3059 	EXP 	feedback_2: autoDraw = False
+1055.3059 	EXP 	reset_image: autoDraw = True
+1056.2889 	EXP 	New trial (rep=0, index=12): OrderedDict([('string', 'theme'), ('corrAns', 'theme')])
+1056.3052 	EXP 	Sound sound_1A_2 started
+1056.3053 	EXP 	reset_image: autoDraw = False
+1056.3053 	EXP 	reset_image: autoDraw = False
+1056.3053 	EXP 	text_2: text = 'theme'
+1056.3053 	EXP 	text_2: autoDraw = True
+1056.3938 	EXP 	Sound sound_1A_2 stopped
+1058.6252 	DATA 	Keypress: f
+1058.8417 	DATA 	Keypress: j
+1059.0412 	DATA 	Keypress: d
+1059.0748 	DATA 	Keypress: k
+1059.2588 	DATA 	Keypress: s
+1059.2751 	DATA 	Keypress: l
+1059.8062 	EXP 	text_2: autoDraw = False
+1059.8062 	EXP 	feedback_2: color = 'orangered'
+1059.8062 	EXP 	feedback_2: text = 'Oops! That was wrong'
+1059.8062 	EXP 	feedback_2: autoDraw = True
+1060.8058 	EXP 	feedback_2: autoDraw = False
+1060.8058 	EXP 	reset_image: autoDraw = True
+1061.7893 	EXP 	New trial (rep=0, index=13): OrderedDict([('string', 'think'), ('corrAns', 'think')])
+1061.8055 	EXP 	Sound sound_1A_2 started
+1061.8057 	EXP 	reset_image: autoDraw = False
+1061.8057 	EXP 	reset_image: autoDraw = False
+1061.8057 	EXP 	text_2: text = 'think'
+1061.8057 	EXP 	text_2: autoDraw = True
+1061.8940 	EXP 	Sound sound_1A_2 stopped
+1062.3758 	DATA 	Keypress: f
+1062.5082 	DATA 	Keypress: j
+1065.3058 	EXP 	text_2: autoDraw = False
+1065.3058 	EXP 	feedback_2: color = 'orangered'
+1065.3058 	EXP 	feedback_2: text = 'Oops! That was wrong'
+1065.3058 	EXP 	feedback_2: autoDraw = True
+1066.3059 	EXP 	feedback_2: autoDraw = False
+1066.3059 	EXP 	feedback_2: autoDraw = False
+1066.3059 	EXP 	reset_image: autoDraw = True
+1067.2893 	EXP 	New trial (rep=0, index=14): OrderedDict([('string', 'heond'), ('corrAns', 'heond')])
+1067.3056 	EXP 	Sound sound_1A_2 started
+1067.3055 	EXP 	reset_image: autoDraw = False
+1067.3055 	EXP 	text_2: text = 'heond'
+1067.3055 	EXP 	text_2: autoDraw = True
+1067.3941 	EXP 	Sound sound_1A_2 stopped
+1068.8255 	DATA 	Keypress: h
+1068.8912 	DATA 	Keypress: e
+1068.9248 	DATA 	Keypress: o
+1069.0582 	DATA 	Keypress: n
+1069.2087 	DATA 	Keypress: d
+1070.8050 	EXP 	text_2: autoDraw = False
+1070.8050 	EXP 	feedback_2: color = 'limegreen'
+1070.8050 	EXP 	feedback_2: text = 'Correct!'
+1070.8050 	EXP 	feedback_2: autoDraw = True
+1071.8062 	EXP 	feedback_2: autoDraw = False
+1071.8062 	EXP 	reset_image: autoDraw = True
+1072.7893 	EXP 	New trial (rep=0, index=15): OrderedDict([('string', 'haole'), ('corrAns', 'haole')])
+1072.8056 	EXP 	Sound sound_1A_2 started
+1072.8052 	EXP 	reset_image: autoDraw = False
+1072.8052 	EXP 	reset_image: autoDraw = False
+1072.8052 	EXP 	text_2: text = 'haole'
+1072.8052 	EXP 	text_2: autoDraw = True
+1072.8940 	EXP 	Sound sound_1A_2 stopped
+1073.6590 	DATA 	Keypress: h
+1073.7410 	DATA 	Keypress: a
+1073.7747 	DATA 	Keypress: o
+1073.9420 	DATA 	Keypress: l
+1073.9917 	DATA 	Keypress: e
+1076.3057 	EXP 	text_2: autoDraw = False
+1076.3057 	EXP 	text_2: autoDraw = False
+1076.3057 	EXP 	feedback_2: color = 'limegreen'
+1076.3057 	EXP 	feedback_2: text = 'Correct!'
+1076.3057 	EXP 	feedback_2: autoDraw = True
+1077.3053 	EXP 	feedback_2: autoDraw = False
+1077.3053 	EXP 	feedback_2: autoDraw = False
+1077.3053 	EXP 	reset_image: autoDraw = True
+1078.2894 	EXP 	New trial (rep=0, index=16): OrderedDict([('string', 'champ'), ('corrAns', 'champ')])
+1078.3057 	EXP 	Sound sound_1A_2 started
+1078.3058 	EXP 	reset_image: autoDraw = False
+1078.3058 	EXP 	reset_image: autoDraw = False
+1078.3058 	EXP 	text_2: text = 'champ'
+1078.3058 	EXP 	text_2: autoDraw = True
+1078.3941 	EXP 	Sound sound_1A_2 stopped
+1078.9256 	DATA 	Keypress: f
+1078.9749 	DATA 	Keypress: j
+1079.0079 	DATA 	Keypress: d
+1079.0249 	DATA 	Keypress: k
+1079.1081 	DATA 	Keypress: s
+1079.1412 	DATA 	Keypress: l
+1081.8060 	EXP 	text_2: autoDraw = False
+1081.8060 	EXP 	text_2: autoDraw = False
+1081.8060 	EXP 	feedback_2: color = 'limegreen'
+1081.8060 	EXP 	feedback_2: text = 'Correct!'
+1081.8060 	EXP 	feedback_2: autoDraw = True
+1082.8061 	EXP 	feedback_2: autoDraw = False
+1082.8061 	EXP 	reset_image: autoDraw = True
+1083.7891 	EXP 	New trial (rep=0, index=17): OrderedDict([('string', 'think'), ('corrAns', 'think')])
+1083.8054 	EXP 	Sound sound_1A_2 started
+1083.8056 	EXP 	reset_image: autoDraw = False
+1083.8056 	EXP 	reset_image: autoDraw = False
+1083.8056 	EXP 	text_2: text = 'think'
+1083.8056 	EXP 	text_2: autoDraw = True
+1083.8934 	EXP 	Sound sound_1A_2 stopped
+1085.0249 	DATA 	Keypress: f
+1085.0416 	DATA 	Keypress: j
+1085.1082 	DATA 	Keypress: d
+1085.1246 	DATA 	Keypress: k
+1085.1911 	DATA 	Keypress: l
+1085.2086 	DATA 	Keypress: s
+1087.3061 	EXP 	text_2: autoDraw = False
+1087.3061 	EXP 	text_2: autoDraw = False
+1087.3061 	EXP 	feedback_2: color = 'limegreen'
+1087.3061 	EXP 	feedback_2: text = 'Correct!'
+1087.3061 	EXP 	feedback_2: autoDraw = True
+1088.3063 	EXP 	feedback_2: autoDraw = False
+1088.3063 	EXP 	feedback_2: autoDraw = False
+1088.3063 	EXP 	reset_image: autoDraw = True
+1089.2896 	EXP 	New trial (rep=0, index=18): OrderedDict([('string', 'belly'), ('corrAns', 'belly')])
+1089.3059 	EXP 	Sound sound_1A_2 started
+1089.3056 	EXP 	reset_image: autoDraw = False
+1089.3056 	EXP 	reset_image: autoDraw = False
+1089.3056 	EXP 	text_2: text = 'belly'
+1089.3056 	EXP 	text_2: autoDraw = True
+1089.3936 	EXP 	Sound sound_1A_2 stopped
+1091.8426 	DATA 	Keypress: d
+1091.8746 	DATA 	Keypress: k
+1092.0081 	DATA 	Keypress: f
+1092.0572 	DATA 	Keypress: j
+1092.1076 	DATA 	Keypress: k
+1092.1415 	DATA 	Keypress: d
+1092.2413 	DATA 	Keypress: l
+1092.2747 	DATA 	Keypress: s
+1092.2915 	DATA 	Keypress: a
+1092.8060 	EXP 	text_2: autoDraw = False
+1092.8060 	EXP 	text_2: autoDraw = False
+1092.8060 	EXP 	feedback_2: color = 'limegreen'
+1092.8060 	EXP 	feedback_2: text = 'Correct!'
+1092.8060 	EXP 	feedback_2: autoDraw = True
+1093.8061 	EXP 	feedback_2: autoDraw = False
+1093.8061 	EXP 	feedback_2: autoDraw = False
+1093.8061 	EXP 	reset_image: autoDraw = True
+1094.8060 	EXP 	New trial (rep=0, index=19): OrderedDict([('string', 'puppy'), ('corrAns', 'puppy')])
+1094.8224 	EXP 	Sound sound_1A_2 started
+1094.8218 	EXP 	reset_image: autoDraw = False
+1094.8218 	EXP 	text_2: text = 'puppy'
+1094.8218 	EXP 	text_2: autoDraw = True
+1094.9107 	EXP 	Sound sound_1A_2 stopped
+1096.7415 	DATA 	Keypress: f
+1096.7433 	DATA 	Keypress: j
+1096.7915 	DATA 	Keypress: d
+1096.8080 	DATA 	Keypress: k
+1096.8916 	DATA 	Keypress: s
+1096.8932 	DATA 	Keypress: l
+1096.9577 	DATA 	Keypress: a
+1098.3061 	EXP 	text_2: autoDraw = False
+1098.3061 	EXP 	feedback_2: color = 'limegreen'
+1098.3061 	EXP 	feedback_2: text = 'Correct!'
+1098.3061 	EXP 	feedback_2: autoDraw = True
+1099.3060 	EXP 	feedback_2: autoDraw = False
+1099.3060 	EXP 	feedback_2: autoDraw = False
+1099.3060 	EXP 	reset_image: autoDraw = True
+1100.2893 	EXP 	New trial (rep=0, index=20): OrderedDict([('string', 'druze'), ('corrAns', 'druze')])
+1100.3056 	EXP 	Sound sound_1A_2 started
+1100.3052 	EXP 	reset_image: autoDraw = False
+1100.3052 	EXP 	reset_image: autoDraw = False
+1100.3052 	EXP 	text_2: text = 'druze'
+1100.3052 	EXP 	text_2: autoDraw = True
+1100.3932 	EXP 	Sound sound_1A_2 stopped
+1101.2259 	DATA 	Keypress: r
+1101.3085 	DATA 	Keypress: u
+1101.3249 	DATA 	Keypress: e
+1101.3910 	DATA 	Keypress: i
+1101.4750 	DATA 	Keypress: w
+1103.8058 	EXP 	text_2: autoDraw = False
+1103.8058 	EXP 	feedback_2: color = 'limegreen'
+1103.8058 	EXP 	feedback_2: text = 'Correct!'
+1103.8058 	EXP 	feedback_2: autoDraw = True
+1104.8059 	EXP 	feedback_2: autoDraw = False
+1104.8059 	EXP 	reset_image: autoDraw = True
+1105.7896 	EXP 	New trial (rep=0, index=21): OrderedDict([('string', 'about'), ('corrAns', 'about')])
+1105.8059 	EXP 	Sound sound_1A_2 started
+1105.8050 	EXP 	reset_image: autoDraw = False
+1105.8050 	EXP 	reset_image: autoDraw = False
+1105.8050 	EXP 	text_2: text = 'about'
+1105.8050 	EXP 	text_2: autoDraw = True
+1105.8936 	EXP 	Sound sound_1A_2 stopped
+1106.6248 	DATA 	Keypress: r
+1106.8079 	DATA 	Keypress: e
+1106.9914 	DATA 	Keypress: w
+1107.4753 	DATA 	Keypress: u
+1107.6754 	DATA 	Keypress: i
+1109.3056 	EXP 	text_2: autoDraw = False
+1109.3056 	EXP 	text_2: autoDraw = False
+1109.3056 	EXP 	feedback_2: color = 'limegreen'
+1109.3056 	EXP 	feedback_2: text = 'Correct!'
+1109.3056 	EXP 	feedback_2: autoDraw = True
+1110.3061 	EXP 	feedback_2: autoDraw = False
+1110.3061 	EXP 	feedback_2: autoDraw = False
+1110.3061 	EXP 	reset_image: autoDraw = True
+1111.2896 	EXP 	New trial (rep=0, index=22): OrderedDict([('string', 'zibja'), ('corrAns', 'zibja')])
+1111.3059 	EXP 	Sound sound_1A_2 started
+1111.3055 	EXP 	reset_image: autoDraw = False
+1111.3055 	EXP 	reset_image: autoDraw = False
+1111.3055 	EXP 	text_2: text = 'zibja'
+1111.3055 	EXP 	text_2: autoDraw = True
+1111.3935 	EXP 	Sound sound_1A_2 stopped
+1111.7419 	DATA 	Keypress: r
+1111.9418 	DATA 	Keypress: e
+1112.1423 	DATA 	Keypress: w
+1114.8056 	EXP 	text_2: autoDraw = False
+1114.8056 	EXP 	text_2: autoDraw = False
+1114.8056 	EXP 	feedback_2: color = 'limegreen'
+1114.8056 	EXP 	feedback_2: text = 'Correct!'
+1114.8056 	EXP 	feedback_2: autoDraw = True
+1115.8054 	EXP 	feedback_2: autoDraw = False
+1115.8054 	EXP 	feedback_2: autoDraw = False
+1115.8054 	EXP 	reset_image: autoDraw = True
+1116.7895 	EXP 	New trial (rep=0, index=23): OrderedDict([('string', 'theme'), ('corrAns', 'theme')])
+1116.8058 	EXP 	Sound sound_1A_2 started
+1116.8053 	EXP 	reset_image: autoDraw = False
+1116.8053 	EXP 	reset_image: autoDraw = False
+1116.8053 	EXP 	text_2: text = 'theme'
+1116.8053 	EXP 	text_2: autoDraw = True
+1116.8934 	EXP 	Sound sound_1A_2 stopped
+1117.3753 	DATA 	Keypress: g
+1117.4915 	DATA 	Keypress: n
+1117.8085 	DATA 	Keypress: d
+1117.8741 	DATA 	Keypress: k
+1118.0754 	DATA 	Keypress: l
+1120.3054 	EXP 	text_2: autoDraw = False
+1120.3054 	EXP 	text_2: autoDraw = False
+1120.3054 	EXP 	feedback_2: color = 'limegreen'
+1120.3054 	EXP 	feedback_2: text = 'Correct!'
+1120.3054 	EXP 	feedback_2: autoDraw = True
+1121.3058 	EXP 	feedback_2: autoDraw = False
+1121.3058 	EXP 	feedback_2: autoDraw = False
+1121.3058 	EXP 	reset_image: autoDraw = True
+1122.2893 	EXP 	New trial (rep=0, index=24): OrderedDict([('string', 'isvar'), ('corrAns', 'isvar')])
+1122.3056 	EXP 	Sound sound_1A_2 started
+1122.3047 	EXP 	reset_image: autoDraw = False
+1122.3047 	EXP 	reset_image: autoDraw = False
+1122.3047 	EXP 	text_2: text = 'isvar'
+1122.3047 	EXP 	text_2: autoDraw = True
+1122.3940 	EXP 	Sound sound_1A_2 stopped
+1125.8052 	EXP 	text_2: autoDraw = False
+1125.8052 	EXP 	feedback_2: color = 'orangered'
+1125.8052 	EXP 	feedback_2: text = 'Oops! That was wrong'
+1125.8052 	EXP 	feedback_2: autoDraw = True
+1126.8053 	EXP 	feedback_2: autoDraw = False
+1126.8053 	EXP 	feedback_2: autoDraw = False
+1126.8053 	EXP 	reset_image: autoDraw = True
+1127.7892 	EXP 	New trial (rep=0, index=25): OrderedDict([('string', 'pykka'), ('corrAns', 'pykka')])
+1127.8055 	EXP 	Sound sound_1A_2 started
+1127.8046 	EXP 	reset_image: autoDraw = False
+1127.8046 	EXP 	reset_image: autoDraw = False
+1127.8046 	EXP 	text_2: text = 'pykka'
+1127.8046 	EXP 	text_2: autoDraw = True
+1127.8932 	EXP 	Sound sound_1A_2 stopped
+1128.8749 	DATA 	Keypress: j
+1128.8766 	DATA 	Keypress: f
+1128.9747 	DATA 	Keypress: d
+1128.9763 	DATA 	Keypress: k
+1129.0583 	DATA 	Keypress: l
+1129.0915 	DATA 	Keypress: s
+1129.2415 	DATA 	Keypress: semicolon
+1131.3061 	EXP 	text_2: autoDraw = False
+1131.3061 	EXP 	feedback_2: color = 'orangered'
+1131.3061 	EXP 	feedback_2: text = 'Oops! That was wrong'
+1131.3061 	EXP 	feedback_2: autoDraw = True
+1132.3059 	EXP 	feedback_2: autoDraw = False
+1132.3059 	EXP 	reset_image: autoDraw = True
+1133.2893 	EXP 	New trial (rep=0, index=26): OrderedDict([('string', 'therm'), ('corrAns', 'therm')])
+1133.3056 	EXP 	Sound sound_1A_2 started
+1133.3056 	EXP 	reset_image: autoDraw = False
+1133.3056 	EXP 	reset_image: autoDraw = False
+1133.3056 	EXP 	text_2: text = 'therm'
+1133.3056 	EXP 	text_2: autoDraw = True
+1133.3940 	EXP 	Sound sound_1A_2 stopped
+1135.7087 	DATA 	Keypress: f
+1135.7415 	DATA 	Keypress: j
+1135.7915 	DATA 	Keypress: k
+1135.8080 	DATA 	Keypress: d
+1135.9417 	DATA 	Keypress: l
+1135.9433 	DATA 	Keypress: s
+1136.8060 	EXP 	text_2: autoDraw = False
+1136.8060 	EXP 	text_2: autoDraw = False
+1136.8060 	EXP 	feedback_2: color = 'orangered'
+1136.8060 	EXP 	feedback_2: text = 'Oops! That was wrong'
+1136.8060 	EXP 	feedback_2: autoDraw = True
+1137.8058 	EXP 	feedback_2: autoDraw = False
+1137.8058 	EXP 	reset_image: autoDraw = True
+1138.2069 	DATA 	Keypress: escape
+1138.5213 	EXP 	window1: mouseVisible = True
