@@ -30,7 +30,7 @@ from psychopy.hardware import keyboard
 
 import csv
 
-stimulus_list = ['there', 'think', 'about', 'would', 'lucky', 'buddy', 'cheer', 'theme', 'belly', 'champ', 'puppy', 'vodka', 'tithe', 'therm', 'haole', 'cooed', 'faqir', 'druze', 'edthe', 'heond', 'kremp', 'isvar', 'zibja', 'pykka'] * 5
+stimulus_list = ['there', 'think', 'about', 'would', 'lucky', 'buddy', 'cheer', 'theme', 'belly', 'champ', 'puppy', 'vodka', 'tithe', 'therm', 'haole', 'cooed', 'faqir', 'druze', 'edthe', 'heond', 'kremp', 'vanru', 'zibja', 'pykka'] * 5
 shuffle(stimulus_list)
 
 # make sure the same target doesn't appear on consecutive trials
@@ -64,7 +64,7 @@ for n in range(120):
 f.close()
 import csv
 
-stimulus_list = ['there', 'think', 'about', 'would', 'lucky', 'buddy', 'cheer', 'theme', 'belly', 'champ', 'puppy', 'vodka', 'tithe', 'therm', 'haole', 'cooed', 'faqir', 'druze', 'edthe', 'heond', 'kremp', 'isvar', 'zibja', 'pykka'] * 5
+stimulus_list = ['there', 'think', 'about', 'would', 'lucky', 'buddy', 'cheer', 'theme', 'belly', 'champ', 'puppy', 'vodka', 'tithe', 'therm', 'haole', 'cooed', 'faqir', 'druze', 'edthe', 'heond', 'kremp', 'vanru', 'zibja', 'pykka'] * 5
 shuffle(stimulus_list)
 
 # make sure the same target doesn't appear on consecutive trials
