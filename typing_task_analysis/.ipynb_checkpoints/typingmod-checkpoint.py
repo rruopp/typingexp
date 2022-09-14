@@ -58,7 +58,7 @@ def incorrect_filter(DF):
 
 ## defining function to filter for only trial rts
 def rt_columns(DF):
-    rt_columns = ['string']
+    rt_columns = ['sID', 'Trial #', 'string']
     for column in DF:
         if 'key_resp.rt' in column:
             rt_columns.append(column)
@@ -74,7 +74,7 @@ def iki(DF):
     last_key = len(DF.columns) - 1   
     for index, data in DF.iterrows():
         intervals = []
-        for n in range(1, last_key):
+        for n in range(3, last_key):
             interval = (DF.iloc[index, n + 1]) - (DF.iloc[index, n])
             intervals.append(interval)
         ints_byword.append(intervals)
