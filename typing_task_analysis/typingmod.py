@@ -36,6 +36,16 @@ all_bigrams = ['rm', 'an', 'th', 'lu', 'ul', 'nr', 'le', 'el', 'ch', 'mp', 'em',
  'ck', 'dt', 'nk', 'ir', 'in', 'ly', 'dk', 'me', 'ru', 'it', 'am', 'dd', 'ib', 'nd',
  'bu', 'bo']
 
+## bigrams by word-bigram frequency groupings
+highbf_bgs = ['th', 'he', 'er', 're', 'hi', 'in', 'nk', 'ch', 'ee', 'em', 'me', 'ti', 
+              'it', 'rm', 'ed', 'dt', 'eo', 'on', 'nd']
+medbf_bgs = ['ab', 'bo', 'ou', 'ut', 'wo', 'ul', 'ld', 'be', 'el', 'll', 'ly', 
+             'ch', 'ha', 'am', 'mp', 'ao', 'ol', 'le', 'co', 'oo', 'oe', 'ed', 'kr', 
+             're', 'em', 'mp', 'va', 'an', 'nr', 'ru']
+lowbf_bgs = ['lu', 'uc', 'ck', 'ky', 'bu', 'ud', 'dd', 'dy', 'pu', 'up', 'pp', 'py', 
+             'vo', 'od', 'dk', 'ka', 'fa', 'aq', 'qi', 'ir', 'dr', 'ru', 'uz', 'ze', 
+             'zi', 'ib', 'bj', 'ja', 'yk', 'kk']
+
 #### DATAFRAME FILTERING FUNCTIONS ####
 
 ## defining function to make dataframe of only correct trials
@@ -74,8 +84,8 @@ def iki(DF):
     last_key = len(DF.columns) - 1   
     for index, data in DF.iterrows():
         intervals = []
-        for n in range(3, last_key):
-            interval = (DF.iloc[index, n + 1]) - (DF.iloc[index, n])
+        for n in range(4, last_key):
+            interval = (DF.iloc[index, n]) - (DF.iloc[index, n - 1])
             intervals.append(interval)
         ints_byword.append(intervals)
     all_ints = pd.DataFrame(ints_byword)
