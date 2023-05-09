@@ -46,6 +46,9 @@ lowbf_bgs = ['lu', 'uc', 'ck', 'ky', 'bu', 'ud', 'dd', 'dy', 'pu', 'up', 'pp', '
              'vo', 'od', 'dk', 'ka', 'fa', 'aq', 'qi', 'ir', 'dr', 'ru', 'uz', 'ze', 
              'zi', 'ib', 'bj', 'ja', 'yk', 'kk']
 
+## list of bigram groupings
+bg_types = [highbf_bgs, medbf_bgs, lowbf_bgs]
+
 #### DATAFRAME FILTERING FUNCTIONS ####
 
 ## defining function to make dataframe of only correct trials

@@ -46,6 +46,9 @@ lowbf_bgs = ['lu', 'uc', 'ck', 'ky', 'bu', 'ud', 'dd', 'dy', 'pu', 'up', 'pp', '
              'vo', 'od', 'dk', 'ka', 'fa', 'aq', 'qi', 'ir', 'dr', 'ru', 'uz', 'ze', 
              'zi', 'ib', 'bj', 'ja', 'yk', 'kk']
 
+## list of bigram groupings
+bg_types = [highbf_bgs, medbf_bgs, lowbf_bgs]
+
 #### DATAFRAME FILTERING FUNCTIONS ####
 
 ## defining function to make dataframe of only correct trials
@@ -85,7 +88,7 @@ def iki(DF):
     for index, data in DF.iterrows():
         intervals = []
         for n in range(4, last_key):
-            interval = (DF.iloc[index, n]) - (DF.iloc[index, (n - 1)])
+            interval = (DF.iloc[index, n]) - (DF.iloc[index, n - 1])
             intervals.append(interval)
         ints_byword.append(intervals)
     all_ints = pd.DataFrame(ints_byword)
