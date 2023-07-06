@@ -49,6 +49,17 @@ lowbf_bgs = ['lu', 'uc', 'ck', 'ky', 'bu', 'ud', 'dd', 'dy', 'pu', 'up', 'pp', '
 ## list of bigram groupings
 bg_types = [highbf_bgs, medbf_bgs, lowbf_bgs]
 
+
+### BIGRAM FUNCTIONS ###
+
+## defining function that separates words in to bigrams
+def bi_byword(word):
+    bi_results = []
+    for y in range(0, (len(word)-1)):
+        bigram = word[y] + word[y+1]
+        bi_results.append(bigram)
+    return bi_results
+
 #### DATAFRAME FILTERING FUNCTIONS ####
 
 ## defining function to make dataframe of only correct trials
