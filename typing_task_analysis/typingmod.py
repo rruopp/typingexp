@@ -5,7 +5,7 @@ import math
 import matplotlib.pyplot as plt
 from scipy.stats import variation
 
-#### STRING LIST GROUPINGS ####
+#### STRING AND BIGRAM LIST GROUPINGS ####
 
 ## list of all strings
 all_strings = ['there', 'think', 'about', 'would', 'lucky', 'buddy',
@@ -20,35 +20,28 @@ lowwf = ['tithe', 'therm', 'haole', 'cooed', 'faqir', 'druze']
 pseudo = ['edthe', 'heond', 'kremp', 'vanru', 'zibja', 'pykka']
 
 ## string groupings by bigram frequency (BF)
-highbf = ['there', 'think',  'cheer', 'theme', 'tithe', 'therm', 'edthe', 'heond']
-medbf = ['about', 'would', 'belly', 'champ', 'haole', 'cooed', 'kremp', 'vanru']
-lowbf = ['lucky', 'buddy', 'puppy', 'vodka', 'faqir', 'druze', 'zibja', 'pykka']
+high_avgbf = ['there', 'think',  'cheer', 'theme', 'tithe', 'therm', 'edthe', 'heond']
+med_avgbf = ['about', 'would', 'belly', 'champ', 'haole', 'cooed', 'kremp', 'vanru']
+low_avgbf = ['lucky', 'buddy', 'puppy', 'vodka', 'faqir', 'druze', 'zibja', 'pykka']
 
-## list of string groupings
+# dataframe of bigram frequencies in descending order
+bg_freqs = pd.read_csv('bg_freqs.csv').drop(labels=['Unnamed: 0'], axis=1)
+bg_freqs = bg_freqs.sort_values(by='Frequency', ascending=False, ignore_index=True)
+
+# list of all bigrams in order of descending bigram frequency
+all_bigrams = bg_freqs['Bigrams']
+
+# bigrams by bigram frequency groupings in descending order
+highbf = bg_freqs['Bigrams'].loc[0:15]
+medbf = bg_freqs['Bigrams'].loc[15:46]
+lowbf = bg_freqs['Bigrams'].loc[46:69]
+
+## lists of string groupings
 wf_types = [highwf, medwf, lowwf, pseudo]
-bf_types = [highbf, medbf, lowbf]
-
-## list of all bigrams
-all_bigrams = ['rm', 'an', 'th', 'lu', 'ul', 'nr', 'le', 'el', 'ch', 'mp', 'em', 'ld',
- 'qi', 'ha', 'co', 'pu', 'kk', 'kr', 'he', 'va', 'ab', 'll', 'zi', 'oo', 'ut', 'eo',
- 'wo', 'uc', 'ja', 'ol', 'od', 'ky', 'up', 'vo', 'bj', 'oe', 'ou', 're', 'er', 'ee',
- 'ed', 'fa', 'pp', 'py', 'dy', 'yk', 'on', 'ti', 'aq', 'ud', 'be', 'ao', 'hi', 'ka',
- 'ck', 'dt', 'nk', 'ir', 'in', 'ly', 'dk', 'me', 'ru', 'it', 'am', 'dd', 'ib', 'nd',
- 'bu', 'bo']
-
-## bigrams by word-bigram frequency groupings
-highbf_bgs = ['th', 'he', 'er', 're', 'hi', 'in', 'nk', 'ch', 'ee', 'em', 'me', 'ti', 
-              'it', 'rm', 'ed', 'dt', 'eo', 'on', 'nd']
-medbf_bgs = ['ab', 'bo', 'ou', 'ut', 'wo', 'ul', 'ld', 'be', 'el', 'll', 'ly', 
-             'ch', 'ha', 'am', 'mp', 'ao', 'ol', 'le', 'co', 'oo', 'oe', 'ed', 'kr', 
-             're', 'em', 'mp', 'va', 'an', 'nr', 'ru']
-lowbf_bgs = ['lu', 'uc', 'ck', 'ky', 'bu', 'ud', 'dd', 'dy', 'pu', 'up', 'pp', 'py', 
-             'vo', 'od', 'dk', 'ka', 'fa', 'aq', 'qi', 'ir', 'dr', 'ru', 'uz', 'ze', 
-             'zi', 'ib', 'bj', 'ja', 'yk', 'kk']
+avgbf_types = [high_avgbf, med_avgbf, low_avgbf]
 
 ## list of bigram groupings
-bg_types = [highbf_bgs, medbf_bgs, lowbf_bgs]
-
+bf_types = [highbf, medbf, lowbf]
 
 ### BIGRAM FUNCTIONS ###
 
