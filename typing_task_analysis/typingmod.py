@@ -33,8 +33,8 @@ all_bigrams = bg_freqs['Bigrams']
 
 # bigrams by bigram frequency groupings in descending order
 highbf = bg_freqs['Bigrams'].loc[0:15]
-medbf = bg_freqs['Bigrams'].loc[15:46]
-lowbf = bg_freqs['Bigrams'].loc[46:69]
+medbf = bg_freqs['Bigrams'].loc[16:46]
+lowbf = bg_freqs['Bigrams'].loc[47:72]
 
 ## lists of string groupings
 wf_types = [highwf, medwf, lowwf, pseudo]
