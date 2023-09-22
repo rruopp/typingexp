@@ -32,9 +32,9 @@ bg_freqs = bg_freqs.sort_values(by='Frequency', ascending=False, ignore_index=Tr
 all_bigrams = bg_freqs['Bigrams']
 
 # bigrams by bigram frequency groupings in descending order
-highbf = bg_freqs['Bigrams'].loc[0:15]
-medbf = bg_freqs['Bigrams'].loc[16:46]
-lowbf = bg_freqs['Bigrams'].loc[47:72]
+highbf = list(bg_freqs['Bigrams'].loc[0:15])
+medbf = list(bg_freqs['Bigrams'].loc[16:46])
+lowbf = list(bg_freqs['Bigrams'].loc[47:72])
 
 ## lists of string groupings
 wf_types = [highwf, medwf, lowwf, pseudo]
