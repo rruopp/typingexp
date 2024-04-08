@@ -1,0 +1,977 @@
+,sID,Bigram #,Trial #,bigram_loc,Bigram,corr_bigram,IKI,string,resp_string,rep #,bg_freq,bf_type,meanbf_type,wf_type
+0,s283,0,0,0,'p' 'y',py,0.2639556999783963,pykka,pykaka,0,149099,low,low,pseudo
+1,s283,1,0,1, 'y' 'k',yk,0.20807379996404052,pykka,pykaka,0,4767,low,low,pseudo
+2,s283,2,0,2, 'k' 'a',kk,0.16009750007651746,pykka,pykaka,0,1820,low,low,pseudo
+3,s283,3,0,3, 'a' 'k',ka,0.2319169999100268,pykka,pykaka,0,60568,low,low,pseudo
+4,s283,4,0,4, 'k' 'a',,0.2959702000953257,pykka,pykaka,0,,,low,pseudo
+5,s283,5,1,0,'d' 'r',dr,0.15997599996626377,druze,druze,0,567936,med,low,low
+6,s283,6,1,1, 'r' 'u',ru,0.15195550001226366,druze,druze,0,705492,med,low,low
+7,s283,7,1,2, 'u' 'z',uz,0.15997190005145967,druze,druze,0,19836,low,low,low
+8,s283,8,1,3, 'z' 'e',ze,0.22392789996229112,druze,druze,0,210896,low,low,low
+9,s283,9,2,0,'z' 'i',zi,0.3120724998880178,zibja,zibja,0,54565,low,low,pseudo
+10,s283,10,2,1, 'i' 'b',ib,0.2959537000861019,zibja,zibja,0,493267,low,low,pseudo
+11,s283,11,2,2, 'b' 'j',bj,0.20008419989608228,zibja,zibja,0,105433,low,low,pseudo
+12,s283,12,2,3, 'j' 'a',ja,0.1280108999926597,zibja,zibja,0,40073,low,low,pseudo
+13,s283,13,3,0,'a' 'b',ab,0.13608169998042285,about,about,0,1203849,med,med,high
+14,s283,14,3,1, 'b' 'o',bo,0.1678755001630634,about,about,0,1140702,med,med,high
+15,s283,15,3,2, 'o' 'u',ou,0.18402929999865592,about,about,0,7425307,high,med,high
+16,s283,16,3,3, 'u' 't',ut,0.09595099999569356,about,about,0,3257233,med,med,high
+17,s283,17,4,0,'l' 'u',lu,0.21596840000711381,lucky,luckyt,0,568081,med,low,high
+18,s283,18,4,1, 'u' 'c',uc,0.12801210000179708,lucky,luckyt,0,891233,med,low,high
+19,s283,19,4,2, 'c' 'k',ck,0.08816769998520613,lucky,luckyt,0,925655,med,low,high
+20,s283,20,4,3, 'k' 'y',ky,0.21576159982942045,lucky,luckyt,0,49764,low,low,high
+21,s283,21,4,4, 'y' 't',,0.008058200124651194,lucky,luckyt,0,,,low,high
+22,s283,22,5,0,'h' 'e',he,0.16793669993057847,heond,heond,0,21484684,high,high,pseudo
+23,s283,23,5,1, 'e' 'o',eo,0.15995550015941262,heond,heond,0,305120,low,high,pseudo
+24,s283,24,5,2, 'o' 'n',on,0.3840484998654574,heond,heond,0,8830487,high,high,pseudo
+25,s283,25,5,3, 'n' 'd',nd,0.15994519996456802,heond,heond,0,9414961,high,high,pseudo
+26,s283,26,6,0,'v' 'a',va,0.1600262001156807,vanru,vanru,0,560130,med,med,pseudo
+27,s283,27,6,1, 'a' 'n',an,0.11214029998518527,vanru,vanru,0,12315713,high,med,pseudo
+28,s283,28,6,2, 'n' 'r',nr,0.23988300003111362,vanru,vanru,0,54341,low,med,pseudo
+29,s283,29,6,3, 'r' 'u',ru,0.10381169989705086,vanru,vanru,0,705492,med,med,pseudo
+30,s283,30,7,0,'f' 'a',fa,0.3679217000026256,faqir,faqir,0,1043958,med,low,low
+31,s283,31,7,1, 'a' 'q',aq,0.2480389999691397,faqir,faqir,0,4924,low,low,low
+32,s283,32,7,2, 'q' 'i',qi,0.5199790000915527,faqir,faqir,0,36,low,low,low
+33,s283,33,7,3, 'i' 'r',ir,0.2160557999741286,faqir,faqir,0,2142678,med,low,low
+34,s283,34,8,0,'c' 'o',co,0.23983100010082126,cooed,cooed,0,3609272,med,med,low
+35,s283,35,8,1, 'o' 'o',oo,0.11994830006733537,cooed,cooed,0,1933683,med,med,low
+36,s283,36,8,2, 'o' 'e',oe,0.10421659983694553,cooed,cooed,0,270012,low,med,low
+37,s283,37,8,3, 'e' 'd',ed,0.17595060006715357,cooed,cooed,0,7805967,high,med,low
+38,s283,38,9,0,'c' 'h',ch,0.14390900009311736,cheer,cheer,0,3267507,med,high,med
+39,s283,39,9,1, 'h' 'e',he,0.19998599984683096,cheer,cheer,0,21484684,high,high,med
+40,s283,40,9,2, 'e' 'e',ee,0.1280696999747306,cheer,cheer,0,2839722,med,high,med
+41,s283,41,9,3, 'e' 'r',er,0.1520228001754731,cheer,cheer,0,12934901,high,high,med
+42,s283,42,10,0,'w' 'o',wo,0.1438645999878645,would,would,0,1723496,med,med,high
+43,s283,43,10,1, 'o' 'u',ou,0.17604409996420145,would,would,0,7425307,high,med,high
+44,s283,44,10,2, 'u' 'l',ul,0.17619569995440543,would,would,0,2181271,med,med,high
+45,s283,45,10,3, 'l' 'd',ld,0.07184550003148615,would,would,0,2012500,med,med,high
+46,s283,46,11,0,'b' 'u',bu,0.1358386001084,buddy,buddy,0,1183063,med,low,high
+47,s283,47,11,1, 'u' 'd',ud,0.14397779991850257,buddy,buddy,0,458716,low,low,high
+48,s283,48,11,2, 'd' 'd',dd,0.13609570008702576,buddy,buddy,0,306083,low,low,high
+49,s283,49,11,3, 'd' 'y',dy,0.0959738998208195,buddy,buddy,0,360103,low,low,high
+50,s283,50,12,0,'e' 'd',ed,0.16799010010436177,edthe,edthe,0,7805967,high,high,pseudo
+51,s283,51,12,1, 'd' 't',dt,0.19201590004377067,edthe,edthe,0,11191,low,high,pseudo
+52,s283,52,12,2, 't' 'h',th,0.06412800005637109,edthe,edthe,0,22288309,high,high,pseudo
+53,s283,53,12,3, 'h' 'e',he,0.14385979995131493,edthe,edthe,0,21484684,high,high,pseudo
+54,s283,54,13,0,'t' 'h',th,0.12016569986008108,theme,thyeeme,0,22288309,high,high,med
+55,s283,55,13,1, 'h' 'y',he,0.007911000167950988,theme,thyeeme,0,21484684,high,high,med
+56,s283,56,13,2, 'y' 'e',em,0.0961511000059545,theme,thyeeme,0,2039661,med,high,med
+57,s283,57,13,3, 'e' 'e',me,0.22376159997656941,theme,thyeeme,0,4724108,high,high,med
+58,s283,58,13,4, 'e' 'm',,0.49604479991830885,theme,thyeeme,0,,,high,med
+59,s283,59,13,5, 'm' 'e',,0.14408669993281364,theme,thyeeme,0,,,high,med
+60,s283,60,14,0,'k' 'r',kr,0.1439898000098765,kremp,kremop,0,5683,low,med,pseudo
+61,s283,61,14,1, 'r' 'e',re,0.17611090000718832,kremp,kremop,0,10687711,high,med,pseudo
+62,s283,62,14,2, 'e' 'm',em,0.10446059983223677,kremp,kremop,0,2039661,med,med,pseudo
+63,s283,63,14,3, 'm' 'o',mp,0.11953180003911257,kremp,kremop,0,1042198,med,med,pseudo
+64,s283,64,14,4, 'o' 'p',,0.00800799997523427,kremp,kremop,0,,,med,pseudo
+65,s283,65,15,0,'z' 'i',zi,0.19201570004224777,zibja,zibja,1,54565,low,low,pseudo
+66,s283,66,15,1, 'i' 'b',ib,0.22407309990376234,zibja,zibja,1,493267,low,low,pseudo
+67,s283,67,15,2, 'b' 'j',bj,0.1759699999820441,zibja,zibja,1,105433,low,low,pseudo
+68,s283,68,15,3, 'j' 'a',ja,0.11193860019557178,zibja,zibja,1,40073,low,low,pseudo
+69,s283,69,16,0,'p' 'y',py,0.2558532999828458,pykka,pykka,1,149099,low,low,pseudo
+70,s283,70,16,1, 'y' 'k',yk,0.2319736999925226,pykka,pykka,1,4767,low,low,pseudo
+71,s283,71,16,2, 'k' 'k',kk,0.13613500003702939,pykka,pykka,1,1820,low,low,pseudo
+72,s283,72,16,3, 'k' 'a',ka,0.12792139989323914,pykka,pykka,1,60568,low,low,pseudo
+73,s283,73,17,0,'l' 'u',lu,0.2240701001137495,lucky,lucky,1,568081,med,low,high
+74,s283,74,17,1, 'u' 'c',uc,0.23186419997364283,lucky,lucky,1,891233,med,low,high
+75,s283,75,17,2, 'c' 'k',ck,0.09609659994021058,lucky,lucky,1,925655,med,low,high
+76,s283,76,17,3, 'k' 'y',ky,0.23211300000548363,lucky,lucky,1,49764,low,low,high
+77,s283,77,18,0,'e' 'd',ed,0.16803790000267327,edthe,edthe,1,7805967,high,high,pseudo
+78,s283,78,18,1, 'd' 't',dt,0.20825370005331933,edthe,edthe,1,11191,low,high,pseudo
+79,s283,79,18,2, 't' 'h',th,0.07982180011458695,edthe,edthe,1,22288309,high,high,pseudo
+80,s283,80,18,3, 'h' 'e',he,0.14393589994870126,edthe,edthe,1,21484684,high,high,pseudo
+81,s283,81,19,0,'a' 'b',ab,0.15209929994307458,about,about,1,1203849,med,med,high
+82,s283,82,19,1, 'b' 'o',bo,0.1998846000060439,about,about,1,1140702,med,med,high
+83,s283,83,19,2, 'o' 'u',ou,0.20801139995455742,about,about,1,7425307,high,med,high
+84,s283,84,19,3, 'u' 't',ut,0.11198650021106005,about,about,1,3257233,med,med,high
+85,s283,85,20,0,'b' 'e',be,0.1601547000464052,belly,belly,0,3798740,med,med,med
+86,s283,86,20,1, 'e' 'l',el,0.19183300016447902,belly,belly,0,3235254,med,med,med
+87,s283,87,20,2, 'l' 'l',ll,0.11206769989803433,belly,belly,0,4235407,med,med,med
+88,s283,88,20,3, 'l' 'y',ly,0.16791679989546537,belly,belly,0,2589130,med,med,med
+89,s283,89,21,0,'a' 'b',ab,0.12797380005940795,about,about,2,1203849,med,med,high
+90,s283,90,21,1, 'b' 'o',bo,0.16797040007077157,about,about,2,1140702,med,med,high
+91,s283,91,21,2, 'o' 'u',ou,0.17601089994423091,about,about,2,7425307,high,med,high
+92,s283,92,21,3, 'u' 't',ut,0.09602799988351762,about,about,2,3257233,med,med,high
+93,s283,93,22,0,'t' 'h',th,0.08824079995974898,theme,thee,1,22288309,high,high,med
+94,s283,94,22,1, 'h' 'e',he,0.16772120003588498,theme,thee,1,21484684,high,high,med
+95,s283,95,22,2, 'e' 'e',em,0.19210290000773966,theme,thee,1,2039661,med,high,med
+96,s283,96,23,0,'v' 'a',va,0.11995600000955164,vanru,vanru,1,560130,med,med,pseudo
+97,s283,97,23,1, 'a' 'n',an,0.10401070001535118,vanru,vanru,1,12315713,high,med,pseudo
+98,s283,98,23,2, 'n' 'r',nr,0.15995180001482368,vanru,vanru,1,54341,low,med,pseudo
+99,s283,99,23,3, 'r' 'u',ru,0.09593529999256134,vanru,vanru,1,705492,med,med,pseudo
+100,s283,100,24,0,'v' 'o',vo,0.3681751999538392,vodka,vodka,0,368238,low,low,med
+101,s283,101,24,1, 'o' 'd',od,0.18403280014172196,vodka,vodka,0,1013147,med,low,med
+102,s283,102,24,2, 'd' 'k',dk,0.14394419989548624,vodka,vodka,0,5347,low,low,med
+103,s283,103,24,3, 'k' 'a',ka,0.15984480013139546,vodka,vodka,0,60568,low,low,med
+104,s283,104,25,0,'c' 'h',ch,0.09597559995017946,champ,champ,0,3267507,med,med,med
+105,s283,105,25,1, 'h' 'a',ha,0.19215240003541112,champ,champ,0,6967591,high,med,med
+106,s283,106,25,2, 'a' 'm',am,0.13596739992499352,champ,champ,0,1610395,med,med,med
+107,s283,107,25,3, 'm' 'p',mp,0.45586870005354285,champ,champ,0,1042198,med,med,med
+108,s283,108,26,0,'l' 'u',lu,0.20800590002909303,lucky,lucky,2,568081,med,low,high
+109,s283,109,26,1, 'u' 'c',uc,0.11998389987275004,lucky,lucky,2,891233,med,low,high
+110,s283,110,26,2, 'c' 'k',ck,0.08805450005456805,lucky,lucky,2,925655,med,low,high
+111,s283,111,26,3, 'k' 'y',ky,0.1999935999047011,lucky,lucky,2,49764,low,low,high
+112,s283,112,27,0,'v' 'o',vo,0.18412579991854727,vodka,vodka,1,368238,low,low,med
+113,s283,113,27,1, 'o' 'd',od,0.14398119994439185,vodka,vodka,1,1013147,med,low,med
+114,s283,114,27,2, 'd' 'k',dk,0.3038035000208765,vodka,vodka,1,5347,low,low,med
+115,s283,115,27,3, 'k' 'a',ka,0.152110300026834,vodka,vodka,1,60568,low,low,med
+116,s283,116,28,0,'b' 'e',be,0.1439243999775499,belly,belly,1,3798740,med,med,med
+117,s283,117,28,1, 'e' 'l',el,0.09612280013971031,belly,belly,1,3235254,med,med,med
+118,s283,118,28,2, 'l' 'l',ll,0.12782950000837445,belly,belly,1,4235407,med,med,med
+119,s283,119,28,3, 'l' 'y',ly,0.10401879996061325,belly,belly,1,2589130,med,med,med
+120,s283,120,29,0,'h' 'e',he,0.14396610017865896,heond,heond,1,21484684,high,high,pseudo
+121,s283,121,29,1, 'e' 'o',eo,0.20801760000176728,heond,heond,1,305120,low,high,pseudo
+122,s283,122,29,2, 'o' 'n',on,0.16804739995859563,heond,heond,1,8830487,high,high,pseudo
+123,s283,123,29,3, 'n' 'd',nd,0.17586299986578524,heond,heond,1,9414961,high,high,pseudo
+124,s283,124,30,0,'l' 'u',lu,0.22403959999792278,lucky,lucky,3,568081,med,low,high
+125,s283,125,30,1, 'u' 'c',uc,0.11992390011437237,lucky,lucky,3,891233,med,low,high
+126,s283,126,30,2, 'c' 'k',ck,0.09600690007209778,lucky,lucky,3,925655,med,low,high
+127,s283,127,30,3, 'k' 'y',ky,0.176166599849239,lucky,lucky,3,49764,low,low,high
+128,s283,128,31,0,'e' 'd',ed,0.2160380999557674,edthe,edthe,2,7805967,high,high,pseudo
+129,s283,129,31,1, 'd' 't',dt,0.24799109995365143,edthe,edthe,2,11191,low,high,pseudo
+130,s283,130,31,2, 't' 'h',th,0.12003029999323189,edthe,edthe,2,22288309,high,high,pseudo
+131,s283,131,31,3, 'h' 'e',he,0.15190470009110868,edthe,edthe,2,21484684,high,high,pseudo
+132,s283,132,32,0,'h' 'e',he,0.11227729986421764,heond,heond,2,21484684,high,high,pseudo
+133,s283,133,32,1, 'e' 'o',eo,0.247839700197801,heond,heond,2,305120,low,high,pseudo
+134,s283,134,32,2, 'o' 'n',on,0.14397529978305101,heond,heond,2,8830487,high,high,pseudo
+135,s283,135,32,3, 'n' 'd',nd,0.1118389000184834,heond,heond,2,9414961,high,high,pseudo
+136,s283,136,33,0,'t' 'h',th,0.15208739996887743,therm,therm,0,22288309,high,high,low
+137,s283,137,33,1, 'h' 'e',he,0.24790409998968244,therm,therm,0,21484684,high,high,low
+138,s283,138,33,2, 'e' 'r',er,0.20000039995647967,therm,therm,0,12934901,high,high,low
+139,s283,139,33,3, 'r' 'm',rm,0.14410499995574355,therm,therm,0,905131,med,high,low
+140,s283,140,34,0,'w' 'o',wo,0.15184210008010268,would,would,1,1723496,med,med,high
+141,s283,141,34,1, 'o' 'u',ou,0.24784470000304282,would,would,1,7425307,high,med,high
+142,s283,142,34,2, 'u' 'l',ul,0.2560263997875154,would,would,1,2181271,med,med,high
+143,s283,143,34,3, 'l' 'd',ld,0.1840278001036495,would,would,1,2012500,med,med,high
+144,s283,144,35,0,'h' 'e',he,0.11996799986809492,heond,heond,3,21484684,high,high,pseudo
+145,s283,145,35,1, 'e' 'o',eo,0.2641142001375556,heond,heond,3,305120,low,high,pseudo
+146,s283,146,35,2, 'o' 'n',on,0.16799069987609982,heond,heond,3,8830487,high,high,pseudo
+147,s283,147,35,3, 'n' 'd',nd,0.15198080008849502,heond,heond,3,9414961,high,high,pseudo
+148,s283,148,36,0,'c' 'o',co,0.23196240002289414,cooed,cooed,1,3609272,med,med,low
+149,s283,149,36,1, 'o' 'o',oo,0.17604719987139106,cooed,cooed,1,1933683,med,med,low
+150,s283,150,36,2, 'o' 'e',oe,0.1120112999342382,cooed,cooed,1,270012,low,med,low
+151,s283,151,36,3, 'e' 'd',ed,0.1920442001428455,cooed,cooed,1,7805967,high,med,low
+152,s283,152,37,0,'z' 'i',zi,0.2719050000887364,zibja,zibja,2,54565,low,low,pseudo
+153,s283,153,37,1, 'i' 'b',ib,0.21617589984089136,zibja,zibja,2,493267,low,low,pseudo
+154,s283,154,37,2, 'b' 'j',bj,0.20807550009340048,zibja,zibja,2,105433,low,low,pseudo
+155,s283,155,37,3, 'j' 'a',ja,0.1118246999103576,zibja,zibja,2,40073,low,low,pseudo
+156,s283,156,38,0,'v' 'e',va,0.15978719992563128,vanru,venru,2,560130,med,med,pseudo
+157,s283,157,38,1, 'e' 'n',an,0.1280875001102686,vanru,venru,2,12315713,high,med,pseudo
+158,s283,158,38,2, 'n' 'r',nr,0.16801550006493926,vanru,venru,2,54341,low,med,pseudo
+159,s283,159,38,3, 'r' 'u',ru,0.12795130000449717,vanru,venru,2,705492,med,med,pseudo
+160,s283,160,39,0,'d' 'r',dr,0.17596400016918778,druze,druze,1,567936,med,low,low
+161,s283,161,39,1, 'r' 'u',ru,0.12014429992996156,druze,druze,1,705492,med,low,low
+162,s283,162,39,2, 'u' 'z',uz,0.16000870009884238,druze,druze,1,19836,low,low,low
+163,s283,163,39,3, 'z' 'e',ze,0.20780209987424314,druze,druze,1,210896,low,low,low
+164,s283,164,40,0,'b' 'u',bu,0.13594329985789955,buddy,buddy,1,1183063,med,low,high
+165,s283,165,40,1, 'u' 'd',ud,0.1359439000952989,buddy,buddy,1,458716,low,low,high
+166,s283,166,40,2, 'd' 'd',dd,0.15992980008013546,buddy,buddy,1,306083,low,low,high
+167,s283,167,40,3, 'd' 'y',dy,0.07213649991899729,buddy,buddy,1,360103,low,low,high
+168,s283,168,41,0,'t' 'h',th,0.11217209999449551,think,thingk,0,22288309,high,high,high
+169,s283,169,41,1, 'h' 'i',hi,0.10389110003598034,think,thingk,0,6198006,high,high,high
+170,s283,170,41,2, 'i' 'n',in,0.14394469978287816,think,thingk,0,13597302,high,high,high
+171,s283,171,41,3, 'n' 'g',nk,0.0639316001906991,think,thingk,0,445067,low,high,high
+172,s283,172,41,4, 'g' 'k',,0.5280833998695016,think,thingk,0,,,high,high
+173,s283,173,42,0,'t' 'h',th,0.1279993001371622,theme,theme,2,22288309,high,high,med
+174,s283,174,42,1, 'h' 'e',he,0.27998819993808866,theme,theme,2,21484684,high,high,med
+175,s283,175,42,2, 'e' 'm',em,0.1121785999275744,theme,theme,2,2039661,med,high,med
+176,s283,176,42,3, 'm' 'e',me,0.09590469999238849,theme,theme,2,4724108,high,high,med
+177,s283,177,43,0,'p' 'u',pu,0.2480818999465555,puppy,puppy,0,514720,low,low,med
+178,s283,178,43,1, 'u' 'p',up,0.21591689996421337,puppy,puppy,0,968744,med,low,med
+179,s283,179,43,2, 'p' 'p',pp,0.13599180011078715,puppy,puppy,0,805170,med,low,med
+180,s283,180,43,3, 'p' 'y',py,0.23203099984675646,puppy,puppy,0,149099,low,low,med
+181,s283,181,44,0,'t' 'i',ti,0.15977589995600283,tithe,tithe,0,5135552,high,high,low
+182,s283,182,44,1, 'i' 't',it,0.17595050018280745,tithe,tithe,0,6637233,high,high,low
+183,s283,183,44,2, 't' 'h',th,0.10420009982772171,tithe,tithe,0,22288309,high,high,low
+184,s283,184,44,3, 'h' 'e',he,0.127923300024122,tithe,tithe,0,21484684,high,high,low
+185,s283,185,45,0,'b' 'u',bu,0.13609360018745065,buddy,buddy,2,1183063,med,low,high
+186,s283,186,45,1, 'u' 'd',ud,0.1599339998792857,buddy,buddy,2,458716,low,low,high
+187,s283,187,45,2, 'd' 'd',dd,0.16801679995842278,buddy,buddy,2,306083,low,low,high
+188,s283,188,45,3, 'd' 'y',dy,0.016061800066381693,buddy,buddy,2,360103,low,low,high
+189,s283,189,46,0,'c' 'h',ch,0.16795130004175007,champ,champ,1,3267507,med,med,med
+190,s283,190,46,1, 'h' 'a',ha,0.23990949988365173,champ,champ,1,6967591,high,med,med
+191,s283,191,46,2, 'a' 'm',am,0.12791180005297065,champ,champ,1,1610395,med,med,med
+192,s283,192,46,3, 'm' 'p',mp,0.14400470000691712,champ,champ,1,1042198,med,med,med
+193,s283,193,47,0,'b' 'e',be,0.14410479995422065,belly,belly,2,3798740,med,med,med
+194,s283,194,47,1, 'e' 'l',el,0.11999969999305904,belly,belly,2,3235254,med,med,med
+195,s283,195,47,2, 'l' 'l',ll,0.11993720009922981,belly,belly,2,4235407,med,med,med
+196,s283,196,47,3, 'l' 'y',ly,0.10400679986923933,belly,belly,2,2589130,med,med,med
+197,s283,197,48,0,'t' 'h',th,0.10425899992696941,there,there,0,22288309,high,high,high
+198,s283,198,48,1, 'h' 'e',he,0.11172319995239377,there,there,0,21484684,high,high,high
+199,s283,199,48,2, 'e' 'r',er,0.15198680013418198,there,there,0,12934901,high,high,high
+200,s283,200,48,3, 'r' 'e',re,0.15994519996456802,there,there,0,10687711,high,high,high
+201,s283,201,49,0,'k' 'r',kr,0.18413010006770492,kremp,kremp,1,5683,low,med,pseudo
+202,s283,202,49,1, 'r' 'e',re,0.1758482998702675,kremp,kremp,1,10687711,high,med,pseudo
+203,s283,203,49,2, 'e' 'm',em,0.08819030015729368,kremp,kremp,1,2039661,med,med,pseudo
+204,s283,204,49,3, 'm' 'p',mp,0.11980360001325607,kremp,kremp,1,1042198,med,med,pseudo
+205,s283,205,50,0,'c' 'o',co,0.12741969991475344,cooed,cooed,2,3609272,med,med,low
+206,s283,206,50,1, 'o' 'o',oo,0.13591680000536144,cooed,cooed,2,1933683,med,med,low
+207,s283,207,50,2, 'o' 'e',oe,0.10404920019209385,cooed,cooed,2,270012,low,med,low
+208,s283,208,50,3, 'e' 'd',ed,0.15187929989770055,cooed,cooed,2,7805967,high,med,low
+209,s283,209,51,0,'d' 'r',dr,0.16804390004836023,druze,druze,2,567936,med,low,low
+210,s283,210,51,1, 'r' 'u',ru,0.3039474000688642,druze,druze,2,705492,med,low,low
+211,s283,211,51,2, 'u' 'z',uz,0.1521302000619471,druze,druze,2,19836,low,low,low
+212,s283,212,51,3, 'z' 'e',ze,0.2638426998164505,druze,druze,2,210896,low,low,low
+213,s283,213,52,0,'a' 'b',ab,0.1198471998795867,about,about,3,1203849,med,med,high
+214,s283,214,52,1, 'b' 'o',bo,0.15996960015036166,about,about,3,1140702,med,med,high
+215,s283,215,52,2, 'o' 'u',ou,0.1679513999260962,about,about,3,7425307,high,med,high
+216,s283,216,52,3, 'u' 't',ut,0.08805819996632636,about,about,3,3257233,med,med,high
+217,s283,217,53,0,'c' 'h',ch,0.21609220001846552,champ,champ,2,3267507,med,med,med
+218,s283,218,53,1, 'h' 'a',ha,0.295960099902004,champ,champ,2,6967591,high,med,med
+219,s283,219,53,2, 'a' 'm',am,0.34404840017668903,champ,champ,2,1610395,med,med,med
+220,s283,220,53,3, 'm' 'p',mp,0.22400239994749427,champ,champ,2,1042198,med,med,med
+221,s283,221,54,0,'a' 'd',dr,1.0239821001887321,druze,adruxe,3,567936,med,low,low
+222,s283,222,54,1, 'd' 'r',ru,0.2319940000306815,druze,adruxe,3,705492,med,low,low
+223,s283,223,54,2, 'r' 'u',uz,0.1679495999123901,druze,adruxe,3,19836,low,low,low
+224,s283,224,54,3, 'u' 'x',ze,0.272173099918291,druze,adruxe,3,210896,low,low,low
+225,s283,225,54,4, 'x' 'e',,0.743884600000456,druze,adruxe,3,,,low,low
+226,s283,226,55,0,'t' 'h',th,0.09605160006321967,therm,therm,1,22288309,high,high,low
+227,s283,227,55,1, 'h' 'e',he,0.1357673997990787,therm,therm,1,21484684,high,high,low
+228,s283,228,55,2, 'e' 'r',er,0.15195570001378655,therm,therm,1,12934901,high,high,low
+229,s283,229,55,3, 'r' 'm',rm,0.07999920006841421,therm,therm,1,905131,med,high,low
+230,s283,230,56,0,'t' 'h',th,0.09604090009815991,think,think,1,22288309,high,high,high
+231,s283,231,56,1, 'h' 'i',hi,0.1119202000554651,think,think,1,6198006,high,high,high
+232,s283,232,56,2, 'i' 'n',in,0.13602299988269806,think,think,1,13597302,high,high,high
+233,s283,233,56,3, 'n' 'k',nk,0.10415050014853477,think,think,1,445067,low,high,high
+234,s283,234,57,0,'d' 'r',dr,0.17632010020315647,druze,druze,4,567936,med,low,low
+235,s283,235,57,1, 'r' 'u',ru,0.11977789993397892,druze,druze,4,705492,med,low,low
+236,s283,236,57,2, 'u' 'z',uz,0.13616649992763996,druze,druze,4,19836,low,low,low
+237,s283,237,57,3, 'z' 'e',ze,0.23975130007602274,druze,druze,4,210896,low,low,low
+238,s283,238,58,0,'c' 'h',ch,0.13588660000823438,cheer,cheer,1,3267507,med,high,med
+239,s283,239,58,1, 'h' 'e',he,0.13590929983183742,cheer,cheer,1,21484684,high,high,med
+240,s283,240,58,2, 'e' 'e',ee,0.15216010017320514,cheer,cheer,1,2839722,med,high,med
+241,s283,241,58,3, 'e' 'r',er,0.14393489994108677,cheer,cheer,1,12934901,high,high,med
+242,s283,242,59,0,'p' 'y',py,0.14403830002993345,pykka,pykka,2,149099,low,low,pseudo
+243,s283,243,59,1, 'y' 'k',yk,0.1600234000943601,pykka,pykka,2,4767,low,low,pseudo
+244,s283,244,59,2, 'k' 'k',kk,0.14394119987264276,pykka,pykka,2,1820,low,low,pseudo
+245,s283,245,59,3, 'k' 'a',ka,0.13593440013937652,pykka,pykka,2,60568,low,low,pseudo
+246,s283,246,60,0,'b' 'e',be,0.11999279982410371,belly,belly,3,3798740,med,med,med
+247,s283,247,60,1, 'e' 'l',el,0.08778800000436604,belly,belly,3,3235254,med,med,med
+248,s283,248,60,2, 'l' 'l',ll,0.11999580007977784,belly,belly,3,4235407,med,med,med
+249,s283,249,60,3, 'l' 'y',ly,0.09611189994029701,belly,belly,3,2589130,med,med,med
+250,s283,250,61,0,'c' 'o',co,0.14408150012604892,cooed,cooed,3,3609272,med,med,low
+251,s283,251,61,1, 'o' 'o',oo,0.12001279997639358,cooed,cooed,3,1933683,med,med,low
+252,s283,252,61,2, 'o' 'e',oe,0.11987320007756352,cooed,cooed,3,270012,low,med,low
+253,s283,253,61,3, 'e' 'd',ed,0.16808749991469085,cooed,cooed,3,7805967,high,med,low
+254,s283,254,62,0,'p' 'u',pu,0.20800270000472665,puppy,puppy,1,514720,low,low,med
+255,s283,255,62,1, 'u' 'p',up,0.1520078000612557,puppy,puppy,1,968744,med,low,med
+256,s283,256,62,2, 'p' 'p',pp,0.11992689990438521,puppy,puppy,1,805170,med,low,med
+257,s283,257,62,3, 'p' 'y',py,0.1679690999444574,puppy,puppy,1,149099,low,low,med
+258,s283,258,63,0,'c' 'h',ch,0.12001299997791648,cheer,cheer,2,3267507,med,high,med
+259,s283,259,63,1, 'h' 'e',he,0.14388690004125237,cheer,cheer,2,21484684,high,high,med
+260,s283,260,63,2, 'e' 'e',ee,0.14412419986911118,cheer,cheer,2,2839722,med,high,med
+261,s283,261,63,3, 'e' 'r',er,0.1679291999898851,cheer,cheer,2,12934901,high,high,med
+262,s283,262,64,0,'v' 'o',vo,0.11987870000302792,vodka,vodka,2,368238,low,low,med
+263,s283,263,64,1, 'o' 'd',od,0.2881499999202788,vodka,vodka,2,1013147,med,low,med
+264,s283,264,64,2, 'd' 'k',dk,0.13602259987965226,vodka,vodka,2,5347,low,low,med
+265,s283,265,64,3, 'k' 'a',ka,0.12792970007285476,vodka,vodka,2,60568,low,low,med
+266,s283,266,65,0,'h' 'a',ha,0.11989700002595782,haole,haole,0,6967591,high,med,low
+267,s283,267,65,1, 'a' 'o',ao,0.17602590005844831,haole,haole,0,25487,low,med,low
+268,s283,268,65,2, 'o' 'l',ol,0.20786249986849725,haole,haole,0,1804856,med,med,low
+269,s283,269,65,3, 'l' 'e',le,0.08809170010499656,haole,haole,0,5038239,high,med,low
+270,s283,270,66,0,'c' 'h',ch,0.13597599999047816,champ,chamop,3,3267507,med,med,med
+271,s283,271,66,1, 'h' 'a',ha,0.11991919996216893,champ,chamop,3,6967591,high,med,med
+272,s283,272,66,2, 'a' 'm',am,0.1521350999828428,champ,chamop,3,1610395,med,med,med
+273,s283,273,66,3, 'm' 'o',mp,0.11221090005710721,champ,chamop,3,1042198,med,med,med
+274,s283,274,66,4, 'o' 'p',,0.0,champ,chamop,3,,,med,med
+275,s283,275,67,0,'c' 'h',ch,0.11996600008569658,cheer,cheer,3,3267507,med,high,med
+276,s283,276,67,1, 'h' 'e',he,0.16791209997609258,cheer,cheer,3,21484684,high,high,med
+277,s283,277,67,2, 'e' 'e',ee,0.11208350001834333,cheer,cheer,3,2839722,med,high,med
+278,s283,278,67,3, 'e' 'r',er,0.16019709990359843,cheer,cheer,3,12934901,high,high,med
+279,s283,279,68,0,'p' 'u',pu,0.1758380001410842,puppy,puppy,2,514720,low,low,med
+280,s283,280,68,1, 'u' 'p',up,0.14412730000913143,puppy,puppy,2,968744,med,low,med
+281,s283,281,68,2, 'p' 'p',pp,0.11208829982206225,puppy,puppy,2,805170,med,low,med
+282,s283,282,68,3, 'p' 'y',py,0.15999920014292002,puppy,puppy,2,149099,low,low,med
+283,s283,283,69,0,'b' 'u',bu,0.12778029986657202,buddy,buddy,3,1183063,med,low,high
+284,s283,284,69,1, 'u' 'd',ud,0.1360722000245005,buddy,buddy,3,458716,low,low,high
+285,s283,285,69,2, 'd' 'd',dd,0.12003260012716055,buddy,buddy,3,306083,low,low,high
+286,s283,286,69,3, 'd' 'y',dy,0.11208959994837642,buddy,buddy,3,360103,low,low,high
+287,s283,287,70,0,'f' 'a',fa,0.36806849995628,faqir,faqir,1,1043958,med,low,low
+288,s283,288,70,1, 'a' 'q',aq,0.2319155998993665,faqir,faqir,1,4924,low,low,low
+289,s283,289,70,2, 'q' 'i',qi,0.7200045001227409,faqir,faqir,1,36,low,low,low
+290,s283,290,70,3, 'i' 'r',ir,0.15198970003984869,faqir,faqir,1,2142678,med,low,low
+291,s283,291,71,0,'p' 'u',pu,0.19197520008310676,puppy,puppy,3,514720,low,low,med
+292,s283,292,71,1, 'u' 'p',up,0.17595669999718666,puppy,puppy,3,968744,med,low,med
+293,s283,293,71,2, 'p' 'p',pp,0.1361352999228984,puppy,puppy,3,805170,med,low,med
+294,s283,294,71,3, 'p' 'y',py,0.42388560017570853,puppy,puppy,3,149099,low,low,med
+295,s283,295,72,0,'z' 'i',zi,0.1678139998111874,zibja,zibja,3,54565,low,low,pseudo
+296,s283,296,72,1, 'i' 'b',ib,0.1761755000334233,zibja,zibja,3,493267,low,low,pseudo
+297,s283,297,72,2, 'b' 'j',bj,0.18404890014789999,zibja,zibja,3,105433,low,low,pseudo
+298,s283,298,72,3, 'j' 'a',ja,0.1279716999270022,zibja,zibja,3,40073,low,low,pseudo
+299,s283,299,73,0,'h' 'a',ha,0.18342579994350672,haole,haole,1,6967591,high,med,low
+300,s283,300,73,1, 'a' 'o',ao,0.12790389987640083,haole,haole,1,25487,low,med,low
+301,s283,301,73,2, 'o' 'l',ol,0.20003900001756847,haole,haole,1,1804856,med,med,low
+302,s283,302,73,3, 'l' 'e',le,0.08801489998586476,haole,haole,1,5038239,high,med,low
+303,s283,303,74,0,'f' 'a',fa,0.46390950004570186,faqir,faquir,2,1043958,med,low,low
+304,s283,304,74,1, 'a' 'q',aq,0.17598729999735951,faqir,faquir,2,4924,low,low,low
+305,s283,305,74,2, 'q' 'u',qi,0.1681788000278175,faqir,faquir,2,36,low,low,low
+306,s283,306,74,3, 'u' 'i',ir,0.9439863001462072,faqir,faquir,2,2142678,med,low,low
+307,s283,307,74,4, 'i' 'r',,0.07982469978742301,faqir,faquir,2,,,low,low
+308,s283,308,75,0,'k' 'r',kr,0.11194179998710752,kremp,krempo,2,5683,low,med,pseudo
+309,s283,309,75,1, 'r' 'e',re,0.17610000004060566,kremp,krempo,2,10687711,high,med,pseudo
+310,s283,310,75,2, 'e' 'm',em,0.10385019984096289,kremp,krempo,2,2039661,med,med,pseudo
+311,s283,311,75,3, 'm' 'p',mp,0.14396570017561316,kremp,krempo,2,1042198,med,med,pseudo
+312,s283,312,75,4, 'p' 'o',,0.04804819985292852,kremp,krempo,2,,,med,pseudo
+313,s283,313,76,0,'t' 'h',th,0.09590740012936294,think,think,2,22288309,high,high,high
+314,s283,314,76,1, 'h' 'i',hi,0.10407899995334446,think,think,2,6198006,high,high,high
+315,s283,315,76,2, 'i' 'n',in,0.12814330006949604,think,think,2,13597302,high,high,high
+316,s283,316,76,3, 'n' 'k',nk,0.10387200000695884,think,think,2,445067,low,high,high
+317,s283,317,77,0,'t' 'h',th,0.09589019999839365,therm,therm,2,22288309,high,high,low
+318,s283,318,77,1, 'h' 'e',he,0.13617830001749098,therm,therm,2,21484684,high,high,low
+319,s283,319,77,2, 'e' 'r',er,0.1439851000905037,therm,therm,2,12934901,high,high,low
+320,s283,320,77,3, 'r' 'm',rm,0.08797799982130527,therm,therm,2,905131,med,high,low
+321,s283,321,78,0,'p' 'y',py,0.24797749985009432,pykka,pykka,3,149099,low,low,pseudo
+322,s283,322,78,1, 'y' 'k',yk,0.24801310012117028,pykka,pykka,3,4767,low,low,pseudo
+323,s283,323,78,2, 'k' 'k',kk,0.11996779986657202,pykka,pykka,3,1820,low,low,pseudo
+324,s283,324,78,3, 'k' 'a',ka,0.15200080000795424,pykka,pykka,3,60568,low,low,pseudo
+325,s283,325,79,0,'t' 'h',th,0.10398400016129017,there,there,1,22288309,high,high,high
+326,s283,326,79,1, 'h' 'e',he,0.11174759990535676,there,there,1,21484684,high,high,high
+327,s283,327,79,2, 'e' 'r',er,0.14401839999482036,there,there,1,12934901,high,high,high
+328,s283,328,79,3, 'r' 'e',re,0.14399640006013215,there,there,1,10687711,high,high,high
+329,s283,329,80,0,'z' 'i',zi,0.543919799849391,zibja,zinja,4,54565,low,low,pseudo
+330,s283,330,80,1, 'i' 'n',ib,0.19986970000900328,zibja,zinja,4,493267,low,low,pseudo
+331,s283,331,80,2, 'n' 'j',bj,0.4401883000973612,zibja,zinja,4,105433,low,low,pseudo
+332,s283,332,80,3, 'j' 'a',ja,0.1359323998913169,zibja,zinja,4,40073,low,low,pseudo
+333,s283,333,81,0,'b' 'u',bu,0.1439507999457419,buddy,buddy,4,1183063,med,low,high
+334,s283,334,81,1, 'u' 'd',ud,0.12804559990763664,buddy,buddy,4,458716,low,low,high
+335,s283,335,81,2, 'd' 'd',dd,0.15192249999381602,buddy,buddy,4,306083,low,low,high
+336,s283,336,81,3, 'd' 'y',dy,0.10395060013979673,buddy,buddy,4,360103,low,low,high
+337,s283,337,82,0,'f' 'a',fa,0.33586160000413656,faqir,faqir,3,1043958,med,low,low
+338,s283,338,82,1, 'a' 'q',aq,0.2720359000377357,faqir,faqir,3,4924,low,low,low
+339,s283,339,82,2, 'q' 'i',qi,0.48796559986658394,faqir,faqir,3,36,low,low,low
+340,s283,340,82,3, 'i' 'r',ir,0.2079886000137776,faqir,faqir,3,2142678,med,low,low
+341,s283,341,83,0,'k' 'r',kr,0.2640081001445651,kremp,krempo,3,5683,low,med,pseudo
+342,s283,342,83,1, 'r' 'e',re,0.19999139988794923,kremp,krempo,3,10687711,high,med,pseudo
+343,s283,343,83,2, 'e' 'm',em,0.12001179996877909,kremp,krempo,3,2039661,med,med,pseudo
+344,s283,344,83,3, 'm' 'p',mp,0.15212280000559986,kremp,krempo,3,1042198,med,med,pseudo
+345,s283,345,83,4, 'p' 'o',,0.007976599968969822,kremp,krempo,3,,,med,pseudo
+346,s283,346,84,0,'c' 'o',co,0.11199090001173317,cooed,cooed,4,3609272,med,med,low
+347,s283,347,84,1, 'o' 'o',oo,0.1360929999500513,cooed,cooed,4,1933683,med,med,low
+348,s283,348,84,2, 'o' 'e',oe,0.19202239997684956,cooed,cooed,4,270012,low,med,low
+349,s283,349,84,3, 'e' 'd',ed,0.15997080015949905,cooed,cooed,4,7805967,high,med,low
+350,s283,350,85,0,'c' 'h',ch,0.144109700107947,champ,champ,4,3267507,med,med,med
+351,s283,351,85,1, 'h' 'a',ha,0.1999113999772817,champ,champ,4,6967591,high,med,med
+352,s283,352,85,2, 'a' 'm',am,0.1440987999085337,champ,champ,4,1610395,med,med,med
+353,s283,353,85,3, 'm' 'p',mp,0.16003970010206103,champ,champ,4,1042198,med,med,med
+354,s283,354,86,0,'h' 'a',ha,0.14397790003567934,haole,haole,2,6967591,high,med,low
+355,s283,355,86,1, 'a' 'o',ao,0.12002819986082613,haole,haole,2,25487,low,med,low
+356,s283,356,86,2, 'o' 'l',ol,0.19203969999216497,haole,haole,2,1804856,med,med,low
+357,s283,357,86,3, 'l' 'e',le,0.1038942001760006,haole,haole,2,5038239,high,med,low
+358,s283,358,87,0,'t' 'i',ti,0.12799439998343587,tithe,tithe,1,5135552,high,high,low
+359,s283,359,87,1, 'i' 't',it,0.08792379987426102,tithe,tithe,1,6637233,high,high,low
+360,s283,360,87,2, 't' 'h',th,0.1281070001423359,tithe,tithe,1,22288309,high,high,low
+361,s283,361,87,3, 'h' 'e',he,0.11989339999854565,tithe,tithe,1,21484684,high,high,low
+362,s283,362,88,0,'l' 'u',lu,0.1999536999501288,lucky,lucky,4,568081,med,low,high
+363,s283,363,88,1, 'u' 'c',uc,0.112001100089401,lucky,lucky,4,891233,med,low,high
+364,s283,364,88,2, 'c' 'k',ck,0.08004230004735291,lucky,lucky,4,925655,med,low,high
+365,s283,365,88,3, 'k' 'y',ky,0.17594539979472756,lucky,lucky,4,49764,low,low,high
+366,s283,366,89,0,'v' 'o',vo,0.14398299995809793,vodka,vodka,3,368238,low,low,med
+367,s283,367,89,1, 'o' 'd',od,0.3760186000727117,vodka,vodka,3,1013147,med,low,med
+368,s283,368,89,2, 'd' 'k',dk,0.21602439996786416,vodka,vodka,3,5347,low,low,med
+369,s283,369,89,3, 'k' 'a',ka,0.10412300005555153,vodka,vodka,3,60568,low,low,med
+370,s283,370,90,0,'h' 'e',he,0.11992280022241175,heond,heond,4,21484684,high,high,pseudo
+371,s283,371,90,1, 'e' 'o',eo,0.16794299986213446,heond,heond,4,305120,low,high,pseudo
+372,s283,372,90,2, 'o' 'n',on,0.1039599000941962,heond,heond,4,8830487,high,high,pseudo
+373,s283,373,90,3, 'n' 'd',nd,0.11208190000616014,heond,heond,4,9414961,high,high,pseudo
+374,s283,374,91,0,'k' 'r',kr,0.15977100003510714,kremp,kremp,4,5683,low,med,pseudo
+375,s283,375,91,1, 'r' 'e',re,0.19212829996831715,kremp,kremp,4,10687711,high,med,pseudo
+376,s283,376,91,2, 'e' 'm',em,0.08000149996951222,kremp,kremp,4,2039661,med,med,pseudo
+377,s283,377,91,3, 'm' 'p',mp,0.12791340006515384,kremp,kremp,4,1042198,med,med,pseudo
+378,s283,378,92,0,'t' 'i',ti,0.10396249988116324,tithe,tithe,2,5135552,high,high,low
+379,s283,379,92,1, 'i' 't',it,0.0880239000543952,tithe,tithe,2,6637233,high,high,low
+380,s283,380,92,2, 't' 'h',th,0.12004519999027252,tithe,tithe,2,22288309,high,high,low
+381,s283,381,92,3, 'h' 'e',he,0.08789280010387301,tithe,tithe,2,21484684,high,high,low
+382,s283,382,93,0,'v' 'a',va,0.263996500056237,vanru,vanru,3,560130,med,med,pseudo
+383,s283,383,93,1, 'a' 'n',an,0.1120873000472784,vanru,vanru,3,12315713,high,med,pseudo
+384,s283,384,93,2, 'n' 'r',nr,0.14387509995140135,vanru,vanru,3,54341,low,med,pseudo
+385,s283,385,93,3, 'r' 'u',ru,0.1281703000422567,vanru,vanru,3,705492,med,med,pseudo
+386,s283,386,94,0,'c' 'h',ch,0.1041233001742512,cheer,cheer,4,3267507,med,high,med
+387,s283,387,94,1, 'h' 'e',he,0.16787309991195798,cheer,cheer,4,21484684,high,high,med
+388,s283,388,94,2, 'e' 'e',ee,0.12802749988622963,cheer,cheer,4,2839722,med,high,med
+389,s283,389,94,3, 'e' 'r',er,0.15197210013866425,cheer,cheer,4,12934901,high,high,med
+390,s283,390,95,0,'t' 'h',th,0.1519857000093907,therm,therm,3,22288309,high,high,low
+391,s283,391,95,1, 'h' 'e',he,0.5600308999419212,therm,therm,3,21484684,high,high,low
+392,s283,392,95,2, 'e' 'r',er,0.18397710006684065,therm,therm,3,12934901,high,high,low
+393,s283,393,95,3, 'r' 'm',rm,0.13612739997915924,therm,therm,3,905131,med,high,low
+394,s283,394,96,0,'t' 'h',th,0.07196839991956949,theme,theme,3,22288309,high,high,med
+395,s283,395,96,1, 'h' 'e',he,0.12007869989611208,theme,theme,3,21484684,high,high,med
+396,s283,396,96,2, 'e' 'm',em,0.10392280016094446,theme,theme,3,2039661,med,high,med
+397,s283,397,96,3, 'm' 'e',me,0.08819029992446303,theme,theme,3,4724108,high,high,med
+398,s283,398,97,0,'h' 'a',ha,0.14393869997002184,haole,haole,3,6967591,high,med,low
+399,s283,399,97,1, 'a' 'o',ao,0.16009019990451634,haole,haole,3,25487,low,med,low
+400,s283,400,97,2, 'o' 'l',ol,0.2399927000515163,haole,haole,3,1804856,med,med,low
+401,s283,401,97,3, 'l' 'e',le,0.10400169994682074,haole,haole,3,5038239,high,med,low
+402,s283,402,98,0,'e' 'd',ed,0.1919291999656707,edthe,edthe,3,7805967,high,high,pseudo
+403,s283,403,98,1, 'd' 't',dt,0.17604859988205135,edthe,edthe,3,11191,low,high,pseudo
+404,s283,404,98,2, 't' 'h',th,0.07997480011545122,edthe,edthe,3,22288309,high,high,pseudo
+405,s283,405,98,3, 'h' 'e',he,0.11997359991073608,edthe,edthe,3,21484684,high,high,pseudo
+406,s283,406,99,0,'t' 'h',th,0.10402319999411702,think,think,3,22288309,high,high,high
+407,s283,407,99,1, 'h' 'i',hi,0.0960468000266701,think,think,3,6198006,high,high,high
+408,s283,408,99,2, 'i' 'n',in,0.14413850009441376,think,think,3,13597302,high,high,high
+409,s283,409,99,3, 'n' 'k',nk,0.08781439997255802,think,think,3,445067,low,high,high
+410,s283,410,100,0,'t' 'h',th,0.08796809986233711,theme,theme,4,22288309,high,high,med
+411,s283,411,100,1, 'h' 'e',he,0.14403730002231896,theme,theme,4,21484684,high,high,med
+412,s283,412,100,2, 'e' 'm',em,0.2959372999612242,theme,theme,4,2039661,med,high,med
+413,s283,413,100,3, 'm' 'e',me,0.15203870018012822,theme,theme,4,4724108,high,high,med
+414,s283,414,101,0,'f' 'a',fa,0.3439587000757456,faqir,faqir,4,1043958,med,low,low
+415,s283,415,101,1, 'a' 'q',aq,0.26400709990411997,faqir,faqir,4,4924,low,low,low
+416,s283,416,101,2, 'q' 'i',qi,0.6243160001467913,faqir,faqir,4,36,low,low,low
+417,s283,417,101,3, 'i' 'r',ir,0.37571179983206093,faqir,faqir,4,2142678,med,low,low
+418,s283,418,102,0,'p' 'u',pu,0.20000179996713996,puppy,puppy,4,514720,low,low,med
+419,s283,419,102,1, 'u' 'p',up,0.167925100075081,puppy,puppy,4,968744,med,low,med
+420,s283,420,102,2, 'p' 'p',pp,0.09616379998624325,puppy,puppy,4,805170,med,low,med
+421,s283,421,102,3, 'p' 'y',py,0.2399433001410216,puppy,puppy,4,149099,low,low,med
+422,s283,422,103,0,'v' 'a',va,0.10403769998811185,vanru,vanru,4,560130,med,med,pseudo
+423,s283,423,103,1, 'a' 'n',an,0.10384940006770194,vanru,vanru,4,12315713,high,med,pseudo
+424,s283,424,103,2, 'n' 'r',nr,0.12791879987344146,vanru,vanru,4,54341,low,med,pseudo
+425,s283,425,103,3, 'r' 'u',ru,0.08812620001845062,vanru,vanru,4,705492,med,med,pseudo
+426,s283,426,104,0,'a' 'b',ab,0.12004159996286035,about,about,4,1203849,med,med,high
+427,s283,427,104,1, 'b' 'o',bo,0.14391390001401305,about,about,4,1140702,med,med,high
+428,s283,428,104,2, 'o' 'u',ou,0.1600975999608636,about,about,4,7425307,high,med,high
+429,s283,429,104,3, 'u' 't',ut,0.11195089993998408,about,about,4,3257233,med,med,high
+430,s283,430,105,0,'w' 'o',wo,0.14434710005298257,would,would,2,1723496,med,med,high
+431,s283,431,105,1, 'o' 'u',ou,0.20770449982956052,would,would,2,7425307,high,med,high
+432,s283,432,105,2, 'u' 'l',ul,0.19189380016177893,would,would,2,2181271,med,med,high
+433,s283,433,105,3, 'l' 'd',ld,0.10404110001400113,would,would,2,2012500,med,med,high
+434,s283,434,106,0,'t' 'i',ti,0.12014220003038645,tithe,tithe,3,5135552,high,high,low
+435,s283,435,106,1, 'i' 't',it,0.11200900003314018,tithe,tithe,3,6637233,high,high,low
+436,s283,436,106,2, 't' 'h',th,0.10393329989165068,tithe,tithe,3,22288309,high,high,low
+437,s283,437,106,3, 'h' 'e',he,0.12804000009782612,tithe,tithe,3,21484684,high,high,low
+438,s283,438,107,0,'t' 'h',th,0.0800918999593705,there,there,2,22288309,high,high,high
+439,s283,439,107,1, 'h' 'e',he,0.14402739983052015,there,there,2,21484684,high,high,high
+440,s283,440,107,2, 'e' 'r',er,0.15188530017621815,there,there,2,12934901,high,high,high
+441,s283,441,107,3, 'r' 'e',re,0.15216850000433624,there,there,2,10687711,high,high,high
+442,s283,442,108,0,'w' 'o',wo,0.09601230011321604,would,would,3,1723496,med,med,high
+443,s283,443,108,1, 'o' 'u',ou,0.17600909993052483,would,would,3,7425307,high,med,high
+444,s283,444,108,2, 'u' 'l',ul,0.16798699996434152,would,would,3,2181271,med,med,high
+445,s283,445,108,3, 'l' 'd',ld,0.08004660019651055,would,would,3,2012500,med,med,high
+446,s283,446,109,0,'t' 'h',th,0.08013999997638166,there,there,3,22288309,high,high,high
+447,s283,447,109,1, 'h' 'e',he,0.1440077000297606,there,there,3,21484684,high,high,high
+448,s283,448,109,2, 'e' 'r',er,0.1677159999962896,there,there,3,12934901,high,high,high
+449,s283,449,109,3, 'r' 'e',re,0.1361358999274671,there,there,3,10687711,high,high,high
+450,s283,450,110,0,'t' 'h',th,0.09611109993420541,think,think,4,22288309,high,high,high
+451,s283,451,110,1, 'h' 'i',hi,0.09602010017260909,think,think,4,6198006,high,high,high
+452,s283,452,110,2, 'i' 'n',in,0.12773379986174405,think,think,4,13597302,high,high,high
+453,s283,453,110,3, 'n' 'k',nk,0.10410160012543201,think,think,4,445067,low,high,high
+454,s283,454,111,0,'t' 'h',th,0.06394950021058321,there,there,4,22288309,high,high,high
+455,s283,455,111,1, 'h' 'e',he,0.14406499988399446,there,there,4,21484684,high,high,high
+456,s283,456,111,2, 'e' 'r',er,0.15193459996953607,there,there,4,12934901,high,high,high
+457,s283,457,111,3, 'r' 'e',re,0.14409910002723336,there,there,4,10687711,high,high,high
+458,s283,458,112,0,'w' 'o',wo,0.09596290020272136,would,would,4,1723496,med,med,high
+459,s283,459,112,1, 'o' 'u',ou,0.18389709992334247,would,would,4,7425307,high,med,high
+460,s283,460,112,2, 'u' 'l',ul,0.1678909999318421,would,would,4,2181271,med,med,high
+461,s283,461,112,3, 'l' 'd',ld,0.08818070008419454,would,would,4,2012500,med,med,high
+462,s283,462,113,0,'b' 'e',be,0.11197159998118877,belly,belly,4,3798740,med,med,med
+463,s283,463,113,1, 'e' 'l',el,0.08011179999448359,belly,belly,4,3235254,med,med,med
+464,s283,464,113,2, 'l' 'l',ll,0.12786779995076358,belly,belly,4,4235407,med,med,med
+465,s283,465,113,3, 'l' 'y',ly,0.16816100012511015,belly,belly,4,2589130,med,med,med
+466,s283,466,114,0,'e' 'd',ed,0.14403400011360645,edthe,edthe,4,7805967,high,high,pseudo
+467,s283,467,114,1, 'd' 't',dt,0.17594260000623763,edthe,edthe,4,11191,low,high,pseudo
+468,s283,468,114,2, 't' 'h',th,0.07192620006389916,edthe,edthe,4,22288309,high,high,pseudo
+469,s283,469,114,3, 'h' 'e',he,0.11203359998762608,edthe,edthe,4,21484684,high,high,pseudo
+470,s283,470,115,0,'p' 'y',py,0.1679407001938671,pykka,pykka,4,149099,low,low,pseudo
+471,s283,471,115,1, 'y' 'k',yk,0.17608969984576106,pykka,pykka,4,4767,low,low,pseudo
+472,s283,472,115,2, 'k' 'k',kk,0.12815210013650358,pykka,pykka,4,1820,low,low,pseudo
+473,s283,473,115,3, 'k' 'a',ka,0.13587030000053346,pykka,pykka,4,60568,low,low,pseudo
+474,s283,474,116,0,'v' 'o',vo,0.18397120013833046,vodka,vodka,4,368238,low,low,med
+475,s283,475,116,1, 'o' 'd',od,0.4081566999666393,vodka,vodka,4,1013147,med,low,med
+476,s283,476,116,2, 'd' 'k',dk,0.15186319989152253,vodka,vodka,4,5347,low,low,med
+477,s283,477,116,3, 'k' 'a',ka,0.144107700092718,vodka,vodka,4,60568,low,low,med
+478,s283,478,117,0,'t' 'i',ti,0.1521803999785334,tithe,tithe,4,5135552,high,high,low
+479,s283,479,117,1, 'i' 't',it,0.11207749997265637,tithe,tithe,4,6637233,high,high,low
+480,s283,480,117,2, 't' 'h',th,0.1197294001467526,tithe,tithe,4,22288309,high,high,low
+481,s283,481,117,3, 'h' 'e',he,0.12025579996407032,tithe,tithe,4,21484684,high,high,low
+482,s283,482,118,0,'t' 'h',th,0.09604239999316633,therm,themr,4,22288309,high,high,low
+483,s283,483,118,1, 'h' 'e',he,0.12794500007294118,therm,themr,4,21484684,high,high,low
+484,s283,484,118,2, 'e' 'm',er,0.12007230008020997,therm,themr,4,12934901,high,high,low
+485,s283,485,118,3, 'm' 'r',rm,0.11198919988237321,therm,themr,4,905131,med,high,low
+486,s283,486,119,0,'h' 'a',ha,0.10424549994058907,haole,haole,4,6967591,high,med,low
+487,s283,487,119,1, 'a' 'o',ao,0.10401690006256104,haole,haole,4,25487,low,med,low
+488,s283,488,119,2, 'o' 'l',ol,0.15973469987511635,haole,haole,4,1804856,med,med,low
+489,s283,489,119,3, 'l' 'e',le,0.14404639997519553,haole,haole,4,5038239,high,med,low
+490,s283,490,120,0,'z' 'i',zi,0.14404930011369288,zibja,zibnja,5,54565,low,low,pseudo
+491,s283,491,120,1, 'i' 'b',ib,0.11996489996090531,zibja,zibnja,5,493267,low,low,pseudo
+492,s283,492,120,2, 'b' 'n',bj,0.008066399954259396,zibja,zibnja,5,105433,low,low,pseudo
+493,s283,493,120,3, 'n' 'j',ja,0.1519653000868857,zibja,zibnja,5,40073,low,low,pseudo
+494,s283,494,120,4, 'j' 'a',,0.09586569992825389,zibja,zibnja,5,,,low,pseudo
+495,s283,495,121,0,'c' 'h',ch,0.10420499998144805,cheer,cheer,5,3267507,med,high,med
+496,s283,496,121,1, 'h' 'e',he,0.14370420016348362,cheer,cheer,5,21484684,high,high,med
+497,s283,497,121,2, 'e' 'e',ee,0.12002009991556406,cheer,cheer,5,2839722,med,high,med
+498,s283,498,121,3, 'e' 'r',er,0.16006619995459914,cheer,cheer,5,12934901,high,high,med
+499,s283,499,122,0,'f' 'a',fa,0.3039595999289304,faqir,faqir,5,1043958,med,low,low
+500,s283,500,122,1, 'a' 'q',aq,0.5199859000276774,faqir,faqir,5,4924,low,low,low
+501,s283,501,122,2, 'q' 'i',qi,0.42397270002402365,faqir,faqir,5,36,low,low,low
+502,s283,502,122,3, 'i' 'r',ir,0.13608590001240373,faqir,faqir,5,2142678,med,low,low
+503,s283,503,123,0,'v' 'a',va,0.10408199997618794,vanru,vanru,5,560130,med,med,pseudo
+504,s283,504,123,1, 'a' 'n',an,0.09578599990345538,vanru,vanru,5,12315713,high,med,pseudo
+505,s283,505,123,2, 'n' 'r',nr,0.14420780004002154,vanru,vanru,5,54341,low,med,pseudo
+506,s283,506,123,3, 'r' 'u',ru,0.07187560014426708,vanru,vanru,5,705492,med,med,pseudo
+507,s283,507,124,0,'k' 'r',kr,0.1279932998586446,kremp,kremp,5,5683,low,med,pseudo
+508,s283,508,124,1, 'r' 'e',re,0.16810510004870594,kremp,kremp,5,10687711,high,med,pseudo
+509,s283,509,124,2, 'e' 'm',em,0.08791740005835891,kremp,kremp,5,2039661,med,med,pseudo
+510,s283,510,124,3, 'm' 'p',mp,0.11195549997501075,kremp,kremp,5,1042198,med,med,pseudo
+511,s283,511,125,0,'t' 'h',th,0.1123838999774307,think,think,5,22288309,high,high,high
+512,s283,512,125,1, 'h' 'i',hi,0.09553629998117685,think,think,5,6198006,high,high,high
+513,s283,513,125,2, 'i' 'n',in,0.14415700011886656,think,think,5,13597302,high,high,high
+514,s283,514,125,3, 'n' 'k',nk,0.10387189988978207,think,think,5,445067,low,high,high
+515,s283,515,126,0,'c' 'h',ch,0.1360275000333786,champ,champ,5,3267507,med,med,med
+516,s283,516,126,1, 'h' 'a',ha,0.175903300056234,champ,champ,5,6967591,high,med,med
+517,s283,517,126,2, 'a' 'm',am,0.13604619982652366,champ,champ,5,1610395,med,med,med
+518,s283,518,126,3, 'm' 'p',mp,0.1284457000438124,champ,champ,5,1042198,med,med,med
+519,s283,519,127,0,'p' 'y',py,0.208062999881804,pykka,pykka,5,149099,low,low,pseudo
+520,s283,520,127,1, 'y' 'k',yk,0.2559976999182254,pykka,pykka,5,4767,low,low,pseudo
+521,s283,521,127,2, 'k' 'k',kk,0.12796060019172728,pykka,pykka,5,1820,low,low,pseudo
+522,s283,522,127,3, 'k' 'a',ka,0.13616360002197325,pykka,pykka,5,60568,low,low,pseudo
+523,s283,523,128,0,'h' 'e',he,0.09605789999477565,heond,heond,5,21484684,high,high,pseudo
+524,s283,524,128,1, 'e' 'o',eo,0.14390970021486282,heond,heond,5,305120,low,high,pseudo
+525,s283,525,128,2, 'o' 'n',on,0.11237089987844229,heond,heond,5,8830487,high,high,pseudo
+526,s283,526,128,3, 'n' 'd',nd,0.09567930013872683,heond,heond,5,9414961,high,high,pseudo
+527,s283,527,129,0,'b' 'u',bu,0.13604200002737343,buddy,buddy,5,1183063,med,low,high
+528,s283,528,129,1, 'u' 'd',ud,0.12796319997869432,buddy,buddy,5,458716,low,low,high
+529,s283,529,129,2, 'd' 'd',dd,0.15201180009171367,buddy,buddy,5,306083,low,low,high
+530,s283,530,129,3, 'd' 'y',dy,0.07246229983866215,buddy,buddy,5,360103,low,low,high
+531,s283,531,130,0,'a' 'b',ab,0.12012880016118288,about,about,5,1203849,med,med,high
+532,s283,532,130,1, 'b' 'o',bo,0.13599169999361038,about,about,5,1140702,med,med,high
+533,s283,533,130,2, 'o' 'u',ou,0.15195599989965558,about,about,5,7425307,high,med,high
+534,s283,534,130,3, 'u' 't',ut,0.09606970008462667,about,about,5,3257233,med,med,high
+535,s283,535,131,0,'w' 'o',wo,0.039944899966940284,would,would,5,1723496,med,med,high
+536,s283,536,131,1, 'o' 'u',ou,0.22407710016705096,would,would,5,7425307,high,med,high
+537,s283,537,131,2, 'u' 'l',ul,0.1679924998898059,would,would,5,2181271,med,med,high
+538,s283,538,131,3, 'l' 'd',ld,0.07202520011924207,would,would,5,2012500,med,med,high
+539,s283,539,132,0,'e' 'd',ed,0.2799897000659257,edthe,edthe,5,7805967,high,high,pseudo
+540,s283,540,132,1, 'd' 't',dt,0.20801469986326993,edthe,edthe,5,11191,low,high,pseudo
+541,s283,541,132,2, 't' 'h',th,0.08001410006545484,edthe,edthe,5,22288309,high,high,pseudo
+542,s283,542,132,3, 'h' 'e',he,0.1762202000245452,edthe,edthe,5,21484684,high,high,pseudo
+543,s283,543,133,0,'c' 'o',co,0.224113600095734,cooed,coed,5,3609272,med,med,low
+544,s283,544,133,1, 'o' 'e',oo,0.17584779998287559,cooed,coed,5,1933683,med,med,low
+545,s283,545,133,2, 'e' 'd',oe,0.16006699996069074,cooed,coed,5,270012,low,med,low
+546,s283,546,134,0,'h' 'e',he,0.12000709981657565,heond,heond,6,21484684,high,high,pseudo
+547,s283,547,134,1, 'e' 'o',eo,0.09610279998742044,heond,heond,6,305120,low,high,pseudo
+548,s283,548,134,2, 'o' 'n',on,0.11991860019043088,heond,heond,6,8830487,high,high,pseudo
+549,s283,549,134,3, 'n' 'd',nd,0.10395609983243048,heond,heond,6,9414961,high,high,pseudo
+550,s283,550,135,0,'z' 'i',zi,0.11998099996708333,zibja,zinbja,6,54565,low,low,pseudo
+551,s283,551,135,1, 'i' 'n',ib,0.22401469992473722,zibja,zinbja,6,493267,low,low,pseudo
+552,s283,552,135,2, 'n' 'b',bj,0.6640900999773294,zibja,zinbja,6,105433,low,low,pseudo
+553,s283,553,135,3, 'b' 'j',ja,0.1358998001087457,zibja,zinbja,6,40073,low,low,pseudo
+554,s283,554,135,4, 'j' 'a',,0.12802189984358847,zibja,zinbja,6,,,low,pseudo
+555,s283,555,136,0,'t' 'h',th,0.07960179983638227,theme,theme,5,22288309,high,high,med
+556,s283,556,136,1, 'h' 'e',he,0.14401779999025166,theme,theme,5,21484684,high,high,med
+557,s283,557,136,2, 'e' 'm',em,0.08814040012657642,theme,theme,5,2039661,med,high,med
+558,s283,558,136,3, 'm' 'e',me,0.08786679990589619,theme,theme,5,4724108,high,high,med
+559,s283,559,137,0,'c' 'o',co,0.11189239984378219,cooed,cooed,6,3609272,med,med,low
+560,s283,560,137,1, 'o' 'o',oo,0.1280381001997739,cooed,cooed,6,1933683,med,med,low
+561,s283,561,137,2, 'o' 'e',oe,0.08005959982983768,cooed,cooed,6,270012,low,med,low
+562,s283,562,137,3, 'e' 'd',ed,0.16851310012862086,cooed,cooed,6,7805967,high,med,low
+563,s283,563,138,0,'l' 'u',lu,0.18397410004399717,lucky,lucky,5,568081,med,low,high
+564,s283,564,138,1, 'u' 'c',uc,0.11980829993262887,lucky,lucky,5,891233,med,low,high
+565,s283,565,138,2, 'c' 'k',ck,0.07209000014699996,lucky,lucky,5,925655,med,low,high
+566,s283,566,138,3, 'k' 'y',ky,0.20011759991757572,lucky,lucky,5,49764,low,low,high
+567,s283,567,139,0,'h' 'a',ha,0.09593000006861985,haole,haole,5,6967591,high,med,low
+568,s283,568,139,1, 'a' 'o',ao,0.11994059989228845,haole,haole,5,25487,low,med,low
+569,s283,569,139,2, 'o' 'l',ol,0.1920909001491964,haole,haole,5,1804856,med,med,low
+570,s283,570,139,3, 'l' 'e',le,0.08795389998704195,haole,haole,5,5038239,high,med,low
+571,s283,571,140,0,'w' 'o',wo,0.10403849999420345,would,would,6,1723496,med,med,high
+572,s283,572,140,1, 'o' 'u',ou,0.20801860000938177,would,would,6,7425307,high,med,high
+573,s283,573,140,2, 'u' 'l',ul,0.19216640014201403,would,would,6,2181271,med,med,high
+574,s283,574,140,3, 'l' 'd',ld,0.07993089989759028,would,would,6,2012500,med,med,high
+575,s283,575,141,0,'h' 'e',he,0.12797669996507466,heond,heond,7,21484684,high,high,pseudo
+576,s283,576,141,1, 'e' 'o',eo,0.12033509998582304,heond,heond,7,305120,low,high,pseudo
+577,s283,577,141,2, 'o' 'n',on,0.10365270008333027,heond,heond,7,8830487,high,high,pseudo
+578,s283,578,141,3, 'n' 'd',nd,0.12013639998622239,heond,heond,7,9414961,high,high,pseudo
+579,s283,579,142,0,'p' 'y',py,0.19197100005112588,pykka,pykka,6,149099,low,low,pseudo
+580,s283,580,142,1, 'y' 'k',yk,0.21585609996691346,pykka,pykka,6,4767,low,low,pseudo
+581,s283,581,142,2, 'k' 'k',kk,0.11198249994777143,pykka,pykka,6,1820,low,low,pseudo
+582,s283,582,142,3, 'k' 'a',ka,0.1599858000408858,pykka,pykka,6,60568,low,low,pseudo
+583,s283,583,143,0,'a' 'b',ab,0.2559755998663604,about,about,6,1203849,med,med,high
+584,s283,584,143,1, 'b' 'o',bo,0.15995270013809204,about,about,6,1140702,med,med,high
+585,s283,585,143,2, 'o' 'u',ou,0.18403859995305538,about,about,6,7425307,high,med,high
+586,s283,586,143,3, 'u' 't',ut,0.09616539999842644,about,about,6,3257233,med,med,high
+587,s283,587,144,0,'z' 'i',zi,0.1438967001158744,zibja,zibja,7,54565,low,low,pseudo
+588,s283,588,144,1, 'i' 'b',ib,0.15206140000373125,zibja,zibja,7,493267,low,low,pseudo
+589,s283,589,144,2, 'b' 'j',bj,0.8718709999229759,zibja,zibja,7,105433,low,low,pseudo
+590,s283,590,144,3, 'j' 'a',ja,0.1521401999052614,zibja,zibja,7,40073,low,low,pseudo
+591,s283,591,145,0,'h' 'a',ha,0.135990499984473,haole,haole,6,6967591,high,med,low
+592,s283,592,145,1, 'a' 'o',ao,0.12852249993011355,haole,haole,6,25487,low,med,low
+593,s283,593,145,2, 'o' 'l',ol,0.1514250000473112,haole,haole,6,1804856,med,med,low
+594,s283,594,145,3, 'l' 'e',le,0.11210919986478984,haole,haole,6,5038239,high,med,low
+595,s283,595,146,0,'p' 'u',pu,0.23992009996436536,puppy,puppy,5,514720,low,low,med
+596,s283,596,146,1, 'u' 'p',up,0.14391339989379048,puppy,puppy,5,968744,med,low,med
+597,s283,597,146,2, 'p' 'p',pp,0.10413220012560487,puppy,puppy,5,805170,med,low,med
+598,s283,598,146,3, 'p' 'y',py,0.5119753000326455,puppy,puppy,5,149099,low,low,med
+599,s283,599,147,0,'d' 'r',dr,0.1761399998795241,druze,druze,5,567936,med,low,low
+600,s283,600,147,1, 'r' 'u',ru,0.1358205999713391,druze,druze,5,705492,med,low,low
+601,s283,601,147,2, 'u' 'z',uz,0.12003560015000403,druze,druze,5,19836,low,low,low
+602,s283,602,147,3, 'z' 'e',ze,0.19998539984226227,druze,druze,5,210896,low,low,low
+603,s283,603,148,0,'v' 'o',vo,0.4321357998996973,vodka,vodka,5,368238,low,low,med
+604,s283,604,148,1, 'o' 'd',od,0.32800090010277927,vodka,vodka,5,1013147,med,low,med
+605,s283,605,148,2, 'd' 'k',dk,0.13598389993421733,vodka,vodka,5,5347,low,low,med
+606,s283,606,148,3, 'k' 'a',ka,0.15982350008562207,vodka,vodka,5,60568,low,low,med
+607,s283,607,149,0,'p' 'y',py,0.21596649987623096,pykka,pykka,7,149099,low,low,pseudo
+608,s283,608,149,1, 'y' 'k',yk,0.3280434999614954,pykka,pykka,7,4767,low,low,pseudo
+609,s283,609,149,2, 'k' 'k',kk,0.1279672000091523,pykka,pykka,7,1820,low,low,pseudo
+610,s283,610,149,3, 'k' 'a',ka,0.1279875000473112,pykka,pykka,7,60568,low,low,pseudo
+611,s283,611,150,0,'c' 'h',ch,0.1679452999960631,champ,champ,6,3267507,med,med,med
+612,s283,612,150,1, 'h' 'a',ha,0.1519915999379009,champ,champ,6,6967591,high,med,med
+613,s283,613,150,2, 'a' 'm',am,0.13612000015564263,champ,champ,6,1610395,med,med,med
+614,s283,614,150,3, 'm' 'p',mp,0.11196789983659983,champ,champ,6,1042198,med,med,med
+615,s283,615,151,0,'b' 'e',be,0.08786830003373325,belly,belly,5,3798740,med,med,med
+616,s283,616,151,1, 'e' 'l',el,0.12014629994519055,belly,belly,5,3235254,med,med,med
+617,s283,617,151,2, 'l' 'l',ll,0.11202090000733733,belly,belly,5,4235407,med,med,med
+618,s283,618,151,3, 'l' 'y',ly,0.11208650004118681,belly,belly,5,2589130,med,med,med
+619,s283,619,152,0,'t' 'h',th,0.12789579993113875,there,there,5,22288309,high,high,high
+620,s283,620,152,1, 'h' 'e',he,0.12001640000380576,there,there,5,21484684,high,high,high
+621,s283,621,152,2, 'e' 'r',er,0.17602060013450682,there,there,5,12934901,high,high,high
+622,s283,622,152,3, 'r' 'e',re,0.15210189996287227,there,there,5,10687711,high,high,high
+623,s283,623,153,0,'p' 'u',pu,0.1519075999967754,puppy,puppy,6,514720,low,low,med
+624,s283,624,153,1, 'u' 'p',up,0.1521759000606835,puppy,puppy,6,968744,med,low,med
+625,s283,625,153,2, 'p' 'p',pp,0.095964299980551,puppy,puppy,6,805170,med,low,med
+626,s283,626,153,3, 'p' 'y',py,0.20791830006055534,puppy,puppy,6,149099,low,low,med
+627,s283,627,154,0,'d' 'r',dr,0.18395380000583827,druze,druze,6,567936,med,low,low
+628,s283,628,154,1, 'r' 'u',ru,0.16814059996977448,druze,druze,6,705492,med,low,low
+629,s283,629,154,2, 'u' 'z',uz,0.11181670008227229,druze,druze,6,19836,low,low,low
+630,s283,630,154,3, 'z' 'e',ze,0.2080129999667406,druze,druze,6,210896,low,low,low
+631,s283,631,155,0,'v' 'a',va,0.19195850007236004,vanru,vanru,6,560130,med,med,pseudo
+632,s283,632,155,1, 'a' 'n',an,0.22401359979994595,vanru,vanru,6,12315713,high,med,pseudo
+633,s283,633,155,2, 'n' 'r',nr,0.16799850016832352,vanru,vanru,6,54341,low,med,pseudo
+634,s283,634,155,3, 'r' 'u',ru,0.15993670001626015,vanru,vanru,6,705492,med,med,pseudo
+635,s283,635,156,0,'w' 'o',wo,0.11981529998593032,would,would,7,1723496,med,med,high
+636,s283,636,156,1, 'o' 'u',ou,0.18421029997989535,would,would,7,7425307,high,med,high
+637,s283,637,156,2, 'u' 'l',ul,0.17580220010131598,would,would,7,2181271,med,med,high
+638,s283,638,156,3, 'l' 'd',ld,0.0804114998318255,would,would,7,2012500,med,med,high
+639,s283,639,157,0,'c' 'o',co,0.09592809993773699,cooed,cooed,7,3609272,med,med,low
+640,s283,640,157,1, 'o' 'o',oo,0.11986520001664758,cooed,cooed,7,1933683,med,med,low
+641,s283,641,157,2, 'o' 'e',oe,0.07207450014539063,cooed,cooed,7,270012,low,med,low
+642,s283,642,157,3, 'e' 'd',ed,0.1521218998823315,cooed,cooed,7,7805967,high,med,low
+643,s283,643,158,0,'p' 'u',pu,0.16003659996204078,puppy,puppy,7,514720,low,low,med
+644,s283,644,158,1, 'u' 'p',up,0.15189530001953244,puppy,puppy,7,968744,med,low,med
+645,s283,645,158,2, 'p' 'p',pp,0.10403600009158254,puppy,puppy,7,805170,med,low,med
+646,s283,646,158,3, 'p' 'y',py,0.14431010000407696,puppy,puppy,7,149099,low,low,med
+647,s283,647,159,0,'h' 'a',ha,0.09607970016077161,haole,haole,7,6967591,high,med,low
+648,s283,648,159,1, 'a' 'o',ao,0.10388159984722733,haole,haole,7,25487,low,med,low
+649,s283,649,159,2, 'o' 'l',ol,0.3999513001181185,haole,haole,7,1804856,med,med,low
+650,s283,650,159,3, 'l' 'e',le,0.08005909994244576,haole,haole,7,5038239,high,med,low
+651,s283,651,160,0,'p' 'u',pu,0.16790609993040562,puppy,puppy,8,514720,low,low,med
+652,s283,652,160,1, 'u' 'p',up,0.12819119985215366,puppy,puppy,8,968744,med,low,med
+653,s283,653,160,2, 'p' 'p',pp,0.11985980020835996,puppy,puppy,8,805170,med,low,med
+654,s283,654,160,3, 'p' 'y',py,0.13606789987534285,puppy,puppy,8,149099,low,low,med
+655,s283,655,161,0,'e' 'd',ed,0.16003630007617176,edthe,edthe,6,7805967,high,high,pseudo
+656,s283,656,161,1, 'd' 't',dt,0.1920481000561267,edthe,edthe,6,11191,low,high,pseudo
+657,s283,657,161,2, 't' 'h',th,0.08802730008028448,edthe,edthe,6,22288309,high,high,pseudo
+658,s283,658,161,3, 'h' 'e',he,0.11185719980858266,edthe,edthe,6,21484684,high,high,pseudo
+659,s283,659,162,0,'t' 'h',th,0.08798189996741712,there,there,6,22288309,high,high,high
+660,s283,660,162,1, 'h' 'e',he,0.12007449986413121,there,there,6,21484684,high,high,high
+661,s283,661,162,2, 'e' 'r',er,0.15989760006777942,there,there,6,12934901,high,high,high
+662,s283,662,162,3, 'r' 'e',re,0.12810219987295568,there,there,6,10687711,high,high,high
+663,s283,663,163,0,'h' 'e',he,0.07205169997178018,heond,heond,8,21484684,high,high,pseudo
+664,s283,664,163,1, 'e' 'o',eo,0.10410600015893579,heond,heond,8,305120,low,high,pseudo
+665,s283,665,163,2, 'o' 'n',on,0.10395539994351566,heond,heond,8,8830487,high,high,pseudo
+666,s283,666,163,3, 'n' 'd',nd,0.11997690005227923,heond,heond,8,9414961,high,high,pseudo
+667,s283,667,164,0,'c' 'h',ch,0.11207100003957748,champ,chasmp,7,3267507,med,med,med
+668,s283,668,164,1, 'h' 'a',ha,0.143972999881953,champ,chasmp,7,6967591,high,med,med
+669,s283,669,164,2, 'a' 's',am,0.00806879997253418,champ,chasmp,7,1610395,med,med,med
+670,s283,670,164,3, 's' 'm',mp,0.08014039997942746,champ,chasmp,7,1042198,med,med,med
+671,s283,671,164,4, 'm' 'p',,0.19174510007724166,champ,chasmp,7,,,med,med
+672,s283,672,165,0,'h' 'a',ha,0.16797329997643828,haole,haole,8,6967591,high,med,low
+673,s283,673,165,1, 'a' 'o',ao,0.13599640014581382,haole,haole,8,25487,low,med,low
+674,s283,674,165,2, 'o' 'l',ol,0.15182649996131659,haole,haole,8,1804856,med,med,low
+675,s283,675,165,3, 'l' 'e',le,0.09605729999020696,haole,haole,8,5038239,high,med,low
+676,s283,676,166,0,'k' 'r',kr,0.11994790006428957,kremp,kremp,6,5683,low,med,pseudo
+677,s283,677,166,1, 'r' 'e',re,0.18414709996432066,kremp,kremp,6,10687711,high,med,pseudo
+678,s283,678,166,2, 'e' 'm',em,0.08797260001301765,kremp,kremp,6,2039661,med,med,pseudo
+679,s283,679,166,3, 'm' 'p',mp,0.11179490014910698,kremp,kremp,6,1042198,med,med,pseudo
+680,s283,680,167,0,'e' 'd',ed,0.16813010000623763,edthe,edthe,7,7805967,high,high,pseudo
+681,s283,681,167,1, 'd' 't',dt,0.19189060013741255,edthe,edthe,7,11191,low,high,pseudo
+682,s283,682,167,2, 't' 'h',th,0.0879464999306947,edthe,edthe,7,22288309,high,high,pseudo
+683,s283,683,167,3, 'h' 'e',he,0.11218350008130074,edthe,edthe,7,21484684,high,high,pseudo
+684,s283,684,168,0,'t' 'h',th,0.10404469980858266,think,think,6,22288309,high,high,high
+685,s283,685,168,1, 'h' 'i',hi,0.1119635000359267,think,think,6,6198006,high,high,high
+686,s283,686,168,2, 'i' 'n',in,0.11209399998188019,think,think,6,13597302,high,high,high
+687,s283,687,168,3, 'n' 'k',nk,0.0959378001280129,think,think,6,445067,low,high,high
+688,s283,688,169,0,'t' 'h',th,0.12797589995898306,theme,theme,6,22288309,high,high,med
+689,s283,689,169,1, 'h' 'e',he,0.11231689993292093,theme,theme,6,21484684,high,high,med
+690,s283,690,169,2, 'e' 'm',em,0.10364330001175404,theme,theme,6,2039661,med,high,med
+691,s283,691,169,3, 'm' 'e',me,0.08810920012183487,theme,theme,6,4724108,high,high,med
+692,s283,692,170,0,'t' 'h',th,0.10400879988446832,therm,therm,5,22288309,high,high,low
+693,s283,693,170,1, 'h' 'e',he,0.0958933001384139,therm,therm,5,21484684,high,high,low
+694,s283,694,170,2, 'e' 'r',er,0.1519895000383258,therm,therm,5,12934901,high,high,low
+695,s283,695,170,3, 'r' 'm',rm,0.0800140998326242,therm,therm,5,905131,med,high,low
+696,s283,696,171,0,'b' 'e',be,0.13606359995901585,belly,belly,6,3798740,med,med,med
+697,s283,697,171,1, 'e' 'l',el,0.08806019998155534,belly,belly,6,3235254,med,med,med
+698,s283,698,171,2, 'l' 'l',ll,0.12804700015112758,belly,belly,6,4235407,med,med,med
+699,s283,699,171,3, 'l' 'y',ly,0.1118228998966515,belly,belly,6,2589130,med,med,med
+700,s283,700,172,0,'a' 'b',ab,0.10393709992058575,about,about,7,1203849,med,med,high
+701,s283,701,172,1, 'b' 'o',bo,0.14415069995447993,about,about,7,1140702,med,med,high
+702,s283,702,172,2, 'o' 'u',ou,0.15194390015676618,about,about,7,7425307,high,med,high
+703,s283,703,172,3, 'u' 't',ut,0.08795939991250634,about,about,7,3257233,med,med,high
+704,s283,704,173,0,'z' 'i',zi,0.27196460007689893,zibja,zibja,8,54565,low,low,pseudo
+705,s283,705,173,1, 'i' 'b',ib,0.45601630001328886,zibja,zibja,8,493267,low,low,pseudo
+706,s283,706,173,2, 'b' 'j',bj,0.23998289997689426,zibja,zibja,8,105433,low,low,pseudo
+707,s283,707,173,3, 'j' 'a',ja,0.10411789990030229,zibja,zibja,8,40073,low,low,pseudo
+708,s283,708,174,0,'t' 'i',th,0.2079491000622511,think,tiknk,7,22288309,high,high,high
+709,s283,709,174,1, 'i' 'k',hi,0.3603484998457134,think,tiknk,7,6198006,high,high,high
+710,s283,710,174,2, 'k' 'n',in,0.3356375000439584,think,tiknk,7,13597302,high,high,high
+711,s283,711,174,3, 'n' 'k',nk,0.09603859996423125,think,tiknk,7,445067,low,high,high
+712,s283,712,175,0,'k' 'r',kr,0.13590500014834106,kremp,kremp,7,5683,low,med,pseudo
+713,s283,713,175,1, 'r' 'e',re,0.1759667000733316,kremp,kremp,7,10687711,high,med,pseudo
+714,s283,714,175,2, 'e' 'm',em,0.09607359999790788,kremp,kremp,7,2039661,med,med,pseudo
+715,s283,715,175,3, 'm' 'p',mp,0.15192129998467863,kremp,kremp,7,1042198,med,med,pseudo
+716,s283,716,176,0,'l' 'u',lu,0.19993859995156527,lucky,lucly,6,568081,med,low,high
+717,s283,717,176,1, 'u' 'c',uc,0.1841178999748081,lucky,lucly,6,891233,med,low,high
+718,s283,718,176,2, 'c' 'l',ck,0.2959563001058996,lucky,lucly,6,925655,med,low,high
+719,s283,719,176,3, 'l' 'y',ky,0.5440286998637021,lucky,lucly,6,49764,low,low,high
+720,s283,720,177,0,'t' 'h',th,0.08775649988092482,there,there,7,22288309,high,high,high
+721,s283,721,177,1, 'h' 'e',he,0.1281703000422567,there,there,7,21484684,high,high,high
+722,s283,722,177,2, 'e' 'r',er,0.15186179988086224,there,there,7,12934901,high,high,high
+723,s283,723,177,3, 'r' 'e',re,0.13597670011222363,there,there,7,10687711,high,high,high
+724,s283,724,178,0,'l' 'u',lu,0.23980119987390935,lucky,lucky,7,568081,med,low,high
+725,s283,725,178,1, 'u' 'c',uc,0.24000720004551113,lucky,lucky,7,891233,med,low,high
+726,s283,726,178,2, 'c' 'k',ck,0.15997710009105504,lucky,lucky,7,925655,med,low,high
+727,s283,727,178,3, 'k' 'y',ky,0.2561005998868495,lucky,lucky,7,49764,low,low,high
+728,s283,728,179,0,'b' 'u',bu,0.1438969001173973,buddy,buddy,6,1183063,med,low,high
+729,s283,729,179,1, 'u' 'd',ud,0.12800369993783534,buddy,buddy,6,458716,low,low,high
+730,s283,730,179,2, 'd' 'd',dd,0.15198309998959303,buddy,buddy,6,306083,low,low,high
+731,s283,731,179,3, 'd' 'y',dy,0.06414599996060133,buddy,buddy,6,360103,low,low,high
+732,s283,732,180,0,'t' 'h',th,0.11209900001995265,therm,therm,6,22288309,high,high,low
+733,s283,733,180,1, 'h' 'e',he,0.17592149996198714,therm,therm,6,21484684,high,high,low
+734,s283,734,180,2, 'e' 'r',er,0.1759862001053989,therm,therm,6,12934901,high,high,low
+735,s283,735,180,3, 'r' 'm',rm,0.10406820010393858,therm,therm,6,905131,med,high,low
+736,s283,736,181,0,'c' 'h',ch,0.12002389994449914,champ,champ,8,3267507,med,med,med
+737,s283,737,181,1, 'h' 'a',ha,0.15992770018056035,champ,champ,8,6967591,high,med,med
+738,s283,738,181,2, 'a' 'm',am,0.5520494999364018,champ,champ,8,1610395,med,med,med
+739,s283,739,181,3, 'm' 'p',mp,0.15199450007639825,champ,champ,8,1042198,med,med,med
+740,s283,740,182,0,'b' 'u',bu,0.17600139998830855,buddy,buddy,7,1183063,med,low,high
+741,s283,741,182,1, 'u' 'd',ud,0.19210360012948513,buddy,buddy,7,458716,low,low,high
+742,s283,742,182,2, 'd' 'd',dd,0.19192279991693795,buddy,buddy,7,306083,low,low,high
+743,s283,743,182,3, 'd' 'y',dy,0.11205260013230145,buddy,buddy,7,360103,low,low,high
+744,s283,744,183,0,'p' 'y',py,0.17618090007454157,pykka,pykka,8,149099,low,low,pseudo
+745,s283,745,183,1, 'y' 'k',yk,0.15997859998606145,pykka,pykka,8,4767,low,low,pseudo
+746,s283,746,183,2, 'k' 'k',kk,0.12782520009204745,pykka,pykka,8,1820,low,low,pseudo
+747,s283,747,183,3, 'k' 'a',ka,0.1360362998675555,pykka,pykka,8,60568,low,low,pseudo
+748,s283,748,184,0,'h' 'e',he,0.10397309996187687,heond,heond,9,21484684,high,high,pseudo
+749,s283,749,184,1, 'e' 'o',eo,0.14422799996100366,heond,heond,9,305120,low,high,pseudo
+750,s283,750,184,2, 'o' 'n',on,0.08783620013855398,heond,heond,9,8830487,high,high,pseudo
+751,s283,751,184,3, 'n' 'd',nd,0.1200142998714,heond,heond,9,9414961,high,high,pseudo
+752,s283,752,185,0,'v' 'o',vo,0.17594380001537502,vodka,vodka,6,368238,low,low,med
+753,s283,753,185,1, 'o' 'd',od,0.3039754000492394,vodka,vodka,6,1013147,med,low,med
+754,s283,754,185,2, 'd' 'k',dk,0.15986460004933178,vodka,vodka,6,5347,low,low,med
+755,s283,755,185,3, 'k' 'a',ka,0.12804000009782612,vodka,vodka,6,60568,low,low,med
+756,s283,756,186,0,'v' 'a',va,0.128032699925825,vanru,vanru,7,560130,med,med,pseudo
+757,s283,757,186,1, 'a' 'n',an,0.09586569992825389,vanru,vanru,7,12315713,high,med,pseudo
+758,s283,758,186,2, 'n' 'r',nr,0.1280682000797242,vanru,vanru,7,54341,low,med,pseudo
+759,s283,759,186,3, 'r' 'u',ru,0.11236710008233786,vanru,vanru,7,705492,med,med,pseudo
+760,s283,760,187,0,'v' 'o',vo,0.31210830016061664,vodka,vodka,7,368238,low,low,med
+761,s283,761,187,1, 'o' 'd',od,0.22389260004274547,vodka,vodka,7,1013147,med,low,med
+762,s283,762,187,2, 'd' 'k',dk,0.15995669993571937,vodka,vodka,7,5347,low,low,med
+763,s283,763,187,3, 'k' 'a',ka,0.16017229994758964,vodka,vodka,7,60568,low,low,med
+764,s283,764,188,0,'l' 'u',lu,0.1839711000211537,lucky,lucky,8,568081,med,low,high
+765,s283,765,188,1, 'u' 'c',uc,0.3680048000533134,lucky,lucky,8,891233,med,low,high
+766,s283,766,188,2, 'c' 'k',ck,0.3520064000040293,lucky,lucky,8,925655,med,low,high
+767,s283,767,188,3, 'k' 'y',ky,0.38403220009058714,lucky,lucky,8,49764,low,low,high
+768,s283,768,189,0,'b' 'e',be,0.1120108999311924,belly,belly,7,3798740,med,med,med
+769,s283,769,189,1, 'e' 'l',el,0.0878954001236707,belly,belly,7,3235254,med,med,med
+770,s283,770,189,2, 'l' 'l',ll,0.11211370001547039,belly,belly,7,4235407,med,med,med
+771,s283,771,189,3, 'l' 'y',ly,0.11995800002478063,belly,belly,7,2589130,med,med,med
+772,s283,772,190,0,'a' 'b',ab,0.09608860011212528,about,about,8,1203849,med,med,high
+773,s283,773,190,1, 'b' 'o',bo,0.14401980000548065,about,about,8,1140702,med,med,high
+774,s283,774,190,2, 'o' 'u',ou,0.15179749997332692,about,about,8,7425307,high,med,high
+775,s283,775,190,3, 'u' 't',ut,0.07999369991011918,about,about,8,3257233,med,med,high
+776,s283,776,191,0,'t' 'h',th,0.08805310004390776,theme,theme,7,22288309,high,high,med
+777,s283,777,191,1, 'h' 'e',he,0.12804720015265048,theme,theme,7,21484684,high,high,med
+778,s283,778,191,2, 'e' 'm',em,0.10399429989047348,theme,theme,7,2039661,med,high,med
+779,s283,779,191,3, 'm' 'e',me,0.07183960010297596,theme,theme,7,4724108,high,high,med
+780,s283,780,192,0,'f' 'a',fa,0.36787009984254837,faqir,faqir,6,1043958,med,low,low
+781,s283,781,192,1, 'a' 'q',aq,0.6081251001451164,faqir,faqir,6,4924,low,low,low
+782,s283,782,192,2, 'q' 'i',qi,0.6079108999110758,faqir,faqir,6,36,low,low,low
+783,s283,783,192,3, 'i' 'r',ir,0.11207060003653169,faqir,faqir,6,2142678,med,low,low
+784,s283,784,193,0,'w' 'o',wo,0.09610330010764301,would,would,8,1723496,med,med,high
+785,s283,785,193,1, 'o' 'u',ou,0.18393259984441102,would,would,8,7425307,high,med,high
+786,s283,786,193,2, 'u' 'l',ul,0.1681058001704514,would,would,8,2181271,med,med,high
+787,s283,787,193,3, 'l' 'd',ld,0.09582519996911287,would,would,8,2012500,med,med,high
+788,s283,788,194,0,'b' 'e',be,0.11216449993662536,belly,belly,8,3798740,med,med,med
+789,s283,789,194,1, 'e' 'l',el,0.07978849997743964,belly,belly,8,3235254,med,med,med
+790,s283,790,194,2, 'l' 'l',ll,0.11996529996395111,belly,belly,8,4235407,med,med,med
+791,s283,791,194,3, 'l' 'y',ly,0.11996670020744205,belly,belly,8,2589130,med,med,med
+792,s283,792,195,0,'t' 'h',th,0.09631449985317886,there,there,8,22288309,high,high,high
+793,s283,793,195,1, 'h' 'e',he,0.1036212001927197,there,there,8,21484684,high,high,high
+794,s283,794,195,2, 'e' 'r',er,0.36802149983122945,there,there,8,12934901,high,high,high
+795,s283,795,195,3, 'r' 'e',re,0.17597880004905164,there,there,8,10687711,high,high,high
+796,s283,796,196,0,'t' 'i',ti,0.08806659979745746,tithe,tithe,5,5135552,high,high,low
+797,s283,797,196,1, 'i' 't',it,0.09590740012936294,tithe,tithe,5,6637233,high,high,low
+798,s283,798,196,2, 't' 'h',th,0.10405729990452528,tithe,tithe,5,22288309,high,high,low
+799,s283,799,196,3, 'h' 'e',he,0.11190440016798675,tithe,tithe,5,21484684,high,high,low
+800,s283,800,197,0,'e' 'd',ed,0.17596889985725284,edthe,edthe,8,7805967,high,high,pseudo
+801,s283,801,197,1, 'd' 't',dt,0.192067300202325,edthe,edthe,8,11191,low,high,pseudo
+802,s283,802,197,2, 't' 'h',th,0.0959937998559326,edthe,edthe,8,22288309,high,high,pseudo
+803,s283,803,197,3, 'h' 'e',he,0.09586460003629327,edthe,edthe,8,21484684,high,high,pseudo
+804,s283,804,198,0,'t' 'h',th,0.1040022000670433,think,think,8,22288309,high,high,high
+805,s283,805,198,1, 'h' 'i',hi,0.08800089987926185,think,think,8,6198006,high,high,high
+806,s283,806,198,2, 'i' 'n',in,0.1359838000498712,think,think,8,13597302,high,high,high
+807,s283,807,198,3, 'n' 'k',nk,0.11205480014905334,think,think,8,445067,low,high,high
+808,s283,808,199,0,'v' 'a',va,0.09604470012709498,vanru,vanru,8,560130,med,med,pseudo
+809,s283,809,199,1, 'a' 'n',an,0.14397919992916286,vanru,vanru,8,12315713,high,med,pseudo
+810,s283,810,199,2, 'n' 'r',nr,0.12001660000532866,vanru,vanru,8,54341,low,med,pseudo
+811,s283,811,199,3, 'r' 'u',ru,0.12798159988597035,vanru,vanru,8,705492,med,med,pseudo
+812,s283,812,200,0,'e' 'd',ed,0.175929999910295,edthe,edthe,9,7805967,high,high,pseudo
+813,s283,813,200,1, 'd' 't',dt,0.20806020009331405,edthe,edthe,9,11191,low,high,pseudo
+814,s283,814,200,2, 't' 'h',th,0.08802019990980625,edthe,edthe,9,22288309,high,high,pseudo
+815,s283,815,200,3, 'h' 'e',he,0.09596230019815266,edthe,edthe,9,21484684,high,high,pseudo
+816,s283,816,201,0,'t' 'h',th,0.07991799991577864,theme,theme,8,22288309,high,high,med
+817,s283,817,201,1, 'h' 'e',he,0.1278804000467062,theme,theme,8,21484684,high,high,med
+818,s283,818,201,2, 'e' 'm',em,0.09616609988734126,theme,theme,8,2039661,med,high,med
+819,s283,819,201,3, 'm' 'e',me,0.09585110004991293,theme,theme,8,4724108,high,high,med
+820,s283,820,202,0,'v' 'o',vo,0.1920370999723673,vodka,vodka,8,368238,low,low,med
+821,s283,821,202,1, 'o' 'd',od,0.15184670011512935,vodka,vodka,8,1013147,med,low,med
+822,s283,822,202,2, 'd' 'k',dk,0.11996869998984039,vodka,vodka,8,5347,low,low,med
+823,s283,823,202,3, 'k' 'a',ka,0.12022109981626272,vodka,vodka,8,60568,low,low,med
+824,s283,824,203,0,'a' 'b',ab,0.07171720010228455,about,about,9,1203849,med,med,high
+825,s283,825,203,1, 'b' 'o',bo,0.18408080004155636,about,about,9,1140702,med,med,high
+826,s283,826,203,2, 'o' 'u',ou,0.15987619990482926,about,about,9,7425307,high,med,high
+827,s283,827,203,3, 'u' 't',ut,0.11217140010558069,about,about,9,3257233,med,med,high
+828,s283,828,204,0,'w' 'o',wo,0.09604259999468923,would,would,9,1723496,med,med,high
+829,s283,829,204,1, 'o' 'u',ou,0.20011399989016354,would,would,9,7425307,high,med,high
+830,s283,830,204,2, 'u' 'l',ul,0.20782940019853413,would,would,9,2181271,med,med,high
+831,s283,831,204,3, 'l' 'd',ld,0.10407070000655949,would,would,9,2012500,med,med,high
+832,s283,832,205,0,'c' 'h',ch,0.0960468000266701,cheer,cheer,6,3267507,med,high,med
+833,s283,833,205,1, 'h' 'e',he,0.14391899993643165,cheer,cheer,6,21484684,high,high,med
+834,s283,834,205,2, 'e' 'e',ee,0.14402420003898442,cheer,cheer,6,2839722,med,high,med
+835,s283,835,205,3, 'e' 'r',er,0.15197589993476868,cheer,cheer,6,12934901,high,high,med
+836,s283,836,206,0,'d' 'r',dr,0.19189310004003346,druze,druze,7,567936,med,low,low
+837,s283,837,206,1, 'r' 'u',ru,0.14411090011708438,druze,druze,7,705492,med,low,low
+838,s283,838,206,2, 'u' 'z',uz,0.13619189988821745,druze,druze,7,19836,low,low,low
+839,s283,839,206,3, 'z' 'e',ze,0.24781380011700094,druze,druze,7,210896,low,low,low
+840,s283,840,207,0,'l' 'u',lu,0.1999294999986887,lucky,lucky,9,568081,med,low,high
+841,s283,841,207,1, 'u' 'c',uc,0.15216200007125735,lucky,lucky,9,891233,med,low,high
+842,s283,842,207,2, 'c' 'k',ck,0.11200079997070134,lucky,lucky,9,925655,med,low,high
+843,s283,843,207,3, 'k' 'y',ky,0.191845600027591,lucky,lucky,9,49764,low,low,high
+844,s283,844,208,0,'c' 'h',ch,0.1198071998078376,champ,champ,9,3267507,med,med,med
+845,s283,845,208,1, 'h' 'a',ha,0.14410780020989478,champ,champ,9,6967591,high,med,med
+846,s283,846,208,2, 'a' 'm',am,0.10394219984300435,champ,champ,9,1610395,med,med,med
+847,s283,847,208,3, 'm' 'p',mp,0.1119005000218749,champ,champ,9,1042198,med,med,med
+848,s283,848,209,0,'d' 'r',dr,0.16795010003261268,druze,druze,8,567936,med,low,low
+849,s283,849,209,1, 'r' 'u',ru,0.14415239985100925,druze,druze,8,705492,med,low,low
+850,s283,850,209,2, 'u' 'z',uz,0.22388620022684336,druze,druze,8,19836,low,low,low
+851,s283,851,209,3, 'z' 'e',ze,0.2080225998070091,druze,druze,8,210896,low,low,low
+852,s283,852,210,0,'p' 'y',py,0.30402810010127723,pykka,pylkka,9,149099,low,low,pseudo
+853,s283,853,210,1, 'y' 'l',yk,0.2481621999759227,pykka,pylkka,9,4767,low,low,pseudo
+854,s283,854,210,2, 'l' 'k',kk,0.0,pykka,pylkka,9,1820,low,low,pseudo
+855,s283,855,210,3, 'k' 'k',ka,0.10374519997276366,pykka,pylkka,9,60568,low,low,pseudo
+856,s283,856,210,4, 'k' 'a',,0.19210470002144575,pykka,pylkka,9,,,low,pseudo
+857,s283,857,211,0,'h' 'a',ha,0.07202639989554882,haole,haole,9,6967591,high,med,low
+858,s283,858,211,1, 'a' 'o',ao,0.12007050006650388,haole,haole,9,25487,low,med,low
+859,s283,859,211,2, 'o' 'l',ol,0.15181809989735484,haole,haole,9,1804856,med,med,low
+860,s283,860,211,3, 'l' 'e',le,0.08002410014159977,haole,haole,9,5038239,high,med,low
+861,s283,861,212,0,'t' 'i',ti,0.11992089985869825,tithe,tithe,6,5135552,high,high,low
+862,s283,862,212,1, 'i' 't',it,0.08004420017823577,tithe,tithe,6,6637233,high,high,low
+863,s283,863,212,2, 't' 'h',th,0.1277797999791801,tithe,tithe,6,22288309,high,high,low
+864,s283,864,212,3, 'h' 'e',he,0.11201819987036288,tithe,tithe,6,21484684,high,high,low
+865,s283,865,213,0,'r' 't',th,0.0,think,rthink,9,22288309,high,high,high
+866,s283,866,213,1, 't' 'h',hi,0.06391859985888004,think,rthink,9,6198006,high,high,high
+867,s283,867,213,2, 'h' 'i',in,0.12023780005984008,think,rthink,9,13597302,high,high,high
+868,s283,868,213,3, 'i' 'n',nk,0.11982510006055236,think,rthink,9,445067,low,high,high
+869,s283,869,213,4, 'n' 'k',,0.1120108999311924,think,rthink,9,,,high,high
+870,s283,870,214,0,'t' 'h',th,0.10416659992188215,theme,theme,9,22288309,high,high,med
+871,s283,871,214,1, 'h' 'e',he,0.1358020999468863,theme,theme,9,21484684,high,high,med
+872,s283,872,214,2, 'e' 'm',em,0.09596190019510686,theme,theme,9,2039661,med,high,med
+873,s283,873,214,3, 'm' 'e',me,0.09620169992558658,theme,theme,9,4724108,high,high,med
+874,s283,874,215,0,'d' 'r',dr,0.18391290004365146,druze,druze,9,567936,med,low,low
+875,s283,875,215,1, 'r' 'u',ru,0.11999960010871291,druze,druze,9,705492,med,low,low
+876,s283,876,215,2, 'u' 'z',uz,0.1441126000136137,druze,druze,9,19836,low,low,low
+877,s283,877,215,3, 'z' 'e',ze,0.2079332999419421,druze,druze,9,210896,low,low,low
+878,s283,878,216,0,'k' 'r',kr,0.11198210017755628,kremp,kremp,8,5683,low,med,pseudo
+879,s283,879,216,1, 'r' 'e',re,0.16795149981044233,kremp,kremp,8,10687711,high,med,pseudo
+880,s283,880,216,2, 'e' 'm',em,0.0880483000073582,kremp,kremp,8,2039661,med,med,pseudo
+881,s283,881,216,3, 'm' 'p',mp,0.09598179999738932,kremp,kremp,8,1042198,med,med,pseudo
+882,s283,882,217,0,'c' 'o',co,0.088129400042817,cooed,cooed,8,3609272,med,med,low
+883,s283,883,217,1, 'o' 'o',oo,0.11994280014187098,cooed,cooed,8,1933683,med,med,low
+884,s283,884,217,2, 'o' 'e',oe,0.10398479993455112,cooed,cooed,8,270012,low,med,low
+885,s283,885,217,3, 'e' 'd',ed,0.1521011998411268,cooed,cooed,8,7805967,high,med,low
+886,s283,886,218,0,'b' 'u',bu,0.14398319995962083,buddy,buddy,8,1183063,med,low,high
+887,s283,887,218,1, 'u' 'd',ud,0.09608629997819662,buddy,buddy,8,458716,low,low,high
+888,s283,888,218,2, 'd' 'd',dd,0.14401759998872876,buddy,buddy,8,306083,low,low,high
+889,s283,889,218,3, 'd' 'y',dy,0.055961100151762366,buddy,buddy,8,360103,low,low,high
+890,s283,890,219,0,'f' 'a',fa,0.3119355998933315,faqir,faqir,7,1043958,med,low,low
+891,s283,891,219,1, 'a' 'q',aq,0.21616140007972717,faqir,faqir,7,4924,low,low,low
+892,s283,892,219,2, 'q' 'i',qi,0.480015599867329,faqir,faqir,7,36,low,low,low
+893,s283,893,219,3, 'i' 'r',ir,0.15181910013779998,faqir,faqir,7,2142678,med,low,low
+894,s283,894,220,0,'b' 'e',be,0.11197170009836555,belly,belly,9,3798740,med,med,med
+895,s283,895,220,1, 'e' 'l',el,0.10386270005255938,belly,belly,9,3235254,med,med,med
+896,s283,896,220,2, 'l' 'l',ll,0.13595220004208386,belly,belly,9,4235407,med,med,med
+897,s283,897,220,3, 'l' 'y',ly,0.1361594998743385,belly,belly,9,2589130,med,med,med
+898,s283,898,221,0,'f' 'a',fa,0.3599934000521898,faqir,faqir,8,1043958,med,low,low
+899,s283,899,221,1, 'a' 'q',aq,0.2640189998783171,faqir,faqir,8,4924,low,low,low
+900,s283,900,221,2, 'q' 'i',qi,0.2639849002007395,faqir,faqir,8,36,low,low,low
+901,s283,901,221,3, 'i' 'r',ir,0.16796999983489513,faqir,faqir,8,2142678,med,low,low
+902,s283,902,222,0,'p' 'u',pu,0.2239538999274373,puppy,puppy,9,514720,low,low,med
+903,s283,903,222,1, 'u' 'p',up,0.15995480003766716,puppy,puppy,9,968744,med,low,med
+904,s283,904,222,2, 'p' 'p',pp,0.1281950999982655,puppy,puppy,9,805170,med,low,med
+905,s283,905,222,3, 'p' 'y',py,0.1678558001294732,puppy,puppy,9,149099,low,low,med
+906,s283,906,223,0,'c' 'v',ch,0.008102399995550513,cheer,cvheer,7,3267507,med,high,med
+907,s283,907,223,1, 'v' 'h',he,0.0878757000900805,cheer,cvheer,7,21484684,high,high,med
+908,s283,908,223,2, 'h' 'e',ee,0.1520314000081271,cheer,cvheer,7,2839722,med,high,med
+909,s283,909,223,3, 'e' 'e',er,0.15210029995068908,cheer,cvheer,7,12934901,high,high,med
+910,s283,910,223,4, 'e' 'r',,0.15197580005042255,cheer,cvheer,7,,,high,med
+911,s283,911,224,0,'t' 'h',th,0.07999270013533533,therm,therm,7,22288309,high,high,low
+912,s283,912,224,1, 'h' 'e',he,0.11198869999498129,therm,therm,7,21484684,high,high,low
+913,s283,913,224,2, 'e' 'r',er,0.16832779999822378,therm,therm,7,12934901,high,high,low
+914,s283,914,224,3, 'r' 'm',rm,0.135740099940449,therm,therm,7,905131,med,high,low
+915,s283,915,225,0,'b' 'u',bu,0.1280088999774307,buddy,buddy,9,1183063,med,low,high
+916,s283,916,225,1, 'u' 'd',ud,0.11983230011537671,buddy,buddy,9,458716,low,low,high
+917,s283,917,225,2, 'd' 'd',dd,0.1521153999492526,buddy,buddy,9,306083,low,low,high
+918,s283,918,225,3, 'd' 'y',dy,0.08797149988822639,buddy,buddy,9,360103,low,low,high
+919,s283,919,226,0,'c' 'o',co,0.12003790005110204,cooed,cooed,9,3609272,med,med,low
+920,s283,920,226,1, 'o' 'o',oo,0.13608779991045594,cooed,cooed,9,1933683,med,med,low
+921,s283,921,226,2, 'o' 'e',oe,0.07994720013812184,cooed,cooed,9,270012,low,med,low
+922,s283,922,226,3, 'e' 'd',ed,0.6079557000193745,cooed,cooed,9,7805967,high,med,low
+923,s283,923,227,0,'v' 'a',va,0.10415500006638467,vanru,vanru,9,560130,med,med,pseudo
+924,s283,924,227,1, 'a' 'n',an,0.11977300001308322,vanru,vanru,9,12315713,high,med,pseudo
+925,s283,925,227,2, 'n' 'r',nr,0.3920193000230938,vanru,vanru,9,54341,low,med,pseudo
+926,s283,926,227,3, 'r' 'u',ru,0.11197399999946356,vanru,vanru,9,705492,med,med,pseudo
+927,s283,927,228,0,'t' 'h',th,0.11212000017985702,therm,therm,8,22288309,high,high,low
+928,s283,928,228,1, 'h' 'e',he,0.13587759993970394,therm,therm,8,21484684,high,high,low
+929,s283,929,228,2, 'e' 'r',er,0.14392900001257658,therm,therm,8,12934901,high,high,low
+930,s283,930,228,3, 'r' 'm',rm,0.09611009992659092,therm,therm,8,905131,med,high,low
+931,s283,931,229,0,'c' 'h',ch,0.11994579993188381,cheer,cheer,8,3267507,med,high,med
+932,s283,932,229,1, 'h' 'e',he,0.10391389997676015,cheer,cheer,8,21484684,high,high,med
+933,s283,933,229,2, 'e' 'e',ee,0.14401770010590553,cheer,cheer,8,2839722,med,high,med
+934,s283,934,229,3, 'e' 'r',er,0.15192339988425374,cheer,cheer,8,12934901,high,high,med
+935,s283,935,230,0,'t' 'i',ti,0.12012650002725422,tithe,tithe,7,5135552,high,high,low
+936,s283,936,230,1, 'i' 't',it,0.08793970011174679,tithe,tithe,7,6637233,high,high,low
+937,s283,937,230,2, 't' 'h',th,0.14404649985954165,tithe,tithe,7,22288309,high,high,low
+938,s283,938,230,3, 'h' 'e',he,0.07994840014725924,tithe,tithe,7,21484684,high,high,low
+939,s283,939,231,0,'t' 'h',th,0.09592960006557405,there,there,9,22288309,high,high,high
+940,s283,940,231,1, 'h' 'e',he,0.1520064000505954,there,there,9,21484684,high,high,high
+941,s283,941,231,2, 'e' 'r',er,0.16802509990520775,there,there,9,12934901,high,high,high
+942,s283,942,231,3, 'r' 'e',re,0.15997699997387826,there,there,9,10687711,high,high,high
+943,s283,943,232,0,'t' 'i',ti,0.09600619995035231,tithe,tithe,8,5135552,high,high,low
+944,s283,944,232,1, 'i' 't',it,0.0879804000724107,tithe,tithe,8,6637233,high,high,low
+945,s283,945,232,2, 't' 'h',th,0.12803589995019138,tithe,tithe,8,22288309,high,high,low
+946,s283,946,232,3, 'h' 'e',he,0.07195349992252886,tithe,tithe,8,21484684,high,high,low
+947,s283,947,233,0,'z' 'i',zi,0.19196480000391603,zibja,zinja,9,54565,low,low,pseudo
+948,s283,948,233,1, 'i' 'n',ib,0.12005000002682209,zibja,zinja,9,493267,low,low,pseudo
+949,s283,949,233,2, 'n' 'j',bj,0.8799473999533802,zibja,zinja,9,105433,low,low,pseudo
+950,s283,950,233,3, 'j' 'a',ja,0.1281771999783814,zibja,zinja,9,40073,low,low,pseudo
+951,s283,951,234,0,'v' 'o',vo,0.2081134000327438,vodka,vodka,9,368238,low,low,med
+952,s283,952,234,1, 'o' 'd',od,0.17592189996503294,vodka,vodka,9,1013147,med,low,med
+953,s283,953,234,2, 'd' 'k',dk,0.2879607998766005,vodka,vodka,9,5347,low,low,med
+954,s283,954,234,3, 'k' 'a',ka,0.1601071001496166,vodka,vodka,9,60568,low,low,med
+955,s283,955,235,0,'k' 'r',kr,0.09614530019462109,kremp,kremop,9,5683,low,med,pseudo
+956,s283,956,235,1, 'r' 'e',re,0.1520192997995764,kremp,kremop,9,10687711,high,med,pseudo
+957,s283,957,235,2, 'e' 'm',em,0.0960390002001077,kremp,kremop,9,2039661,med,med,pseudo
+958,s283,958,235,3, 'm' 'o',mp,0.15993289998732507,kremp,kremop,9,1042198,med,med,pseudo
+959,s283,959,235,4, 'o' 'p',,0.007893400033935905,kremp,kremop,9,,,med,pseudo
+960,s283,960,236,0,'c' 'h',ch,0.13592980010434985,cheer,cheer,9,3267507,med,high,med
+961,s283,961,236,1, 'h' 'e',he,0.1040316999424249,cheer,cheer,9,21484684,high,high,med
+962,s283,962,236,2, 'e' 'e',ee,0.13600860000588,cheer,cheer,9,2839722,med,high,med
+963,s283,963,236,3, 'e' 'r',er,0.15209720004349947,cheer,cheer,9,12934901,high,high,med
+964,s283,964,237,0,'t' 'h',th,0.09596049995161593,therm,therm,9,22288309,high,high,low
+965,s283,965,237,1, 'h' 'e',he,0.12820770009420812,therm,therm,9,21484684,high,high,low
+966,s283,966,237,2, 'e' 'r',er,0.16009549982845783,therm,therm,9,12934901,high,high,low
+967,s283,967,237,3, 'r' 'm',rm,0.08784190006554127,therm,therm,9,905131,med,high,low
+968,s283,968,238,0,'f' 'a',fa,0.375903699779883,faqir,faqir,9,1043958,med,low,low
+969,s283,969,238,1, 'a' 'q',aq,0.21597110014408827,faqir,faqir,9,4924,low,low,low
+970,s283,970,238,2, 'q' 'i',qi,0.19212329993024468,faqir,faqir,9,36,low,low,low
+971,s283,971,238,3, 'i' 'r',ir,0.1118549001403153,faqir,faqir,9,2142678,med,low,low
+972,s283,972,239,0,'t' 'i',ti,0.11194880004040897,tithe,tithe,9,5135552,high,high,low
+973,s283,973,239,1, 'i' 't',it,0.08016579994000494,tithe,tithe,9,6637233,high,high,low
+974,s283,974,239,2, 't' 'h',th,0.15199170005507767,tithe,tithe,9,22288309,high,high,low
+975,s283,975,239,3, 'h' 'e',he,0.08791660005226731,tithe,tithe,9,21484684,high,high,low
