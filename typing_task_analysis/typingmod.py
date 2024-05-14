@@ -20,9 +20,9 @@ lowwf = ['tithe', 'therm', 'haole', 'cooed', 'faqir', 'druze']
 pseudo = ['edthe', 'heond', 'kremp', 'vanru', 'zibja', 'pykka']
 
 ## string groupings by bigram frequency (BF)
-high_avgbf = ['there', 'think',  'cheer', 'theme', 'tithe', 'therm', 'edthe', 'heond']
-med_avgbf = ['about', 'would', 'belly', 'champ', 'haole', 'cooed', 'kremp', 'vanru']
-low_avgbf = ['lucky', 'buddy', 'puppy', 'vodka', 'faqir', 'druze', 'zibja', 'pykka']
+avg_highbf = ['there', 'think',  'cheer', 'theme', 'tithe', 'therm', 'edthe', 'heond']
+avg_medbf = ['about', 'would', 'belly', 'champ', 'haole', 'cooed', 'kremp', 'vanru']
+avg_lowbf = ['lucky', 'buddy', 'puppy', 'vodka', 'faqir', 'druze', 'zibja', 'pykka']
 
 # dataframe of bigram frequencies in descending order
 bg_freqs = pd.read_csv('bg_freqs.csv').drop(labels=['Unnamed: 0'], axis=1)
@@ -38,7 +38,7 @@ lowbf = list(bg_freqs['Bigrams'].loc[47:72])
 
 ## lists of string groupings
 wf_types = [highwf, medwf, lowwf, pseudo]
-avgbf_types = [high_avgbf, med_avgbf, low_avgbf]
+avgbf_types = [avg_highbf, avg_medbf, avg_lowbf]
 
 ## list of bigram groupings
 bf_types = [highbf, medbf, lowbf]
@@ -75,11 +75,13 @@ def incorrect_filter(DF):
 
 ## defining function to filter for only trial rts
 def rt_columns(DF):
-    rt_columns = ['sID', 'Trial #', 'string']
+    rt_columns = ['sID', 'trial_num', 'string']
     for column in DF:
         if 'key_resp.rt' in column:
             rt_columns.append(column)
-    rts = pd.DataFrame(DF[rt_columns])
+        else:
+            pass
+    rts = DF[rt_columns]
     return rts
 
 #### IKI FUNCTIONS ####
