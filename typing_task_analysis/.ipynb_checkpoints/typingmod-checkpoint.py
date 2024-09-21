@@ -90,7 +90,8 @@ def rt_columns(DF):
 ## defining function to determine interkey intervals for each trial
 def iki(DF):
     ints_byword = []
-    last_key = len(DF.columns) - 1   
+    last_key = len(DF.columns) - 1  
+    print(last_key)
     for index, data in DF.iterrows():
         intervals = []
         for n in range(4, last_key):
