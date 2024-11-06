@@ -43,6 +43,13 @@ avgbf_types = [avg_highbf, avg_medbf, avg_lowbf]
 ## list of bigram groupings
 bf_types = [highbf, medbf, lowbf]
 
+## lists of bigrams without bigrams with repeated letters
+med_reps = ['ll', 'ee', 'oo', 'pp']    
+medbf_norep = list(filter(lambda x: x not in med_reps, medbf))
+
+low_reps = ['dd', 'kk']
+lowbf_norep = list(filter(lambda x: x not in low_reps, lowbf))
+
 ### BIGRAM FUNCTIONS ###
 
 ## defining function that separates words in to bigrams
