@@ -45,10 +45,10 @@ bf_types = [highbf, medbf, lowbf]
 
 ## lists of bigrams with and without bigrams of repeated letters
 medbf_reps = ['ll', 'ee', 'oo', 'pp']    
-medbf_norep = list(filter(lambda x: x not in med_reps, medbf))
+medbf_norep = list(filter(lambda x: x not in medbf_reps, medbf))
 
 lowbf_reps = ['dd', 'kk']
-lowbf_norep = list(filter(lambda x: x not in low_reps, lowbf))
+lowbf_norep = list(filter(lambda x: x not in lowbf_reps, lowbf))
 
 ### BIGRAM FUNCTIONS ###
 
