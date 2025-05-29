@@ -1,0 +1,3 @@
+file '\Users\greenhouselab\Documents\Rubi\typingtask_pilotdata\p01_pat_03042022\task_video\Aerial\Raw\GX010007-006.MP4'
+file '\Users\greenhouselab\Documents\Rubi\typingtask_pilotdata\p01_pat_03042022\task_video\Aerial\Raw\GX020007-005.MP4'
+file '\Users\greenhouselab\Documents\Rubi\typingtask_pilotdata\p01_pat_03042022\task_video\Aerial\Raw\GX030007-004.MP4'
