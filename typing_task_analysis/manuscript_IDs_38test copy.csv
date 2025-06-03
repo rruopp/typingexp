@@ -1,0 +1,40 @@
+with_turbo,,,,,,without_turbo,,,,,,,Not Hispanic,Not Hispanic,Hispanic,Hispanic,
+id_list,age_atcollection,sex,race,ethnicity,,id_list,age_atcollection,sex,race,ethnicity,,,Female,Male,Female,Male,Total
+s009_02162024,31,M,White,Not Hispanic,,s175_08032022,20,M,,,,American Indian,0,0,0,0,0
+s020_02082024,27,M,White,Not Hispanic,,s178_08302022,19,M,,,,Asian,2,1,0,0,3
+s176_10262023,21,M,?,?,,s180_10102022,25,M,,,,Native Hawaiian,0,0,0,0,0
+s207_09212023,20,F,White,Not Hispanic,,s181_10132022,25,F,,,,Black,1,1,0,0,2
+s209_09202023,22,M,White,Not Hispanic,,s182_10192022,26,F,,,,White,6,7,0,1,14
+s217_11092023,20,F,White,Not Hispanic,,s183_10272022,19,M,,,,Multi-Racial,1,0,1,0,2
+s240_11162023,21,F,Black,Not Hispanic,,s189_11222022,19,M,,,,Total,10,9,1,1,21
+s254_11022023,19,M,White,Not Hispanic,,s190_11222022,18,M,,,,,,,,,
+s261_12122023,26,M,White,Not Hispanic,,s198_02202023,25,M,,,,,,,,,
+s262_01232024,21,F,Asian,Not Hispanic,,s210_03102023,21,M,,,,,,,,,
+s263_01312024,19,M,Black,Not Hispanic,,s212_10032023,20,F,,,,,,,,,
+s267_02122024,22,F,Multi-Racial,Hispanic,,s219_04132023,19,F,,,,,,,,,
+s276_02212024,20,F,White,Not Hispanic,,s224_04212023,19,M,,,,,,,,,
+s278_02232024,19,M,White,Not Hispanic,,,20.94736842,,,,,,,,,,
+s279_02232024,20,F,White,Not Hispanic,,,2.949552127,,,,,,,,,,
+s282_02292024,18,F,Asian,Not Hispanic,,,,,,,,,,,,,
+s283_02292024,20,M,White,Not Hispanic,,,,,,,,,,,,,
+s286_03082024,18,F,Hispanic,Hispanic,,,,,,,,,,,,,
+s302_05282024,19,F,White,Not Hispanic,,,,,,,,,,,,,
+s304_07102024,20,F,Russian,Not Hispanic,,,,,,,,,,,,,
+s305_07112024,20,M,White,Hispanic,,For Manuscript 1,,,,,,,,,,,
+s306_07122024,21,F,White,Not Hispanic,,Males:,20,,,,,,,,,,
+s309_09232024,19,F,Hispanic,Hispanic,,Females:,18,,,,,,,,,,
+s311_10152024,18,M,Asian,Not Hispanic,,,,,,,,,,,,,
+s313_11192024,20,F,Multi-Racial,Not Hispanic,,,,,,,,,,,,,
+s336_01232025,19,F,Asian,Not Hispanic,,,,,,,,,,,,,
+s344_02212025,18,F,White,Hispanic,,,,,,,,,,,,,
+s345_02212025,19,F,White,Not Hispanic,,,,,,,,,,,,,
+s347_03072025,18,F,White,Hispanic,,,,,,,,,,,,,
+s348_05062025,18,F,White,Not Hispanic,,,,,,,,,,,,,
+s349_05092025,24,M,White,Not Hispanic,,,,,,,,,,,,,
+s350_05142025,19,F,Asian,Not Hispanic,,,,,,,,,,,,,
+s351_05162025,19,F,White,Not Hispanic,,,,,,,,,,,,,
+s352_05272025,18,M,Asian,Not Hispanic,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Total mean age,20.59574468,,,,,,,,,,,,,,,,
+Total sd age,2.856415924,,,,,,,,,,,,,,,,
+Total # of females,25,,,,,,,,,,,,,,,,
