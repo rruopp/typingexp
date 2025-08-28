@@ -24,6 +24,12 @@ avg_highbf = ['there', 'think',  'cheer', 'theme', 'tithe', 'therm', 'edthe', 'h
 avg_medbf = ['about', 'would', 'belly', 'champ', 'haole', 'cooed', 'kremp', 'vanru']
 avg_lowbf = ['lucky', 'buddy', 'puppy', 'vodka', 'faqir', 'druze', 'zibja', 'pykka']
 
+# string groupings by frequency of first bigram
+high_bi1 = ['there', 'haole', 'edthe', 'theme', 'tithe', 'think', 'heond', 'therm']
+med_bi1 = ['cheer', 'faqir', 'belly', 'buddy', 'would', 'champ', 'druze', 'cooed', 
+           'vanru', 'lucky', 'about']
+low_bi1 = ['zibja', 'kremp', 'pykka', 'puppy', 'vodka']
+
 # dataframe of bigram frequencies in descending order
 bg_freqs = pd.read_csv('bg_freqs.csv').drop(labels=['Unnamed: 0'], axis=1)
 bg_freqs = bg_freqs.sort_values(by='Frequency', ascending=False, ignore_index=True)
